@@ -66,7 +66,10 @@ ros2 launch rtabmap_launch rtabmap.launch.py \
     rviz:=true \
     odom_topic:=/odom
 ```
-
+Custom Pepper Wall Following (Built and used for Stage 1 of the project)
+```
+ros2 launch pepper_wall_follower pepper_wall_follower.launch.py
+```
 
 
 
