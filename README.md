@@ -28,12 +28,44 @@ cd ~/ros_ws
 source /opt/ros/humble/setup.bash      # system ROS2
 source ~/ros_ws/install/setup.bash     # your workspace
 
-# Like the repo, these packages never change
+# Like the repo, these packages never change (repeated building)
 colcon build --symlink-install --packages-skip nao_meshes pepper_meshes --parallel-workers 1
 # In case the whole src folder exceeds RAM
 colcon build --packages-select naoqi_driver --parallel-workers 1
 ```
+Packages to Run
+```
+# Naoqi_driver
+ros2 launch naoqi_driver naoqi_driver.launch.py \
+  nao_ip:=10.172.39.169 \
+  qi_listen_url:=tcp://172.19.129.153:54000 \
+  enable_audio:=false
 
+# In separate terminals for each static transform (can create own package to compile all together)
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 odom base_link
+ros2 run tf2_ros static_transform_publisher 0.10 0 1.05  0 0 0 base_link camera_front_link
+ros2 run tf2_ros static_transform_publisher 0.10 0 1.02  0 0 0  base_link camera_depth_link
+ros2 run tf2_ros static_transform_publisher 0 0 0  -1.5708 0 -1.5708 camera_front_link CameraTop_optical_frame
+ros2 run tf2_ros static_transform_publisher 0 0 0  -1.5708 0 -1.5708  camera_depth_link CameraDepth_optical_frame
+
+# Teleop Control (key_teleop)
+ros2 run key_teleop key_teleop --ros-args -p twist_stamped_enabled:=false
+
+# RTAB-MAP + Visualizer
+ros2 launch rtabmap_launch rtabmap.launch.py \
+    rtabmap_args:="--delete_db_on_start" \
+    rgb_topic:=/camera/front/image_raw \
+    depth_topic:=/camera/depth/image_raw \
+    camera_info_topic:=/camera/front/camera_info \
+    frame_id:=camera_front_link \
+    approx_sync:=true \
+    visual_odometry:=true \
+    approx_sync_max_interval:=0.5 \
+    wait_imu_to_init:=false \
+    imu_topic:=/imu/base \
+    rviz:=true \
+    odom_topic:=/odom
+```
 
 
 
