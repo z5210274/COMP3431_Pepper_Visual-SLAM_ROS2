@@ -11,6 +11,13 @@
 - Teleop Control: https://github.com/ros-teleop/teleop_tools
 - RTAB-MAP: https://github.com/introlab/rtabmap_ros/tree/ros2
 
+## Noteworthy Packages
+- naoqi_driver2 (Creates ROS2 topics for your packages to publish or subscribe to that connects to the NAOqi modules on Pepper. Mainly modified boot_config.json to create compatible and necessary topics, and naoqi_driver.cpp to change camera fps and resolution.)
+- pepper_wall_follower (Custom wall following implementation for Pepper using its laser sensors)
+- rtabmap_ros (Visual Navigation and Environmental Mapping that uses Pepper's camera and depth sensors. )
+- transform (Static transformations of Pepper's odom to optical frames for mapping. Not functional right now)
+- key_teleop (Keyboard control for Pepper movement. Changed key_teleop.py to subscribe to \cmd_vel instead of \key_vel and tuned movement rate parameters.)
+
 ## Commands to Run Code
 Local terminal to SSH to Pepper robot:
 ```
@@ -66,7 +73,7 @@ ros2 launch rtabmap_launch rtabmap.launch.py \
     rviz:=true \
     odom_topic:=/odom
 ```
-Custom Pepper Wall Following (Built and used for Stage 1 of the project)
+Pepper Wall Following with Laser Sensors
 ```
 ros2 launch pepper_wall_follower pepper_wall_follower.launch.py
 ```
