@@ -44,7 +44,7 @@ Packages to Run
 ```
 # Naoqi_driver
 ros2 launch naoqi_driver naoqi_driver.launch.py \
-  nao_ip:=10.172.39.169 \
+  nao_ip:=<pepper_ip> \
   qi_listen_url:=tcp://172.19.129.153:54000 \
   enable_audio:=false
 
