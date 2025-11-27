@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ed385e16d9bb8312c61d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rtabmap_msgs__py",
+					"jsonFile" : "directory-rtabmap_msgs__py-Release-6828c2a6309da52e8f5a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/chris/ros_ws/build/rtabmap_msgs/rtabmap_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rtabmap_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rtabmap_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rtabmap_msgs_egg-Release-e75cd5a28a11647c187c.json",
+					"name" : "ament_cmake_python_build_rtabmap_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_rtabmap_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_rtabmap_msgs-Release-cf4f6fe5d266e1c6218e.json",
+					"name" : "ament_cmake_python_symlink_rtabmap_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs-Release-808da143a18ae152d053.json",
+					"name" : "rtabmap_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__cpp-Release-2fb946fb163a8c4c198d.json",
+					"name" : "rtabmap_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rtabmap_msgs__py::@3574366cb3414d9fa8b3",
+					"jsonFile" : "target-rtabmap_msgs__py-Release-0c097b3f97573aafba89.json",
+					"name" : "rtabmap_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_generator_c-Release-acb87a1c5f5d34ac633e.json",
+					"name" : "rtabmap_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_generator_py-Release-838e79ef3ef817cfd99b.json",
+					"name" : "rtabmap_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_c-Release-087bae815ee9e639ed6f.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_c__pyext-Release-b0a0bb2209ab84b48788.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_cpp-Release-8268f5719236aee73f4f.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_fastrtps_c-Release-242f44e2e58e2d682df2.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-59d89c3dde18f9c58980.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_fastrtps_cpp-Release-74d8f9d7894a359c430f.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_introspection_c-Release-e507c5d95f3df0c2b797.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_introspection_c__pyext-Release-1853e1c9fe9e0ed62fa8.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs__rosidl_typesupport_introspection_cpp-Release-103db74461f8fdb51e9a.json",
+					"name" : "rtabmap_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_msgs_uninstall-Release-8a9910f4758415777a4d.json",
+					"name" : "rtabmap_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-13ac93bdc7342fe4acc5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chris/ros_ws/build/rtabmap_msgs",
+		"source" : "/home/chris/ros_ws/src/rtabmap_ros/rtabmap_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

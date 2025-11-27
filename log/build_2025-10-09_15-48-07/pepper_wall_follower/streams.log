@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/chris/ros_ws/build/pepper_wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
+[0.041s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.189s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.212s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.658s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.663s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.674s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.692s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.770s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.774s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.211s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.294s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.315s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.337s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.358s] -- Found naoqi_bridge_msgs: 2.1.0 (/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/cmake)
+[9.507s] -- Configuring done
+[9.522s] -- Generating done
+[9.527s] -- Build files have been written to: /home/chris/ros_ws/build/pepper_wall_follower
+[9.559s] [ 50%] [32mBuilding CXX object CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o[0m
+[9.892s] In file included from [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:1[m[K:
+[9.892s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/include/pepper_wall_follower/pepper_wall_follower.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.h: No such file or directory
+[9.892s]     8 | #include [01;31m[K<tf2/LinearMath/Quaternion.h>[m[K
+[9.892s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.892s] compilation terminated.
+[9.895s] gmake[2]: *** [CMakeFiles/pepper_wall_follower.dir/build.make:76: CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o] Error 1
+[9.895s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pepper_wall_follower.dir/all] Error 2
+[9.896s] gmake: *** [Makefile:146: all] Error 2
+[9.898s] Invoked command in '/home/chris/ros_ws/build/pepper_wall_follower' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20

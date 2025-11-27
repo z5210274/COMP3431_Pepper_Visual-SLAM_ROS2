@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_c/naoqi_bridge_msgs/msg/detail/joint_angle_trajectory__type_support.h

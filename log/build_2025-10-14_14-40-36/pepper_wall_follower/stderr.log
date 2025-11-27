@@ -1,0 +1,11 @@
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K In member function ‘[01m[Kvoid PepperWallFollower::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:60:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_idx[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_x[m[K’?
+   60 |         for (size_t j = [01;31m[Kstart_idx[m[K; j < end_idx && j < total_readings; j++) {
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Kstart_x[m[K
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:60:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_idx[m[K’ was not declared in this scope
+   60 |         for (size_t j = start_idx; j < [01;31m[Kend_idx[m[K && j < total_readings; j++) {
+      |                                        [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pepper_wall_follower.dir/build.make:76: CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pepper_wall_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

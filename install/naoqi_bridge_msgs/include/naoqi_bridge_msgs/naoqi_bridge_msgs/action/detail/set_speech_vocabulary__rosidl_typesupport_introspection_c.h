@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_typesupport_introspection_c/naoqi_bridge_msgs/action/detail/set_speech_vocabulary__rosidl_typesupport_introspection_c.h

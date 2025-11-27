@@ -1,0 +1,4 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [corelib/src/CMakeFiles/rtabmap_core.dir/build.make:154: corelib/src/CMakeFiles/rtabmap_core.dir/Memory.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....

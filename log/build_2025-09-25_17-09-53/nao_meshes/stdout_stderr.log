@@ -1,0 +1,192 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Downloading 64-bit installer
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 16% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 19% complete]
+-- [download 20% complete]
+-- [download 21% complete]
+-- [download 22% complete]
+-- [download 23% complete]
+-- [download 25% complete]
+-- [download 26% complete]
+-- [download 27% complete]
+-- [download 28% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 31% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 34% complete]
+-- [download 35% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 42% complete]
+-- [download 43% complete]
+-- [download 44% complete]
+-- [download 45% complete]
+-- [download 46% complete]
+-- [download 47% complete]
+-- [download 48% complete]
+-- [download 50% complete]
+-- [download 51% complete]
+-- [download 52% complete]
+-- [download 53% complete]
+-- [download 54% complete]
+-- [download 55% complete]
+-- [download 56% complete]
+-- [download 57% complete]
+-- [download 58% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 61% complete]
+-- [download 62% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 68% complete]
+-- [download 69% complete]
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 72% complete]
+-- [download 73% complete]
+-- [download 74% complete]
+-- [download 75% complete]
+-- [download 87% complete]
+-- [download 98% complete]
+-- [download 100% complete]
+-- Unpacking meshes from the installer: 
+/home/chris/ros_ws/build/nao_meshes/installer.run --prefix /home/chris/ros_ws/build/nao_meshes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chris/ros_ws/build/nao_meshes
+Built target install_meshes
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/HeadPitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/HeadPitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/HeadYaw.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/HeadYaw_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LAnklePitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LAnklePitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LAnkleRoll.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LAnkleRoll_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LElbowRoll.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LElbowRoll_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger11.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger11_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger12.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger12_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger13.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger13_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger21.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger21_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger22.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger22_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger23.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LFinger23_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LHipPitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LHipPitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LHipRoll.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LHipRoll_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LHipYawPitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LHipYawPitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LKneePitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LKneePitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LShoulderPitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LShoulderPitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LShoulderRoll.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LShoulderRoll_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LThumb1.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LThumb1_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LThumb2.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LThumb2_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LWristYaw.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/LWristYaw_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RAnklePitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RAnklePitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RAnkleRoll.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RAnkleRoll_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RElbowRoll.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RElbowRoll_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger11.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger11_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger12.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger12_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger13.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger13_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger21.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger21_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger22.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger22_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger23.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RFinger23_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RHipPitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RHipPitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RHipRoll.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RHipRoll_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RHipYawPitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RHipYawPitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RKneePitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RKneePitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RShoulderPitch.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RShoulderPitch_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RShoulderRoll.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RShoulderRoll_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RThumb1.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RThumb1_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RThumb2.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RThumb2_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RWristYaw.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/RWristYaw_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/Torso.dae
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/meshes/V40/Torso_0.10.stl
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/texture/textureNAO.png
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/ament_index/resource_index/package_run_dependencies/nao_meshes
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/ament_index/resource_index/parent_prefix_path/nao_meshes
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/environment/ament_prefix_path.sh
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/environment/path.sh
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/environment/path.dsv
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/local_setup.bash
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/local_setup.sh
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/local_setup.zsh
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/local_setup.dsv
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/package.dsv
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/ament_index/resource_index/packages/nao_meshes
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/cmake/nao_meshesConfig.cmake
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/cmake/nao_meshesConfig-version.cmake
+-- Symlinking: /home/chris/ros_ws/install/nao_meshes/share/nao_meshes/package.xml

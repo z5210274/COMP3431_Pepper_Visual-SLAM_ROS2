@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_typesupport_fastrtps_cpp/naoqi_bridge_msgs/msg/detail/hand_touch__rosidl_typesupport_fastrtps_cpp.hpp

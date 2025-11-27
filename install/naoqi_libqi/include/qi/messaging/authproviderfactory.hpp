@@ -1,0 +1,1 @@
+/home/chris/ros_ws/src/naoqi_libqi/qi/messaging/authproviderfactory.hpp

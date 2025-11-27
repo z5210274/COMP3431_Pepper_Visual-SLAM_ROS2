@@ -1,0 +1,1 @@
+launch;launch_ros;rclcpp;geometry_msgs;sensor_msgs;nav_msgs;naoqi_bridge_msgs;tf2;tf2_ros;tf2_geometry_msgs;ros2launch

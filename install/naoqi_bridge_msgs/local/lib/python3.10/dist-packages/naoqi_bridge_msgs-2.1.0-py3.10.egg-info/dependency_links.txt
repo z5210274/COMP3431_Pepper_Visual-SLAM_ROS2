@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/ament_cmake_python/naoqi_bridge_msgs/naoqi_bridge_msgs.egg-info/dependency_links.txt

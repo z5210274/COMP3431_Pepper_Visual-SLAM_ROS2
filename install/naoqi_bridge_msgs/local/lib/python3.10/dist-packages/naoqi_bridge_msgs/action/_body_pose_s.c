@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_py/naoqi_bridge_msgs/action/_body_pose_s.c

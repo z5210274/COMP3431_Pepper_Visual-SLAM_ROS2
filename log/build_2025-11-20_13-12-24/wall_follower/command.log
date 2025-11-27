@@ -1,0 +1,2 @@
+Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/wall_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/wall_follower
+Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/wall_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/wall_follower

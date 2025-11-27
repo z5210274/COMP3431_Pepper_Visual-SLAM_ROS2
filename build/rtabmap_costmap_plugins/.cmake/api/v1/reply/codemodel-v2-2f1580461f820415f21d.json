@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-976c16606cd4115fc509.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_costmap_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_costmap_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_costmap_plugins-Release-528bd441d6cba5a4c7c6.json",
+					"name" : "rtabmap_costmap_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_costmap_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_costmap_plugins_uninstall-Release-7bb3ba84d492e3eadc99.json",
+					"name" : "rtabmap_costmap_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_costmap_voxel_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_costmap_voxel_marker-Release-a845993b045150bc7dda.json",
+					"name" : "rtabmap_costmap_voxel_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-512563c6e7e15ab86275.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chris/ros_ws/build/rtabmap_costmap_plugins",
+		"source" : "/home/chris/ros_ws/src/rtabmap_ros/rtabmap_costmap_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

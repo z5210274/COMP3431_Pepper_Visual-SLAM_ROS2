@@ -1,0 +1,105 @@
+[0.310s] Invoking command in '/home/chris/ros_ws/build/naoqi_driver': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_driver -- -j20 -l20
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target naoqi_driver[0m
+[0.579s] [  2%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o[0m
+[2.739s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[2.739s]                  from [01m[K/usr/include/boost/property_tree/json_parser/detail/parser.hpp:7[m[K,
+[2.740s]                  from [01m[K/usr/include/boost/property_tree/json_parser/detail/read.hpp:13[m[K,
+[2.740s]                  from [01m[K/usr/include/boost/property_tree/json_parser.hpp:16[m[K,
+[2.740s]                  from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:21[m[K:
+[2.740s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[2.740s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[2.740s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.691s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:[m[K In member function ‘[01m[Kvoid naoqi::Driver::registerDefaultConverter()[m[K’:
+[6.691s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:898:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+[6.691s]   898 |     } [01;31m[Kcatch[m[K(const std::exception& e) {
+[6.691s]       |       [01;31m[K^~~~~[m[K
+[6.708s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[KDriver[m[K’
+[6.708s]   976 | void [01;31m[KDriver[m[K::registerSubscriber( subscriber::Subscriber sub )
+[6.709s]       |      [01;31m[K^~~~~~[m[K
+[6.709s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KDriver[m[K’
+[6.709s]   976 | void [01;31m[KD[m[K[32m[Kriver[m[K::registerSubscriber( subscriber::Subscriber sub )
+[6.710s]       |      [01;31m[K^[m[K[32m[K~~~~~[m[K
+[6.710s]       |      [32m[K([m[K
+[6.710s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:6:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+[6.710s]   976 | void [01;31m[KDriver[m[K::registerSubscriber( subscriber::Subscriber sub )
+[6.710s]       |      [01;31m[K^~~~~~[m[K
+[6.710s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:32:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+[6.710s]   976 | void Driver::registerSubscriber[01;31m[K([m[K subscriber::Subscriber sub )
+[6.710s]       |                                [01;31m[K^[m[K
+[6.710s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K([m[K’ token
+[6.710s]   976 | void [34m[KDriver[m[K::registerSubscriber[01;31m[K([m[K subscriber::Subscriber sub )
+[6.710s]       |      [34m[K~~~~~~[m[K                    [01;31m[K^[m[K
+[6.710s]       |                                [32m[K)[m[K
+[6.710s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K([m[K’ token
+[6.710s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ksub[m[K’
+[6.710s]   976 | void Driver::registerSubscriber( subscriber::Subscriber [01;31m[Ksub[m[K )
+[6.710s]       |                                                         [01;31m[K^~~[m[K
+[6.710s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Ksub[m[K’
+[6.710s]   976 | void Driver::registerSubscriber[34m[K([m[K subscriber::Subscriber[01;31m[K [m[K[32m[Ksub[m[K )
+[6.710s]       |                                [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~~~[m[K
+[6.710s]       |                                                        [32m[K)[m[K
+[6.710s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1006:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.710s]  1006 | void Driver::registerService[01;31m[K([m[K service::Service srv )
+[6.710s]       |                             [01;31m[K^[m[K
+[6.710s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1012:37:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1012 | void Driver::registerDefaultServices[01;31m[K([m[K)
+[6.711s]       |                                     [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1019:56:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1019 | std::vector<std::string> Driver::getAvailableConverters[01;31m[K([m[K)
+[6.711s]       |                                                        [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1034:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1034 | void Driver::startPublishing[01;31m[K([m[K)
+[6.711s]       |                             [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1043:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1043 | void Driver::stopPublishing[01;31m[K([m[K)
+[6.711s]       |                            [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1052:57:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1052 | std::vector<std::string> Driver::getSubscribedPublishers[01;31m[K([m[K) const
+[6.711s]       |                                                         [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1068:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1068 | void Driver::startRecording[01;31m[K([m[K)
+[6.711s]       |                            [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1093:38:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1093 | void Driver::startRecordingConverters[01;31m[K([m[Kconst std::vector<std::string>& names)
+[6.711s]       |                                      [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1147:34:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1147 | std::string Driver::stopRecording[01;31m[K([m[K)
+[6.711s]       |                                  [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1166:26:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1166 | void Driver::startLogging[01;31m[K([m[K)
+[6.711s]       |                          [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1171:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1171 | void Driver::stopLogging[01;31m[K([m[K)
+[6.711s]       |                         [01;31m[K^[m[K
+[6.711s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1176:18:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.711s]  1176 | void Driver::stop[01;31m[K([m[K)
+[6.712s]       |                  [01;31m[K^[m[K
+[6.712s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1190:27:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.712s]  1190 | void Driver::parseJsonFile[01;31m[K([m[Kstd::string filepath, boost::property_tree::ptree &pt){
+[6.712s]       |                           [01;31m[K^[m[K
+[6.712s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1199:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.712s]  1199 | void Driver::addMemoryConverters[01;31m[K([m[Kstd::string filepath){
+[6.712s]       |                                 [01;31m[K^[m[K
+[6.712s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1259:36:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.712s]  1259 | bool Driver::registerEventConverter[01;31m[K([m[Kconst std::string& key, const dataType::DataType& type)
+[6.712s]       |                                    [01;31m[K^[m[K
+[6.712s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1345:46:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.712s]  1345 | std::vector<std::string> Driver::getFilesList[01;31m[K([m[K)
+[6.712s]       |                                              [01;31m[K^[m[K
+[6.712s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1360:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.712s]  1360 | void Driver::removeAllFiles[01;31m[K([m[K)
+[6.712s]       |                            [01;31m[K^[m[K
+[6.712s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1373:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[6.712s]  1373 | void Driver::removeFiles[01;31m[K([m[Kstd::vector<std::string> files)
+[6.712s]       |                         [01;31m[K^[m[K
+[7.165s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:[m[K At global scope:
+[7.165s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1402:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[7.165s]  1402 | }[01;31m[K [m[K//naoqi
+[7.165s]       |  [01;31m[K^[m[K
+[7.165s] [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:122:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[7.165s]   122 | [01;36m[K{[m[K
+[7.165s]       | [01;36m[K^[m[K
+[11.540s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:76: CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o] Error 1
+[11.541s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/naoqi_driver.dir/all] Error 2
+[11.541s] gmake: *** [Makefile:146: all] Error 2
+[11.544s] Invoked command in '/home/chris/ros_ws/build/naoqi_driver' returned '2': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_driver -- -j20 -l20

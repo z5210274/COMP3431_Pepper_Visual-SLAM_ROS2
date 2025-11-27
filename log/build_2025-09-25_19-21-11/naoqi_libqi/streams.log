@@ -1,0 +1,237 @@
+[0.020s] Invoking command in '/home/chris/ros_ws/build/naoqi_libqi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/naoqi_libqi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/naoqi_libqi
+[0.067s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.260s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono filesystem program_options regex system thread random 
+[0.263s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.278s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread date_time 
+[0.278s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.350s] -- Configuring done
+[0.352s] [33mCMake Warning (dev) at CMakeLists.txt:418 (add_library):
+[0.352s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[0.352s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[0.352s]   command to set the policy and suppress this warning.
+[0.352s] 
+[0.352s]   File:
+[0.352s] 
+[0.352s]     /home/chris/ros_ws/src/naoqi_libqi/qi/config.hpp.in
+[0.352s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.352s] [0m
+[0.385s] -- Generating done
+[0.390s] -- Build files have been written to: /home/chris/ros_ws/build/naoqi_libqi
+[0.394s] Invoked command in '/home/chris/ros_ws/build/naoqi_libqi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/naoqi_libqi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/naoqi_libqi
+[0.396s] Invoking command in '/home/chris/ros_ws/build/naoqi_libqi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqi -- -j20 -l20
+[0.430s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.430s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.442s] [  2%] Built target gtest_main
+[0.442s] [  3%] Built target gtest
+[0.490s] [35m[1mConsolidate compiler generated dependencies of target test_ka[0m
+[0.554s] [ 30%] Built target test_ka
+[0.580s] [35m[1mConsolidate compiler generated dependencies of target qi[0m
+[0.915s] [ 98%] Built target qi
+[0.927s] [35m[1mConsolidate compiler generated dependencies of target qitestutils[0m
+[0.950s] [100%] Built target qitestutils
+[0.962s] Invoked command in '/home/chris/ros_ws/build/naoqi_libqi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqi -- -j20 -l20
+[0.972s] Invoking command in '/home/chris/ros_ws/build/naoqi_libqi': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_libqi
+[0.979s] -- Install configuration: ""
+[0.979s] -- Execute custom install script
+[0.980s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/actor.hpp
+[0.980s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/anyfunction.hpp
+[0.980s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/anymodule.hpp
+[0.981s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/anyobject.hpp
+[0.981s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/anyvalue.hpp
+[0.981s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/api.hpp
+[0.981s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/application.hpp
+[0.982s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/applicationsession.hpp
+[0.982s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/assert.hpp
+[0.982s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/async.hpp
+[0.982s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/atomic.hpp
+[0.982s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/binarycodec.hpp
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/buffer.hpp
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/clock.hpp
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/config.dox
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/config.hpp.in
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/async.hxx
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/clock.hxx
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/eventloop.hxx
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/executioncontext.hpp
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/future.hxx
+[0.983s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/future_fwd.hpp
+[0.984s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/futurebarrier.hpp
+[0.984s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/futureunwrap.hpp
+[0.984s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/log.hxx
+[0.984s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/mpl.hpp
+[0.984s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/print.hpp
+[0.984s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/trackable.hxx
+[0.984s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/either.hpp
+[0.985s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/eventloop.hpp
+[0.985s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/flags.hpp
+[0.985s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/future.hpp
+[0.985s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/futuregroup.hpp
+[0.985s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/getenv.hpp
+[0.985s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/iocolor.hpp
+[0.985s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/jsoncodec.hpp
+[0.985s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/log.hpp
+[0.986s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/log/androidloghandler.hpp
+[0.986s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/log/consoleloghandler.hpp
+[0.986s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/log/csvloghandler.hpp
+[0.986s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/log/fileloghandler.hpp
+[0.986s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/log/headfileloghandler.hpp
+[0.986s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/log/journaldloghandler.hpp
+[0.986s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/log/tailfileloghandler.hpp
+[0.986s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/macro.hpp
+[0.987s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/authprovider.hpp
+[0.987s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/authproviderfactory.hpp
+[0.987s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/autoservice.hpp
+[0.987s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/clientauthenticator.hpp
+[0.987s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/clientauthenticatorfactory.hpp
+[0.988s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/detail/autoservice.hxx
+[0.988s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/gateway.hpp
+[0.988s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/messagesocket_fwd.hpp
+[0.988s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/servicedirectoryproxy.hpp
+[0.989s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/messaging/serviceinfo.hpp
+[0.989s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/numeric.hpp
+[0.989s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/objectuid.hpp
+[0.989s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/os.hpp
+[0.989s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/path.hpp
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/path_conf.hpp
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/perf/dataperf.dox
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/perf/dataperf.hpp
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/perf/dataperfsuite.dox
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/perf/dataperfsuite.hpp
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/perf/detail/dataperfsuite.hxx
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/perf/measure.hpp
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/periodictask.hpp
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/preproc.hpp
+[0.990s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/property.hpp
+[0.991s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/ptruid.hpp
+[0.991s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/qi.hpp
+[0.991s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/session.hpp
+[0.991s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/signal.hpp
+[0.991s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/signalspy.hpp
+[0.992s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/signature.hpp
+[0.992s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/stats.hpp
+[0.992s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/strand.hpp
+[0.992s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/tag.hpp
+[0.992s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/trackable.hpp
+[0.992s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/translator.hpp
+[0.992s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/accessor.hxx
+[0.993s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/anyfunction.hxx
+[0.993s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/anyfunctionfactory.hxx
+[0.993s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/anyiterator.hpp
+[0.993s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/anyiterator.hxx
+[0.993s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/anyreference.hpp
+[0.993s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/anyreference.hxx
+[0.993s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/anyvalue.hpp
+[0.993s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/anyvalue.hxx
+[0.994s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/bindtype.hxx
+[0.994s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/buffertypeinterface.hxx
+[0.994s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/dynamicobjectbuilder.hxx
+[0.994s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/dynamictypeinterface.hxx
+[0.994s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/functionsignature.hxx
+[0.994s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/futureadapter.hpp
+[0.994s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/futureadapter.hxx
+[0.995s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/genericobject.hpp
+[0.995s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/hasless.hxx
+[0.995s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/inttypeinterface.hxx
+[0.996s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/listtypeinterface.hxx
+[0.996s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/manageable.hpp
+[0.996s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/maptypeinterface.hxx
+[0.996s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/object.hxx
+[0.997s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/objecttypebuilder.hxx
+[0.997s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/optionaltypeinterface.hxx
+[0.997s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/pointertypeinterface.hxx
+[0.997s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/property.hxx
+[0.997s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/proxyregister.hpp
+[0.998s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/signal.hxx
+[0.998s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/staticobjecttype.hpp
+[0.998s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/stringtypeinterface.hxx
+[0.998s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/structtypeinterface.hxx
+[0.999s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/traceanalyzer.hpp
+[0.999s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/type.hpp
+[0.999s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/type.hxx
+[1.000s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/typedispatcher.hxx
+[1.000s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/typeimpl.hxx
+[1.000s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/detail/typeinterface.hpp
+[1.000s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/dynamicobject.hpp
+[1.000s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/dynamicobjectbuilder.hpp
+[1.000s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/fwd.hpp
+[1.000s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/metamethod.hpp
+[1.000s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/metaobject.hpp
+[1.001s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/metaproperty.hpp
+[1.001s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/metasignal.hpp
+[1.001s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/objecttypebuilder.hpp
+[1.001s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/proxyproperty.hpp
+[1.001s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/proxysignal.hpp
+[1.001s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/typedispatcher.hpp
+[1.002s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/typeinterface.hpp
+[1.002s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/type/typeobject.hpp
+[1.002s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/types.hpp
+[1.002s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/uri.hpp
+[1.002s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/url.hpp
+[1.003s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/uuid.hpp
+[1.003s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/version.hpp
+[1.003s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/AUTHORS
+[1.003s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/README.md
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/algorithm.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/ark/inputiter.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/ark/mutable.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/base64.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/concept.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/conceptpredicate.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/empty.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/errorhandling.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/flatten.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/functional.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/functor.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/functorcontainer.hpp
+[1.004s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/indexed.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/integersequence.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/iterator.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/libka.png
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/macro.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/macroregular.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/memory.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/moveoncopy.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/mutablestore.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/mutex.hpp
+[1.005s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/opt.hpp
+[1.006s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/parse.hpp
+[1.006s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/productiter.hpp
+[1.006s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/range.hpp
+[1.006s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/relationpredicate.hpp
+[1.006s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/scoped.hpp
+[1.007s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/sha1.hpp
+[1.007s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/src.hpp
+[1.007s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/testutils.hpp
+[1.007s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/typetraits.hpp
+[1.007s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/unit.hpp
+[1.007s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/uri.hpp
+[1.007s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/uri/io.hpp
+[1.008s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/uri/parsing.hpp
+[1.008s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/uri/uri.hpp
+[1.008s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/uri/uri_fwd.hpp
+[1.008s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/utility.hpp
+[1.008s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/ka/zero.hpp
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/include/qi/config.hpp
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/lib/libqi.so
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.xml
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/environment/library_path.sh
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/environment/library_path.dsv
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/ament_index/resource_index/package_run_dependencies/naoqi_libqi
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/ament_index/resource_index/parent_prefix_path/naoqi_libqi
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/environment/ament_prefix_path.sh
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/environment/ament_prefix_path.dsv
+[1.009s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/environment/path.sh
+[1.010s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/environment/path.dsv
+[1.010s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/local_setup.bash
+[1.010s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/local_setup.sh
+[1.010s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/local_setup.zsh
+[1.010s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/local_setup.dsv
+[1.010s] -- Symlinking: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.dsv
+[1.016s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/ament_index/resource_index/packages/naoqi_libqi
+[1.017s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.017s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/cmake/ament_cmake_export_libraries-extras.cmake
+[1.017s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/cmake/naoqi_libqiConfig.cmake
+[1.017s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/cmake/naoqi_libqiConfig-version.cmake
+[1.017s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.xml
+[1.020s] Invoked command in '/home/chris/ros_ws/build/naoqi_libqi' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_libqi

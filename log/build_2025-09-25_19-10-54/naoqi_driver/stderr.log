@@ -1,0 +1,89 @@
+In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser/detail/parser.hpp:7[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser/detail/read.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser.hpp:16[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:21[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:[m[K In member function ‘[01m[Kvoid naoqi::Driver::registerDefaultConverter()[m[K’:
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:880:48:[m[K [01;31m[Kerror: [m[K‘[01m[KAudioEventRegister[m[K’ was not declared in this scope; did you mean ‘[01m[KTouchEventRegister[m[K’?
+  880 |       auto event_register = boost::make_shared<[01;31m[KAudioEventRegister[m[K>("audio", 0, sessionPtr_);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[KTouchEventRegister[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:880:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(const char [6], int, qi::SessionPtr&)[m[K’
+  880 |       auto event_register = [01;31m[Kboost::make_shared<AudioEventRegister>("audio", 0, sessionPtr_)[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/future_fwd.hpp:29[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/future.hpp:7[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/session.hpp:15[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/include/naoqi_driver/naoqi_driver.hpp:34[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:31[m[K:
+[01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:248:87:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, class ... Args> typename boost::detail::sp_if_not_array<T>::type boost::make_shared(Args&& ...)[m[K’
+  248 | template< class T, class... Args > typename boost::detail::sp_if_not_array< T >::type [01;36m[Kmake_shared[m[K( Args && ... args )
+      |                                                                                       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:248:87:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:880:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  880 |       auto event_register = [01;31m[Kboost::make_shared<AudioEventRegister>("audio", 0, sessionPtr_)[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/future_fwd.hpp:29[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/future.hpp:7[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/session.hpp:15[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/include/naoqi_driver/naoqi_driver.hpp:34[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:31[m[K:
+[01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:18:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::enable_if_<boost::is_bounded_array<T>::value, boost::shared_ptr<X> >::type boost::make_shared()[m[K’
+   18 | [01;36m[Kmake_shared[m[K()
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:18:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:880:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  880 |       auto event_register = [01;31m[Kboost::make_shared<AudioEventRegister>("audio", 0, sessionPtr_)[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/future_fwd.hpp:29[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/future.hpp:7[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/session.hpp:15[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/include/naoqi_driver/naoqi_driver.hpp:34[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:31[m[K:
+[01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:26:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::enable_if_<boost::is_bounded_array<T>::value, boost::shared_ptr<X> >::type boost::make_shared(const typename boost::remove_extent<T>::type&)[m[K’
+   26 | [01;36m[Kmake_shared[m[K(const typename remove_extent<T>::type& value)
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:26:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:880:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  880 |       auto event_register = [01;31m[Kboost::make_shared<AudioEventRegister>("audio", 0, sessionPtr_)[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/future_fwd.hpp:29[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/future.hpp:7[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/session.hpp:15[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/include/naoqi_driver/naoqi_driver.hpp:34[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:31[m[K:
+[01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:34:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::enable_if_<boost::is_unbounded_array<T>::value, boost::shared_ptr<X> >::type boost::make_shared(std::size_t)[m[K’
+   34 | [01;36m[Kmake_shared[m[K(std::size_t size)
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:34:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:880:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  880 |       auto event_register = [01;31m[Kboost::make_shared<AudioEventRegister>("audio", 0, sessionPtr_)[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/detail/future_fwd.hpp:29[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/future.hpp:7[m[K,
+                 from [01m[K/home/chris/ros_ws/install/naoqi_libqi/include/qi/session.hpp:15[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/include/naoqi_driver/naoqi_driver.hpp:34[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:31[m[K:
+[01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:42:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> typename boost::enable_if_<boost::is_unbounded_array<T>::value, boost::shared_ptr<X> >::type boost::make_shared(std::size_t, const typename boost::remove_extent<T>::type&)[m[K’
+   42 | [01;36m[Kmake_shared[m[K(std::size_t size, const typename remove_extent<T>::type& value)
+      | [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/boost/smart_ptr/make_shared_array.hpp:42:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:880:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  880 |       auto event_register = [01;31m[Kboost::make_shared<AudioEventRegister>("audio", 0, sessionPtr_)[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:76: CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/naoqi_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

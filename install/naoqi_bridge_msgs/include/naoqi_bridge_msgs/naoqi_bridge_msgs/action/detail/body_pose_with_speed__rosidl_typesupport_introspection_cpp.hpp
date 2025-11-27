@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_typesupport_introspection_cpp/naoqi_bridge_msgs/action/detail/body_pose_with_speed__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,1 @@
+Invoking command in '/home/chris/ros_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/teleop_tools/teleop_tools_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/teleop_tools_msgs

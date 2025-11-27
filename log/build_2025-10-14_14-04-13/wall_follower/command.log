@@ -1,0 +1,6 @@
+Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/wall_follower -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/wall_follower
+Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/wall_follower -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/wall_follower
+Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/wall_follower -- -j20 -l20
+Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/wall_follower -- -j20 -l20
+Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/wall_follower
+Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/wall_follower

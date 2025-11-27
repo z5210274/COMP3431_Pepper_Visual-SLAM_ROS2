@@ -1,0 +1,37 @@
+[0.419s] Invoking command in '/home/chris/ros_ws/build/naoqi_driver': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_driver -- -j20 -l20
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target naoqi_driver[0m
+[0.692s] [ 95%] Built target naoqi_driver
+[0.738s] [100%] Built target naoqi_driver_node
+[0.748s] Invoked command in '/home/chris/ros_ws/build/naoqi_driver' returned '0': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_driver -- -j20 -l20
+[0.750s] Invoking command in '/home/chris/ros_ws/build/naoqi_driver': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_driver
+[0.756s] -- Install configuration: ""
+[0.757s] -- Execute custom install script
+[0.757s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/lib//libnaoqi_driver.so
+[0.757s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/lib/naoqi_driver/naoqi_driver_node
+[0.757s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/boot_config.json
+[0.758s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/nao.rviz
+[0.758s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/pepper.rviz
+[0.758s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/nao.urdf
+[0.758s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/pepper.urdf
+[0.758s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/romeo.urdf
+[0.758s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/launch/naoqi_driver.launch
+[0.758s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/launch/naoqi_driver.launch.py
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/library_path.sh
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/library_path.dsv
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/package_run_dependencies/naoqi_driver
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/parent_prefix_path/naoqi_driver
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/ament_prefix_path.sh
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/ament_prefix_path.dsv
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/path.sh
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/path.dsv
+[0.759s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.bash
+[0.760s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.sh
+[0.760s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.zsh
+[0.760s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.dsv
+[0.760s] -- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.dsv
+[0.768s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/packages/naoqi_driver
+[0.768s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.768s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/naoqi_driverConfig.cmake
+[0.768s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/naoqi_driverConfig-version.cmake
+[0.768s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.xml
+[0.770s] Invoked command in '/home/chris/ros_ws/build/naoqi_driver' returned '0': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_driver

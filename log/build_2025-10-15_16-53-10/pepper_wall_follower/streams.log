@@ -1,0 +1,46 @@
+[0.266s] Invoking command in '/home/chris/ros_ws/build/pepper_wall_follower': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
+[0.306s] [35m[1mConsolidate compiler generated dependencies of target pepper_wall_follower[0m
+[0.324s] [100%] Built target pepper_wall_follower
+[0.335s] Invoked command in '/home/chris/ros_ws/build/pepper_wall_follower' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
+[0.337s] Invoking command in '/home/chris/ros_ws/build/pepper_wall_follower': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/pepper_wall_follower
+[0.344s] -- Install configuration: ""
+[0.344s] -- Execute custom install script
+[0.345s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/lib/pepper_wall_follower/pepper_wall_follower
+[0.345s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/launch/pepper_wall_follower.launch.py
+[0.345s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/package_run_dependencies/pepper_wall_follower
+[0.345s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/parent_prefix_path/pepper_wall_follower
+[0.345s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/ament_prefix_path.sh
+[0.345s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/ament_prefix_path.dsv
+[0.346s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/path.sh
+[0.346s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/path.dsv
+[0.346s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.bash
+[0.346s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.sh
+[0.346s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.zsh
+[0.346s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.dsv
+[0.346s] -- Symlinking: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.dsv
+[0.355s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/packages/pepper_wall_follower
+[0.355s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.355s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.356s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/pepper_wall_followerConfig.cmake
+[0.356s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/pepper_wall_followerConfig-version.cmake
+[0.356s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.xml
+[0.356s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/lib/pepper_wall_follower/pepper_wall_follower
+[0.356s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/launch/pepper_wall_follower.launch.py
+[0.356s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/package_run_dependencies/pepper_wall_follower
+[0.356s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/parent_prefix_path/pepper_wall_follower
+[0.357s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/ament_prefix_path.sh
+[0.357s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/ament_prefix_path.dsv
+[0.357s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/path.sh
+[0.357s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/path.dsv
+[0.357s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.bash
+[0.357s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.sh
+[0.358s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.zsh
+[0.358s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.dsv
+[0.358s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.dsv
+[0.358s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/packages/pepper_wall_follower
+[0.358s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.358s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.358s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/pepper_wall_followerConfig.cmake
+[0.359s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/pepper_wall_followerConfig-version.cmake
+[0.359s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.xml
+[0.361s] Invoked command in '/home/chris/ros_ws/build/pepper_wall_follower' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/pepper_wall_follower

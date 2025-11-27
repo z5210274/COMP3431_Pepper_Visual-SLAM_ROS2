@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_typesupport_introspection_c/naoqi_bridge_msgs/msg/detail/string_stamped__rosidl_typesupport_introspection_c.h

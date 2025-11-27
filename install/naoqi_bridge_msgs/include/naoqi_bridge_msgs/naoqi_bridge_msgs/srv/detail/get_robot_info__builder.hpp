@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_cpp/naoqi_bridge_msgs/srv/detail/get_robot_info__builder.hpp

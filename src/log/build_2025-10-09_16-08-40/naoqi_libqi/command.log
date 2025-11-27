@@ -1,0 +1,4 @@
+Invoking command in '/home/chris/ros_ws/src/build/naoqi_libqi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/naoqi_libqi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/src/install/naoqi_libqi
+Invoked command in '/home/chris/ros_ws/src/build/naoqi_libqi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/naoqi_libqi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/src/install/naoqi_libqi
+Invoking command in '/home/chris/ros_ws/src/build/naoqi_libqi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/src/build/naoqi_libqi -- -j20 -l20
+Invoked command in '/home/chris/ros_ws/src/build/naoqi_libqi' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/src/build/naoqi_libqi -- -j20 -l20

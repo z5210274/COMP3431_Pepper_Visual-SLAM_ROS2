@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_typesupport_introspection_cpp/naoqi_bridge_msgs/action/detail/speech_with_feedback__rosidl_typesupport_introspection_cpp.hpp

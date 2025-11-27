@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target naoqi_driver[0m
+[  2%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/event/audio.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/joint_state.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/sonar.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/subscribers/speech.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/subscribers/moveto.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/subscribers/teleop.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/tools/robot_description.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/recorder/log.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/recorder/sonar.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/tools/from_any_value.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library libnaoqi_driver.so[0m
+[ 95%] Built target naoqi_driver
+[ 97%] [32mBuilding CXX object CMakeFiles/naoqi_driver_node.dir/src/external_registration.cpp.o[0m
+[100%] [32m[1mLinking CXX executable naoqi_driver_node[0m
+[100%] Built target naoqi_driver_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/lib//libnaoqi_driver.so
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/lib/naoqi_driver/naoqi_driver_node
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/boot_config.json
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/nao.rviz
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/pepper.rviz
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/nao.urdf
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/pepper.urdf
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/romeo.urdf
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/launch/naoqi_driver.launch
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/launch/naoqi_driver.launch.py
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/library_path.sh
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/library_path.dsv
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/package_run_dependencies/naoqi_driver
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/parent_prefix_path/naoqi_driver
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/path.sh
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/path.dsv
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.bash
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.sh
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.zsh
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.dsv
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.dsv
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/packages/naoqi_driver
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/naoqi_driverConfig.cmake
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/naoqi_driverConfig-version.cmake
+-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.xml

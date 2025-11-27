@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/nao_meshes/ament_cmake_environment_hooks/local_setup.zsh

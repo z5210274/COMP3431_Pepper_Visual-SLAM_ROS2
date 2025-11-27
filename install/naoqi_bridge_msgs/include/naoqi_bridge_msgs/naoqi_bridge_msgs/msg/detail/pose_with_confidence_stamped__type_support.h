@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_c/naoqi_bridge_msgs/msg/detail/pose_with_confidence_stamped__type_support.h

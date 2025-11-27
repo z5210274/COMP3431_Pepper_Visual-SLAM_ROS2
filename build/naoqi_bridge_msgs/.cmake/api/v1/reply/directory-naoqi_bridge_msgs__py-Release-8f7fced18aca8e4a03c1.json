@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "naoqi_bridge_msgs__py",
+		"source" : "/home/chris/ros_ws/build/naoqi_bridge_msgs/naoqi_bridge_msgs__py"
+	}
+}

@@ -1,0 +1,525 @@
+[0.000000] (-) TimerEvent: {}
+[0.000849] (-) JobUnselected: {'identifier': 'nao_meshes'}
+[0.000916] (-) JobUnselected: {'identifier': 'naoqi_bridge_msgs'}
+[0.000955] (-) JobUnselected: {'identifier': 'naoqi_libqi'}
+[0.000971] (-) JobUnselected: {'identifier': 'naoqi_libqicore'}
+[0.000983] (-) JobUnselected: {'identifier': 'pepper_meshes'}
+[0.000994] (-) JobUnselected: {'identifier': 'pepper_wall_follower'}
+[0.001005] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.001221] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.001246] (-) JobUnselected: {'identifier': 'rtabmap_costmap_plugins'}
+[0.001260] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.001272] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.001284] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.001295] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.001306] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.001317] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001329] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001340] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001351] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.001375] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001398] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001415] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001429] (-) JobUnselected: {'identifier': 'wall_follower'}
+[0.001445] (naoqi_driver) JobQueued: {'identifier': 'naoqi_driver', 'dependencies': OrderedDict([('naoqi_bridge_msgs', '/home/chris/ros_ws/install/naoqi_bridge_msgs'), ('naoqi_libqi', '/home/chris/ros_ws/install/naoqi_libqi'), ('naoqi_libqicore', '/home/chris/ros_ws/install/naoqi_libqicore')])}
+[0.001470] (naoqi_driver) JobStarted: {'identifier': 'naoqi_driver'}
+[0.099388] (-) TimerEvent: {}
+[0.200128] (-) TimerEvent: {}
+[0.300700] (-) TimerEvent: {}
+[0.401534] (-) TimerEvent: {}
+[0.502134] (-) TimerEvent: {}
+[0.602758] (-) TimerEvent: {}
+[0.703243] (-) TimerEvent: {}
+[0.803842] (-) TimerEvent: {}
+[0.904351] (-) TimerEvent: {}
+[1.004882] (-) TimerEvent: {}
+[1.105338] (-) TimerEvent: {}
+[1.206000] (-) TimerEvent: {}
+[1.219207] (naoqi_driver) JobProgress: {'identifier': 'naoqi_driver', 'progress': 'cmake'}
+[1.222422] (naoqi_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/chris/ros_ws/src/naoqi_driver2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/naoqi_driver'], 'cwd': '/home/chris/ros_ws/build/naoqi_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chris'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/rtabmap_slam/lib:/home/chris/ros_ws/install/rtabmap_odom/lib:/home/chris/ros_ws/install/rtabmap_util/lib:/home/chris/ros_ws/install/rtabmap_sync/lib:/home/chris/ros_ws/install/rtabmap_rviz_plugins/lib:/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap_costmap_plugins/lib:/home/chris/ros_ws/install/rtabmap/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('NAME', 'ChrisLaptop'), ('WSL_INTEROP', '/run/WSL/1226_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/chris/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/Chris/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Chris/AppData/Local/ffmpegio/ffmpeg-downloader/ffmpeg/bin:/mnt/c/Users/Chris/AppData/Local/Programs/Ollama:/snap/bin'), ('WT_SESSION', '79042f0f-fbf2-47ef-8e14-e514f59c6d0b'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/rtabmap_ros:/home/chris/ros_ws/install/rtabmap_launch:/home/chris/ros_ws/install/rtabmap_examples:/home/chris/ros_ws/install/rtabmap_demos:/home/chris/ros_ws/install/rtabmap_viz:/home/chris/ros_ws/install/rtabmap_slam:/home/chris/ros_ws/install/rtabmap_odom:/home/chris/ros_ws/install/rtabmap_util:/home/chris/ros_ws/install/rtabmap_sync:/home/chris/ros_ws/install/rtabmap_rviz_plugins:/home/chris/ros_ws/install/rtabmap_python:/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap_costmap_plugins:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chris/ros_ws/build/naoqi_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages:/home/chris/ros_ws/build/rtabmap_python:/home/chris/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/rtabmap_ros:/home/chris/ros_ws/install/rtabmap_launch:/home/chris/ros_ws/install/rtabmap_examples:/home/chris/ros_ws/install/rtabmap_demos:/home/chris/ros_ws/install/rtabmap_viz:/home/chris/ros_ws/install/rtabmap_slam:/home/chris/ros_ws/install/rtabmap_odom:/home/chris/ros_ws/install/rtabmap_util:/home/chris/ros_ws/install/rtabmap_sync:/home/chris/ros_ws/install/rtabmap_rviz_plugins:/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap_costmap_plugins:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/home/chris/ros_ws/install/rtabmap_python:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[1.291122] (naoqi_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.306286] (-) TimerEvent: {}
+[1.406878] (-) TimerEvent: {}
+[1.502397] (naoqi_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.507035] (-) TimerEvent: {}
+[1.557040] (naoqi_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.607310] (-) TimerEvent: {}
+[1.707863] (-) TimerEvent: {}
+[1.808477] (-) TimerEvent: {}
+[1.908974] (-) TimerEvent: {}
+[2.009570] (-) TimerEvent: {}
+[2.110105] (-) TimerEvent: {}
+[2.210823] (-) TimerEvent: {}
+[2.311304] (-) TimerEvent: {}
+[2.406433] (naoqi_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.411385] (-) TimerEvent: {}
+[2.414133] (naoqi_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.436391] (naoqi_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.463224] (naoqi_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.489065] (naoqi_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.511535] (-) TimerEvent: {}
+[2.556321] (naoqi_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.560765] (naoqi_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.611677] (-) TimerEvent: {}
+[2.712145] (-) TimerEvent: {}
+[2.812809] (-) TimerEvent: {}
+[2.913369] (-) TimerEvent: {}
+[3.013827] (-) TimerEvent: {}
+[3.114332] (-) TimerEvent: {}
+[3.214758] (-) TimerEvent: {}
+[3.315243] (-) TimerEvent: {}
+[3.415932] (-) TimerEvent: {}
+[3.516546] (-) TimerEvent: {}
+[3.617156] (-) TimerEvent: {}
+[3.717500] (-) TimerEvent: {}
+[3.817830] (-) TimerEvent: {}
+[3.918325] (-) TimerEvent: {}
+[4.018873] (-) TimerEvent: {}
+[4.119463] (-) TimerEvent: {}
+[4.219870] (-) TimerEvent: {}
+[4.320387] (-) TimerEvent: {}
+[4.420905] (-) TimerEvent: {}
+[4.521520] (-) TimerEvent: {}
+[4.622136] (-) TimerEvent: {}
+[4.722611] (-) TimerEvent: {}
+[4.823273] (-) TimerEvent: {}
+[4.923797] (-) TimerEvent: {}
+[5.024464] (-) TimerEvent: {}
+[5.125095] (-) TimerEvent: {}
+[5.225870] (-) TimerEvent: {}
+[5.326500] (-) TimerEvent: {}
+[5.427073] (-) TimerEvent: {}
+[5.527659] (-) TimerEvent: {}
+[5.628315] (-) TimerEvent: {}
+[5.728961] (-) TimerEvent: {}
+[5.829630] (-) TimerEvent: {}
+[5.930192] (-) TimerEvent: {}
+[6.030796] (-) TimerEvent: {}
+[6.131400] (-) TimerEvent: {}
+[6.231984] (-) TimerEvent: {}
+[6.332575] (-) TimerEvent: {}
+[6.433089] (-) TimerEvent: {}
+[6.533696] (-) TimerEvent: {}
+[6.634223] (-) TimerEvent: {}
+[6.734959] (-) TimerEvent: {}
+[6.835450] (-) TimerEvent: {}
+[6.935945] (-) TimerEvent: {}
+[7.036388] (-) TimerEvent: {}
+[7.136801] (-) TimerEvent: {}
+[7.237223] (-) TimerEvent: {}
+[7.337821] (-) TimerEvent: {}
+[7.438391] (-) TimerEvent: {}
+[7.538940] (-) TimerEvent: {}
+[7.639418] (-) TimerEvent: {}
+[7.739800] (-) TimerEvent: {}
+[7.840435] (-) TimerEvent: {}
+[7.941103] (-) TimerEvent: {}
+[8.041898] (-) TimerEvent: {}
+[8.142645] (-) TimerEvent: {}
+[8.243129] (-) TimerEvent: {}
+[8.343641] (-) TimerEvent: {}
+[8.444116] (-) TimerEvent: {}
+[8.544879] (-) TimerEvent: {}
+[8.645382] (-) TimerEvent: {}
+[8.745744] (-) TimerEvent: {}
+[8.846253] (-) TimerEvent: {}
+[8.946852] (-) TimerEvent: {}
+[9.047558] (-) TimerEvent: {}
+[9.148066] (-) TimerEvent: {}
+[9.248653] (-) TimerEvent: {}
+[9.349139] (-) TimerEvent: {}
+[9.449756] (-) TimerEvent: {}
+[9.550314] (-) TimerEvent: {}
+[9.651005] (-) TimerEvent: {}
+[9.751677] (-) TimerEvent: {}
+[9.852335] (-) TimerEvent: {}
+[9.952753] (-) TimerEvent: {}
+[10.053295] (-) TimerEvent: {}
+[10.153876] (-) TimerEvent: {}
+[10.254444] (-) TimerEvent: {}
+[10.355156] (-) TimerEvent: {}
+[10.455774] (-) TimerEvent: {}
+[10.556320] (-) TimerEvent: {}
+[10.656912] (-) TimerEvent: {}
+[10.757468] (-) TimerEvent: {}
+[10.857975] (-) TimerEvent: {}
+[10.958636] (-) TimerEvent: {}
+[11.059249] (-) TimerEvent: {}
+[11.159688] (-) TimerEvent: {}
+[11.260152] (-) TimerEvent: {}
+[11.360749] (-) TimerEvent: {}
+[11.461244] (-) TimerEvent: {}
+[11.561782] (-) TimerEvent: {}
+[11.662386] (-) TimerEvent: {}
+[11.763154] (-) TimerEvent: {}
+[11.863981] (-) TimerEvent: {}
+[11.964452] (-) TimerEvent: {}
+[12.065037] (-) TimerEvent: {}
+[12.165512] (-) TimerEvent: {}
+[12.266081] (-) TimerEvent: {}
+[12.366775] (-) TimerEvent: {}
+[12.467425] (-) TimerEvent: {}
+[12.568067] (-) TimerEvent: {}
+[12.668722] (-) TimerEvent: {}
+[12.769347] (-) TimerEvent: {}
+[12.869898] (-) TimerEvent: {}
+[12.970389] (-) TimerEvent: {}
+[13.070969] (-) TimerEvent: {}
+[13.171545] (-) TimerEvent: {}
+[13.272050] (-) TimerEvent: {}
+[13.372784] (-) TimerEvent: {}
+[13.473535] (-) TimerEvent: {}
+[13.574189] (-) TimerEvent: {}
+[13.674823] (-) TimerEvent: {}
+[13.775261] (-) TimerEvent: {}
+[13.875970] (-) TimerEvent: {}
+[13.976613] (-) TimerEvent: {}
+[14.077155] (-) TimerEvent: {}
+[14.177657] (-) TimerEvent: {}
+[14.278217] (-) TimerEvent: {}
+[14.378785] (-) TimerEvent: {}
+[14.479315] (-) TimerEvent: {}
+[14.580101] (-) TimerEvent: {}
+[14.680811] (-) TimerEvent: {}
+[14.781443] (-) TimerEvent: {}
+[14.882157] (-) TimerEvent: {}
+[14.982849] (-) TimerEvent: {}
+[15.083476] (-) TimerEvent: {}
+[15.183917] (-) TimerEvent: {}
+[15.284425] (-) TimerEvent: {}
+[15.384859] (-) TimerEvent: {}
+[15.485380] (-) TimerEvent: {}
+[15.585948] (-) TimerEvent: {}
+[15.686542] (-) TimerEvent: {}
+[15.787198] (-) TimerEvent: {}
+[15.887603] (-) TimerEvent: {}
+[15.987977] (-) TimerEvent: {}
+[16.088414] (-) TimerEvent: {}
+[16.188969] (-) TimerEvent: {}
+[16.289658] (-) TimerEvent: {}
+[16.390306] (-) TimerEvent: {}
+[16.490848] (-) TimerEvent: {}
+[16.591421] (-) TimerEvent: {}
+[16.691752] (-) TimerEvent: {}
+[16.792453] (-) TimerEvent: {}
+[16.892926] (-) TimerEvent: {}
+[16.993377] (-) TimerEvent: {}
+[17.094583] (-) TimerEvent: {}
+[17.195328] (-) TimerEvent: {}
+[17.296091] (-) TimerEvent: {}
+[17.396883] (-) TimerEvent: {}
+[17.497568] (-) TimerEvent: {}
+[17.598483] (-) TimerEvent: {}
+[17.699081] (-) TimerEvent: {}
+[17.799611] (-) TimerEvent: {}
+[17.900163] (-) TimerEvent: {}
+[18.000706] (-) TimerEvent: {}
+[18.101305] (-) TimerEvent: {}
+[18.201915] (-) TimerEvent: {}
+[18.302609] (-) TimerEvent: {}
+[18.403277] (-) TimerEvent: {}
+[18.503918] (-) TimerEvent: {}
+[18.604654] (-) TimerEvent: {}
+[18.705344] (-) TimerEvent: {}
+[18.805811] (-) TimerEvent: {}
+[18.906275] (-) TimerEvent: {}
+[19.007150] (-) TimerEvent: {}
+[19.107860] (-) TimerEvent: {}
+[19.208478] (-) TimerEvent: {}
+[19.309087] (-) TimerEvent: {}
+[19.409667] (-) TimerEvent: {}
+[19.510200] (-) TimerEvent: {}
+[19.610955] (-) TimerEvent: {}
+[19.711597] (-) TimerEvent: {}
+[19.812094] (-) TimerEvent: {}
+[19.912624] (-) TimerEvent: {}
+[20.013200] (-) TimerEvent: {}
+[20.113729] (-) TimerEvent: {}
+[20.214449] (-) TimerEvent: {}
+[20.315066] (-) TimerEvent: {}
+[20.415646] (-) TimerEvent: {}
+[20.516334] (-) TimerEvent: {}
+[20.616915] (-) TimerEvent: {}
+[20.717531] (-) TimerEvent: {}
+[20.818181] (-) TimerEvent: {}
+[20.918623] (-) TimerEvent: {}
+[21.019129] (-) TimerEvent: {}
+[21.119932] (-) TimerEvent: {}
+[21.220493] (-) TimerEvent: {}
+[21.321036] (-) TimerEvent: {}
+[21.421638] (-) TimerEvent: {}
+[21.522375] (-) TimerEvent: {}
+[21.623099] (-) TimerEvent: {}
+[21.723998] (-) TimerEvent: {}
+[21.824400] (-) TimerEvent: {}
+[21.924934] (-) TimerEvent: {}
+[22.025438] (-) TimerEvent: {}
+[22.126013] (-) TimerEvent: {}
+[22.226488] (-) TimerEvent: {}
+[22.327046] (-) TimerEvent: {}
+[22.427516] (-) TimerEvent: {}
+[22.528150] (-) TimerEvent: {}
+[22.628789] (-) TimerEvent: {}
+[22.729561] (-) TimerEvent: {}
+[22.830241] (-) TimerEvent: {}
+[22.930892] (-) TimerEvent: {}
+[23.031571] (-) TimerEvent: {}
+[23.132210] (-) TimerEvent: {}
+[23.232721] (-) TimerEvent: {}
+[23.333173] (-) TimerEvent: {}
+[23.433765] (-) TimerEvent: {}
+[23.534349] (-) TimerEvent: {}
+[23.634929] (-) TimerEvent: {}
+[23.735637] (-) TimerEvent: {}
+[23.836253] (-) TimerEvent: {}
+[23.936826] (-) TimerEvent: {}
+[24.037278] (-) TimerEvent: {}
+[24.137806] (-) TimerEvent: {}
+[24.238621] (-) TimerEvent: {}
+[24.339335] (-) TimerEvent: {}
+[24.439750] (-) TimerEvent: {}
+[24.540393] (-) TimerEvent: {}
+[24.640986] (-) TimerEvent: {}
+[24.741392] (-) TimerEvent: {}
+[24.841900] (-) TimerEvent: {}
+[24.942541] (-) TimerEvent: {}
+[25.043429] (-) TimerEvent: {}
+[25.144190] (-) TimerEvent: {}
+[25.245120] (-) TimerEvent: {}
+[25.345917] (-) TimerEvent: {}
+[25.446665] (-) TimerEvent: {}
+[25.547462] (-) TimerEvent: {}
+[25.648050] (-) TimerEvent: {}
+[25.748790] (-) TimerEvent: {}
+[25.849500] (-) TimerEvent: {}
+[25.950144] (-) TimerEvent: {}
+[26.050798] (-) TimerEvent: {}
+[26.151456] (-) TimerEvent: {}
+[26.252140] (-) TimerEvent: {}
+[26.352868] (-) TimerEvent: {}
+[26.453614] (-) TimerEvent: {}
+[26.554238] (-) TimerEvent: {}
+[26.654859] (-) TimerEvent: {}
+[26.755339] (-) TimerEvent: {}
+[26.855990] (-) TimerEvent: {}
+[26.956695] (-) TimerEvent: {}
+[27.057253] (-) TimerEvent: {}
+[27.157904] (-) TimerEvent: {}
+[27.258460] (-) TimerEvent: {}
+[27.359112] (-) TimerEvent: {}
+[27.459732] (-) TimerEvent: {}
+[27.560436] (-) TimerEvent: {}
+[27.660984] (-) TimerEvent: {}
+[27.761607] (-) TimerEvent: {}
+[27.862148] (-) TimerEvent: {}
+[27.962731] (-) TimerEvent: {}
+[28.063320] (-) TimerEvent: {}
+[28.164024] (-) TimerEvent: {}
+[28.264462] (-) TimerEvent: {}
+[28.364874] (-) TimerEvent: {}
+[28.465394] (-) TimerEvent: {}
+[28.566091] (-) TimerEvent: {}
+[28.666893] (-) TimerEvent: {}
+[28.767631] (-) TimerEvent: {}
+[28.868169] (-) TimerEvent: {}
+[28.968807] (-) TimerEvent: {}
+[29.069516] (-) TimerEvent: {}
+[29.170249] (-) TimerEvent: {}
+[29.271002] (-) TimerEvent: {}
+[29.371663] (-) TimerEvent: {}
+[29.472341] (-) TimerEvent: {}
+[29.572966] (-) TimerEvent: {}
+[29.673562] (-) TimerEvent: {}
+[29.774355] (-) TimerEvent: {}
+[29.874954] (-) TimerEvent: {}
+[29.975618] (-) TimerEvent: {}
+[30.076315] (-) TimerEvent: {}
+[30.177133] (-) TimerEvent: {}
+[30.277886] (-) TimerEvent: {}
+[30.378818] (-) TimerEvent: {}
+[30.479591] (-) TimerEvent: {}
+[30.580348] (-) TimerEvent: {}
+[30.681088] (-) TimerEvent: {}
+[30.781836] (-) TimerEvent: {}
+[30.882538] (-) TimerEvent: {}
+[30.983417] (-) TimerEvent: {}
+[31.084231] (-) TimerEvent: {}
+[31.184865] (-) TimerEvent: {}
+[31.285737] (-) TimerEvent: {}
+[31.386280] (-) TimerEvent: {}
+[31.486861] (-) TimerEvent: {}
+[31.587738] (-) TimerEvent: {}
+[31.688351] (-) TimerEvent: {}
+[31.788876] (-) TimerEvent: {}
+[31.889589] (-) TimerEvent: {}
+[31.990399] (-) TimerEvent: {}
+[32.091036] (-) TimerEvent: {}
+[32.191430] (-) TimerEvent: {}
+[32.291761] (-) TimerEvent: {}
+[32.392255] (-) TimerEvent: {}
+[32.492880] (-) TimerEvent: {}
+[32.594040] (-) TimerEvent: {}
+[32.694774] (-) TimerEvent: {}
+[32.795517] (-) TimerEvent: {}
+[32.896050] (-) TimerEvent: {}
+[32.996650] (-) TimerEvent: {}
+[33.082350] (naoqi_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[33.096886] (-) TimerEvent: {}
+[33.197372] (-) TimerEvent: {}
+[33.213489] (naoqi_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[33.227380] (naoqi_driver) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[33.296389] (naoqi_driver) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[33.297529] (-) TimerEvent: {}
+[33.323310] (naoqi_driver) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[33.333911] (naoqi_driver) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[33.397667] (-) TimerEvent: {}
+[33.498313] (-) TimerEvent: {}
+[33.598951] (-) TimerEvent: {}
+[33.699475] (-) TimerEvent: {}
+[33.800344] (-) TimerEvent: {}
+[33.900934] (-) TimerEvent: {}
+[34.001708] (-) TimerEvent: {}
+[34.102339] (-) TimerEvent: {}
+[34.202996] (-) TimerEvent: {}
+[34.303558] (-) TimerEvent: {}
+[34.404044] (-) TimerEvent: {}
+[34.504605] (-) TimerEvent: {}
+[34.605037] (-) TimerEvent: {}
+[34.705488] (-) TimerEvent: {}
+[34.805962] (-) TimerEvent: {}
+[34.906827] (-) TimerEvent: {}
+[35.007439] (-) TimerEvent: {}
+[35.107907] (-) TimerEvent: {}
+[35.208377] (-) TimerEvent: {}
+[35.308782] (-) TimerEvent: {}
+[35.409215] (-) TimerEvent: {}
+[35.509662] (-) TimerEvent: {}
+[35.610321] (-) TimerEvent: {}
+[35.710900] (-) TimerEvent: {}
+[35.811475] (-) TimerEvent: {}
+[35.911994] (-) TimerEvent: {}
+[36.012556] (-) TimerEvent: {}
+[36.113202] (-) TimerEvent: {}
+[36.213826] (-) TimerEvent: {}
+[36.314580] (-) TimerEvent: {}
+[36.415417] (-) TimerEvent: {}
+[36.516139] (-) TimerEvent: {}
+[36.616890] (-) TimerEvent: {}
+[36.717559] (-) TimerEvent: {}
+[36.818297] (-) TimerEvent: {}
+[36.919053] (-) TimerEvent: {}
+[37.019475] (-) TimerEvent: {}
+[37.120123] (-) TimerEvent: {}
+[37.220705] (-) TimerEvent: {}
+[37.321456] (-) TimerEvent: {}
+[37.422117] (-) TimerEvent: {}
+[37.522821] (-) TimerEvent: {}
+[37.623483] (-) TimerEvent: {}
+[37.724020] (-) TimerEvent: {}
+[37.824506] (-) TimerEvent: {}
+[37.925006] (-) TimerEvent: {}
+[38.025748] (-) TimerEvent: {}
+[38.126505] (-) TimerEvent: {}
+[38.227332] (-) TimerEvent: {}
+[38.327909] (-) TimerEvent: {}
+[38.428761] (-) TimerEvent: {}
+[38.529284] (-) TimerEvent: {}
+[38.629913] (-) TimerEvent: {}
+[38.730574] (-) TimerEvent: {}
+[38.831155] (-) TimerEvent: {}
+[38.931785] (-) TimerEvent: {}
+[39.032294] (-) TimerEvent: {}
+[39.132964] (-) TimerEvent: {}
+[39.233596] (-) TimerEvent: {}
+[39.334182] (-) TimerEvent: {}
+[39.434905] (-) TimerEvent: {}
+[39.535586] (-) TimerEvent: {}
+[39.636230] (-) TimerEvent: {}
+[39.736860] (-) TimerEvent: {}
+[39.837440] (-) TimerEvent: {}
+[39.938018] (-) TimerEvent: {}
+[40.038668] (-) TimerEvent: {}
+[40.139262] (-) TimerEvent: {}
+[40.239932] (-) TimerEvent: {}
+[40.340450] (-) TimerEvent: {}
+[40.441101] (-) TimerEvent: {}
+[40.541790] (-) TimerEvent: {}
+[40.642301] (-) TimerEvent: {}
+[40.742865] (-) TimerEvent: {}
+[40.843414] (-) TimerEvent: {}
+[40.943827] (-) TimerEvent: {}
+[41.044444] (-) TimerEvent: {}
+[41.144923] (-) TimerEvent: {}
+[41.245614] (-) TimerEvent: {}
+[41.346250] (-) TimerEvent: {}
+[41.446727] (-) TimerEvent: {}
+[41.547384] (-) TimerEvent: {}
+[41.647860] (-) TimerEvent: {}
+[41.748563] (-) TimerEvent: {}
+[41.751226] (naoqi_driver) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[41.763648] (naoqi_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[41.768375] (naoqi_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[41.776478] (naoqi_driver) StdoutLine: {'line': b'-- Found naoqi_bridge_msgs: 2.1.0 (/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/cmake)\n'}
+[41.848725] (-) TimerEvent: {}
+[41.949098] (-) TimerEvent: {}
+[41.949571] (naoqi_driver) StdoutLine: {'line': b'-- Found naoqi_libqi: 3.0.3 (/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/cmake)\n'}
+[41.952875] (naoqi_driver) StdoutLine: {'line': b'-- Found naoqi_libqicore: 3.0.0 (/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/cmake)\n'}
+[41.965774] (naoqi_driver) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[42.049411] (-) TimerEvent: {}
+[42.127467] (naoqi_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[42.149535] (-) TimerEvent: {}
+[42.250017] (-) TimerEvent: {}
+[42.312862] (naoqi_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[42.350170] (-) TimerEvent: {}
+[42.416550] (naoqi_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[42.428134] (naoqi_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/chris/ros_ws/build/naoqi_driver\n'}
+[42.439691] (naoqi_driver) CommandEnded: {'returncode': 0}
+[42.440641] (naoqi_driver) JobProgress: {'identifier': 'naoqi_driver', 'progress': 'build'}
+[42.441488] (naoqi_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chris/ros_ws/build/naoqi_driver', '--', '-j20', '-l20'], 'cwd': '/home/chris/ros_ws/build/naoqi_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chris'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/rtabmap_slam/lib:/home/chris/ros_ws/install/rtabmap_odom/lib:/home/chris/ros_ws/install/rtabmap_util/lib:/home/chris/ros_ws/install/rtabmap_sync/lib:/home/chris/ros_ws/install/rtabmap_rviz_plugins/lib:/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap_costmap_plugins/lib:/home/chris/ros_ws/install/rtabmap/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('NAME', 'ChrisLaptop'), ('WSL_INTEROP', '/run/WSL/1226_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/chris/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/Chris/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Chris/AppData/Local/ffmpegio/ffmpeg-downloader/ffmpeg/bin:/mnt/c/Users/Chris/AppData/Local/Programs/Ollama:/snap/bin'), ('WT_SESSION', '79042f0f-fbf2-47ef-8e14-e514f59c6d0b'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/rtabmap_ros:/home/chris/ros_ws/install/rtabmap_launch:/home/chris/ros_ws/install/rtabmap_examples:/home/chris/ros_ws/install/rtabmap_demos:/home/chris/ros_ws/install/rtabmap_viz:/home/chris/ros_ws/install/rtabmap_slam:/home/chris/ros_ws/install/rtabmap_odom:/home/chris/ros_ws/install/rtabmap_util:/home/chris/ros_ws/install/rtabmap_sync:/home/chris/ros_ws/install/rtabmap_rviz_plugins:/home/chris/ros_ws/install/rtabmap_python:/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap_costmap_plugins:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chris/ros_ws/build/naoqi_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages:/home/chris/ros_ws/build/rtabmap_python:/home/chris/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/rtabmap_ros:/home/chris/ros_ws/install/rtabmap_launch:/home/chris/ros_ws/install/rtabmap_examples:/home/chris/ros_ws/install/rtabmap_demos:/home/chris/ros_ws/install/rtabmap_viz:/home/chris/ros_ws/install/rtabmap_slam:/home/chris/ros_ws/install/rtabmap_odom:/home/chris/ros_ws/install/rtabmap_util:/home/chris/ros_ws/install/rtabmap_sync:/home/chris/ros_ws/install/rtabmap_rviz_plugins:/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap_costmap_plugins:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/home/chris/ros_ws/install/rtabmap_python:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[42.450369] (-) TimerEvent: {}
+[42.550631] (-) TimerEvent: {}
+[42.625809] (naoqi_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target naoqi_driver\x1b[0m\n'}
+[42.650854] (-) TimerEvent: {}
+[42.751289] (-) TimerEvent: {}
+[42.851661] (-) TimerEvent: {}
+[42.934124] (naoqi_driver) StdoutLine: {'line': b'[ 95%] Built target naoqi_driver\n'}
+[42.951870] (-) TimerEvent: {}
+[42.952829] (naoqi_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target naoqi_driver_node\x1b[0m\n'}
+[42.986280] (naoqi_driver) StdoutLine: {'line': b'[100%] Built target naoqi_driver_node\n'}
+[42.999538] (naoqi_driver) CommandEnded: {'returncode': 0}
+[43.001583] (naoqi_driver) JobProgress: {'identifier': 'naoqi_driver', 'progress': 'install'}
+[43.012303] (naoqi_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chris/ros_ws/build/naoqi_driver'], 'cwd': '/home/chris/ros_ws/build/naoqi_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chris'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/rtabmap_slam/lib:/home/chris/ros_ws/install/rtabmap_odom/lib:/home/chris/ros_ws/install/rtabmap_util/lib:/home/chris/ros_ws/install/rtabmap_sync/lib:/home/chris/ros_ws/install/rtabmap_rviz_plugins/lib:/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap_costmap_plugins/lib:/home/chris/ros_ws/install/rtabmap/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('NAME', 'ChrisLaptop'), ('WSL_INTEROP', '/run/WSL/1226_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/chris/ros_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/Chris/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Chris/AppData/Local/ffmpegio/ffmpeg-downloader/ffmpeg/bin:/mnt/c/Users/Chris/AppData/Local/Programs/Ollama:/snap/bin'), ('WT_SESSION', '79042f0f-fbf2-47ef-8e14-e514f59c6d0b'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/rtabmap_ros:/home/chris/ros_ws/install/rtabmap_launch:/home/chris/ros_ws/install/rtabmap_examples:/home/chris/ros_ws/install/rtabmap_demos:/home/chris/ros_ws/install/rtabmap_viz:/home/chris/ros_ws/install/rtabmap_slam:/home/chris/ros_ws/install/rtabmap_odom:/home/chris/ros_ws/install/rtabmap_util:/home/chris/ros_ws/install/rtabmap_sync:/home/chris/ros_ws/install/rtabmap_rviz_plugins:/home/chris/ros_ws/install/rtabmap_python:/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap_costmap_plugins:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chris/ros_ws/build/naoqi_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages:/home/chris/ros_ws/build/rtabmap_python:/home/chris/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/rtabmap_ros:/home/chris/ros_ws/install/rtabmap_launch:/home/chris/ros_ws/install/rtabmap_examples:/home/chris/ros_ws/install/rtabmap_demos:/home/chris/ros_ws/install/rtabmap_viz:/home/chris/ros_ws/install/rtabmap_slam:/home/chris/ros_ws/install/rtabmap_odom:/home/chris/ros_ws/install/rtabmap_util:/home/chris/ros_ws/install/rtabmap_sync:/home/chris/ros_ws/install/rtabmap_rviz_plugins:/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap_costmap_plugins:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/home/chris/ros_ws/install/rtabmap_python:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[43.019806] (naoqi_driver) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[43.020322] (naoqi_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[43.020701] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/lib//libnaoqi_driver.so\n'}
+[43.020908] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/lib/naoqi_driver/naoqi_driver_node\n'}
+[43.021270] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/boot_config.json\n'}
+[43.021365] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/nao.rviz\n'}
+[43.021651] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/pepper.rviz\n'}
+[43.021719] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/nao.urdf\n'}
+[43.021766] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/pepper.urdf\n'}
+[43.021810] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/share/urdf/romeo.urdf\n'}
+[43.022126] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/launch/naoqi_driver.launch\n'}
+[43.022287] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/launch/naoqi_driver.launch.py\n'}
+[43.022338] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/library_path.sh\n'}
+[43.022576] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/library_path.dsv\n'}
+[43.022697] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/package_run_dependencies/naoqi_driver\n'}
+[43.023035] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/parent_prefix_path/naoqi_driver\n'}
+[43.023151] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/ament_prefix_path.sh\n'}
+[43.023455] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/ament_prefix_path.dsv\n'}
+[43.023577] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/path.sh\n'}
+[43.023895] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/environment/path.dsv\n'}
+[43.024008] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.bash\n'}
+[43.024094] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.sh\n'}
+[43.024357] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.zsh\n'}
+[43.024478] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/local_setup.dsv\n'}
+[43.024528] (naoqi_driver) StdoutLine: {'line': b'-- Symlinking: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.dsv\n'}
+[43.034222] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/ament_index/resource_index/packages/naoqi_driver\n'}
+[43.034445] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[43.034744] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/naoqi_driverConfig.cmake\n'}
+[43.034861] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/cmake/naoqi_driverConfig-version.cmake\n'}
+[43.034912] (naoqi_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.xml\n'}
+[43.036450] (naoqi_driver) CommandEnded: {'returncode': 0}
+[43.052408] (-) TimerEvent: {}
+[43.076194] (naoqi_driver) JobEnded: {'identifier': 'naoqi_driver', 'rc': 0}
+[43.077544] (-) EventReactorShutdown: {}

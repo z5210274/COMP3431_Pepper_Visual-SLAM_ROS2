@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>transform</name>
+  <version>0.0.1</version>
+  <description>Static transform publisher nodes for Pepper</description>
+
+  <maintainer email="you@example.com">Chris</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Python build system -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+
+  <export>
+    <!-- Tells ROS2 that this is a Python package -->
+    <build_type>ament_python</build_type>
+  </export>
+</package>

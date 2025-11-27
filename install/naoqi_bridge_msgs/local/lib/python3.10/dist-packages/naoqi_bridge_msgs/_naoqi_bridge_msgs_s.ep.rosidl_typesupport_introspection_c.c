@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_py/naoqi_bridge_msgs/_naoqi_bridge_msgs_s.ep.rosidl_typesupport_introspection_c.c

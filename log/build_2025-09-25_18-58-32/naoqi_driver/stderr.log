@@ -1,0 +1,101 @@
+In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser/detail/parser.hpp:7[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser/detail/read.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser.hpp:16[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:21[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:[m[K In member function ‘[01m[Kvoid naoqi::Driver::registerDefaultConverter()[m[K’:
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:898:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+  898 |     } [01;31m[Kcatch[m[K(const std::exception& e) {
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[KDriver[m[K’
+  976 | void [01;31m[KDriver[m[K::registerSubscriber( subscriber::Subscriber sub )
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KDriver[m[K’
+  976 | void [01;31m[KD[m[K[32m[Kriver[m[K::registerSubscriber( subscriber::Subscriber sub )
+      |      [01;31m[K^[m[K[32m[K~~~~~[m[K
+      |      [32m[K([m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:6:[m[K [01;31m[Kerror: [m[Kexpected type-specifier
+  976 | void [01;31m[KDriver[m[K::registerSubscriber( subscriber::Subscriber sub )
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:32:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+  976 | void Driver::registerSubscriber[01;31m[K([m[K subscriber::Subscriber sub )
+      |                                [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K([m[K’ token
+  976 | void [34m[KDriver[m[K::registerSubscriber[01;31m[K([m[K subscriber::Subscriber sub )
+      |      [34m[K~~~~~~[m[K                    [01;31m[K^[m[K
+      |                                [32m[K)[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K([m[K’ token
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ksub[m[K’
+  976 | void Driver::registerSubscriber( subscriber::Subscriber [01;31m[Ksub[m[K )
+      |                                                         [01;31m[K^~~[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:976:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Ksub[m[K’
+  976 | void Driver::registerSubscriber[34m[K([m[K subscriber::Subscriber[01;31m[K [m[K[32m[Ksub[m[K )
+      |                                [34m[K~[m[K                       [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                        [32m[K)[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1006:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1006 | void Driver::registerService[01;31m[K([m[K service::Service srv )
+      |                             [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1012:37:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1012 | void Driver::registerDefaultServices[01;31m[K([m[K)
+      |                                     [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1019:56:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1019 | std::vector<std::string> Driver::getAvailableConverters[01;31m[K([m[K)
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1034:29:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1034 | void Driver::startPublishing[01;31m[K([m[K)
+      |                             [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1043:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1043 | void Driver::stopPublishing[01;31m[K([m[K)
+      |                            [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1052:57:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1052 | std::vector<std::string> Driver::getSubscribedPublishers[01;31m[K([m[K) const
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1068:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1068 | void Driver::startRecording[01;31m[K([m[K)
+      |                            [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1093:38:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1093 | void Driver::startRecordingConverters[01;31m[K([m[Kconst std::vector<std::string>& names)
+      |                                      [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1147:34:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1147 | std::string Driver::stopRecording[01;31m[K([m[K)
+      |                                  [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1166:26:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1166 | void Driver::startLogging[01;31m[K([m[K)
+      |                          [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1171:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1171 | void Driver::stopLogging[01;31m[K([m[K)
+      |                         [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1176:18:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1176 | void Driver::stop[01;31m[K([m[K)
+      |                  [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1190:27:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1190 | void Driver::parseJsonFile[01;31m[K([m[Kstd::string filepath, boost::property_tree::ptree &pt){
+      |                           [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1199:33:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1199 | void Driver::addMemoryConverters[01;31m[K([m[Kstd::string filepath){
+      |                                 [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1259:36:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1259 | bool Driver::registerEventConverter[01;31m[K([m[Kconst std::string& key, const dataType::DataType& type)
+      |                                    [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1345:46:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1345 | std::vector<std::string> Driver::getFilesList[01;31m[K([m[K)
+      |                                              [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1360:28:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1360 | void Driver::removeAllFiles[01;31m[K([m[K)
+      |                            [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1373:25:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+ 1373 | void Driver::removeFiles[01;31m[K([m[Kstd::vector<std::string> files)
+      |                         [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:[m[K At global scope:
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:1402:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ 1402 | }[01;31m[K [m[K//naoqi
+      |  [01;31m[K^[m[K
+[01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:122:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  122 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:76: CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/naoqi_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

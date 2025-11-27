@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_cpp/naoqi_bridge_msgs/msg/detail/face_roi__type_support.hpp

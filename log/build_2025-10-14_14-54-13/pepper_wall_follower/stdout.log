@@ -1,0 +1,43 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o[0m
+[32m[1mLinking CXX executable pepper_wall_follower[0m
+Built target pepper_wall_follower
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/lib/pepper_wall_follower/pepper_wall_follower
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/launch/pepper_wall_follower.launch.py
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/package_run_dependencies/pepper_wall_follower
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/parent_prefix_path/pepper_wall_follower
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/path.sh
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/path.dsv
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.bash
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.sh
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.zsh
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.dsv
+-- Symlinking: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.dsv
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/packages/pepper_wall_follower
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/pepper_wall_followerConfig.cmake
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/pepper_wall_followerConfig-version.cmake
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.xml
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/lib/pepper_wall_follower/pepper_wall_follower
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/launch/pepper_wall_follower.launch.py
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/package_run_dependencies/pepper_wall_follower
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/parent_prefix_path/pepper_wall_follower
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/path.sh
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/environment/path.dsv
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.bash
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.sh
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.zsh
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/local_setup.dsv
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.dsv
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/ament_index/resource_index/packages/pepper_wall_follower
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/pepper_wall_followerConfig.cmake
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/cmake/pepper_wall_followerConfig-version.cmake
+-- Up-to-date symlink: /home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.xml

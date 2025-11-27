@@ -1,0 +1,47 @@
+[0.176s] Invoking command in '/home/chris/ros_ws/build/naoqi_libqicore': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqicore -- -j20 -l20
+[0.267s] [  9%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/loglistener_proxy.cpp.o[0m
+[0.267s] [ 18%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/logmanager_proxy.cpp.o[0m
+[0.269s] [ 27%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/logprovider_proxy.cpp.o[0m
+[0.273s] [ 36%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/registration.cpp.o[0m
+[0.277s] [ 45%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/logproviderimpl.cpp.o[0m
+[0.280s] [ 54%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/file_proxy.cpp.o[0m
+[0.285s] [ 63%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/fileimpl.cpp.o[0m
+[0.287s] [ 72%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/fileoperation.cpp.o[0m
+[0.292s] [ 81%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/progressnotifier_proxy.cpp.o[0m
+[0.293s] [ 90%] [32mBuilding CXX object libqicore/CMakeFiles/qicore.dir/src/progressnotifier.cpp.o[0m
+[32.845s] [100%] [32m[1mLinking CXX static library libqicore.a[0m
+[33.034s] [100%] Built target qicore
+[33.051s] Invoked command in '/home/chris/ros_ws/build/naoqi_libqicore' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqicore -- -j20 -l20
+[33.057s] Invoking command in '/home/chris/ros_ws/build/naoqi_libqicore': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_libqicore
+[33.065s] -- Install configuration: ""
+[33.067s] -- Execute custom install script
+[33.068s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/include/qicore/api.hpp
+[33.069s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/include/qicore/loglistener.hpp
+[33.069s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/include/qicore/logmanager.hpp
+[33.069s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/include/qicore/logmessage.hpp
+[33.070s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/include/qicore/logprovider.hpp
+[33.070s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/include/qicore/file.hpp
+[33.070s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/include/qicore/fileoperation.hxx
+[33.072s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/lib/libqicore.a
+[33.073s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.xml
+[33.074s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/environment/library_path.sh
+[33.074s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/environment/library_path.dsv
+[33.077s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/ament_index/resource_index/package_run_dependencies/naoqi_libqicore
+[33.078s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/ament_index/resource_index/parent_prefix_path/naoqi_libqicore
+[33.078s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/environment/ament_prefix_path.sh
+[33.079s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/environment/ament_prefix_path.dsv
+[33.079s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/environment/path.sh
+[33.080s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/environment/path.dsv
+[33.080s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/local_setup.bash
+[33.081s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/local_setup.sh
+[33.081s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/local_setup.zsh
+[33.082s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/local_setup.dsv
+[33.082s] -- Symlinking: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.dsv
+[33.092s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/ament_index/resource_index/packages/naoqi_libqicore
+[33.093s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/cmake/ament_cmake_export_libraries-extras.cmake
+[33.094s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.095s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.095s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/cmake/naoqi_libqicoreConfig.cmake
+[33.096s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/cmake/naoqi_libqicoreConfig-version.cmake
+[33.096s] -- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.xml
+[33.101s] Invoked command in '/home/chris/ros_ws/build/naoqi_libqicore' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_libqicore

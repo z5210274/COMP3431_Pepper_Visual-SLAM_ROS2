@@ -1,0 +1,9 @@
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:267 (message):
+  ament_cmake_symlink_install_targets() can't find
+  '/home/chris/ros_ws/build/naoqi_driver/naoqi_driver_node'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install_targets_1_.cmake:1 (ament_cmake_symlink_install_targets)
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (include)
+  cmake_install.cmake:46 (include)
+
+[0m

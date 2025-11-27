@@ -1,0 +1,56 @@
+[0.883s] Invoking command in '/home/chris/ros_ws/build/naoqi_driver': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_driver -- -j20 -l20
+[1.066s] [  2%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o[0m
+[1.066s] [  4%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/helpers/driver_helpers.cpp.o[0m
+[1.067s] [  6%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/recorder/globalrecorder.cpp.o[0m
+[1.069s] [  9%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/event/audio.cpp.o[0m
+[1.072s] [ 11%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/event/touch.cpp.o[0m
+[1.076s] [ 13%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/touch.cpp.o[0m
+[1.076s] [ 16%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/audio.cpp.o[0m
+[1.082s] [ 18%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/camera.cpp.o[0m
+[1.086s] [ 20%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/diagnostics.cpp.o[0m
+[1.088s] [ 23%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/imu.cpp.o[0m
+[1.089s] [ 25%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/info.cpp.o[0m
+[1.094s] [ 27%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/joint_state.cpp.o[0m
+[1.095s] [ 30%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/laser.cpp.o[0m
+[1.098s] [ 32%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory_list.cpp.o[0m
+[1.106s] [ 34%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory/bool.cpp.o[0m
+[1.112s] [ 37%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory/int.cpp.o[0m
+[1.115s] [ 39%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory/float.cpp.o[0m
+[1.115s] [ 41%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory/string.cpp.o[0m
+[1.119s] [ 44%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/sonar.cpp.o[0m
+[1.132s] [ 46%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/log.cpp.o[0m
+[11.658s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[11.672s]                  from [01m[K/usr/include/boost/property_tree/json_parser/detail/parser.hpp:7[m[K,
+[11.674s]                  from [01m[K/usr/include/boost/property_tree/json_parser/detail/read.hpp:13[m[K,
+[11.674s]                  from [01m[K/usr/include/boost/property_tree/json_parser.hpp:16[m[K,
+[11.674s]                  from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:21[m[K:
+[11.689s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[11.689s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[11.689s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[43.978s] [ 48%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/odom.cpp.o[0m
+[44.383s] [ 51%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/publishers/camera.cpp.o[0m
+[53.169s] [ 53%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/publishers/joint_state.cpp.o[0m
+[62.717s] [ 55%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/publishers/log.cpp.o[0m
+[65.558s] [ 58%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/publishers/sonar.cpp.o[0m
+[266.548s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:76: CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:118: CMakeFiles/naoqi_driver.dir/src/recorder/globalrecorder.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:132: CMakeFiles/naoqi_driver.dir/src/event/audio.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:146: CMakeFiles/naoqi_driver.dir/src/event/touch.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:188: CMakeFiles/naoqi_driver.dir/src/converters/camera.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:202: CMakeFiles/naoqi_driver.dir/src/converters/diagnostics.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:230: CMakeFiles/naoqi_driver.dir/src/converters/info.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:244: CMakeFiles/naoqi_driver.dir/src/converters/joint_state.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:258: CMakeFiles/naoqi_driver.dir/src/converters/laser.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:272: CMakeFiles/naoqi_driver.dir/src/converters/memory_list.cpp.o] Interrupt
+[266.605s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:286: CMakeFiles/naoqi_driver.dir/src/converters/memory/bool.cpp.o] Interrupt
+[266.606s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:300: CMakeFiles/naoqi_driver.dir/src/converters/memory/int.cpp.o] Interrupt
+[266.606s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:314: CMakeFiles/naoqi_driver.dir/src/converters/memory/float.cpp.o] Interrupt
+[266.606s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:328: CMakeFiles/naoqi_driver.dir/src/converters/memory/string.cpp.o] Interrupt
+[266.606s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:216: CMakeFiles/naoqi_driver.dir/src/converters/imu.cpp.o] Interrupt
+[266.611s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:342: CMakeFiles/naoqi_driver.dir/src/converters/sonar.cpp.o] Interrupt
+[266.612s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:356: CMakeFiles/naoqi_driver.dir/src/converters/log.cpp.o] Interrupt
+[266.612s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:370: CMakeFiles/naoqi_driver.dir/src/converters/odom.cpp.o] Interrupt
+[266.612s] gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:412: CMakeFiles/naoqi_driver.dir/src/publishers/log.cpp.o] Interrupt
+[266.612s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/naoqi_driver.dir/all] Interrupt
+[266.612s] gmake: *** [Makefile:146: all] Interrupt
+[267.447s] Invoked command in '/home/chris/ros_ws/build/naoqi_driver' returned '-2': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_driver -- -j20 -l20

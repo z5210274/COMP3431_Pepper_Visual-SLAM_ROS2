@@ -1,0 +1,2 @@
+[0.591s] Invoking command in '/home/chris/ros_ws/build/nao_meshes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/nao_meshes
+[71.896s] Built target install_meshes

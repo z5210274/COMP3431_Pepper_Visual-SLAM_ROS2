@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/pepper_wall_follower/ament_cmake_environment_hooks/local_setup.sh

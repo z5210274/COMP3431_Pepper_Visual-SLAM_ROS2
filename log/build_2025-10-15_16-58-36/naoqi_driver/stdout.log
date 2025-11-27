@@ -1,0 +1,8 @@
+[  2%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/subscribers/teleop.cpp.o[0m
+[  4%] [32m[1mLinking CXX shared library libnaoqi_driver.so[0m
+[ 97%] Built target naoqi_driver
+[ 97%] [32m[1mLinking CXX executable naoqi_driver_node[0m
+[100%] Built target naoqi_driver_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/chris/ros_ws/install/naoqi_driver/lib//libnaoqi_driver.so

@@ -1,0 +1,31 @@
+[0.487s] Invoking command in '/home/chris/ros_ws/build/pepper_wall_follower': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
+[0.576s] [35m[1mConsolidate compiler generated dependencies of target pepper_wall_follower[0m
+[0.606s] [ 50%] [32mBuilding CXX object CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o[0m
+[5.531s] In file included from [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:1[m[K:
+[5.531s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/include/pepper_wall_follower/pepper_wall_follower.hpp:37:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KFRONT_RIGHT[m[K’
+[5.531s]    37 |     FRONT_RIGHT = [01;31m[K5[m[K,
+[5.531s]       |                   [01;31m[K^[m[K
+[5.531s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/include/pepper_wall_follower/pepper_wall_follower.hpp:34:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KFRONT_RIGHT[m[K’
+[5.531s]    34 |     [01;36m[KFRONT_RIGHT[m[K = 2,
+[5.531s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[5.709s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.710s]                  from [01m[K/home/chris/ros_ws/src/pepper_wall_follower/include/pepper_wall_follower/pepper_wall_follower.hpp:4[m[K,
+[5.710s]                  from [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:1[m[K:
+[5.710s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K In member function ‘[01m[Kvoid PepperWallFollower::PrintScanData()[m[K’:
+[5.710s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:202:20:[m[K [01;31m[Kerror: [m[K‘[01m[KLEFT_BACK[m[K’ was not declared in this scope
+[5.710s]   202 |         scan_data_[[01;31m[KLEFT_BACK[m[K],
+[5.710s]       |                    [01;31m[K^~~~~~~~~[m[K
+[10.359s] gmake[2]: *** [CMakeFiles/pepper_wall_follower.dir/build.make:76: CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o] Error 1
+[10.360s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pepper_wall_follower.dir/all] Error 2
+[10.360s] gmake: *** [Makefile:146: all] Error 2
+[10.365s] Invoked command in '/home/chris/ros_ws/build/pepper_wall_follower' returned '2': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20

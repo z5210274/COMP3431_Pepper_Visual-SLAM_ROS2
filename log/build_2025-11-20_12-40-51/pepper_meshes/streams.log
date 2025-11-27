@@ -1,0 +1,2 @@
+[0.593s] Invoking command in '/home/chris/ros_ws/build/pepper_meshes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_meshes
+[17.469s] Built target install_meshes

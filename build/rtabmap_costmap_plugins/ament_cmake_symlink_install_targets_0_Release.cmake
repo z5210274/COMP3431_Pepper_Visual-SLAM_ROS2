@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chris/ros_ws/build/rtabmap_costmap_plugins/voxel_marker" "TARGETS" "rtabmap_costmap_voxel_marker" "DESTINATION" "lib/rtabmap_costmap_plugins")

@@ -1,0 +1,49 @@
+[0.022s] Invoking command in '/home/chris/ros_ws/build/naoqi_libqi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqi -- -j20 -l20
+[0.148s] [  2%] Built target gtest_main
+[0.150s] [  3%] Built target gtest
+[0.377s] [  4%] [32mBuilding CXX object tests/ka/CMakeFiles/test_ka.dir/test_uri_parsing.cpp.o[0m
+[0.643s] [  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/boundobject.cpp.o[0m
+[0.645s] [  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/remoteobject.cpp.o[0m
+[0.650s] [  6%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectory.cpp.o[0m
+[0.661s] [  7%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectoryclient.cpp.o[0m
+[0.669s] [  8%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectoryproxy.cpp.o[0m
+[0.671s] [  9%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/serviceinfo.cpp.o[0m
+[0.685s] [  9%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/session.cpp.o[0m
+[0.702s] [ 10%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/sessionservice.cpp.o[0m
+[0.706s] [ 11%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/sessionservices.cpp.o[0m
+[0.712s] [ 12%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/server.cpp.o[0m
+[0.717s] [ 13%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/streamcontext.cpp.o[0m
+[0.738s] [ 14%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/transportserver.cpp.o[0m
+[0.739s] [ 14%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/transportserverasio_p.cpp.o[0m
+[0.742s] [ 15%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/messagesocket.cpp.o[0m
+[0.773s] [ 16%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/transportsocketcache.cpp.o[0m
+[0.822s] [ 17%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/tcpmessagesocket.cpp.o[0m
+[0.831s] [ 18%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/uri.cpp.o[0m
+[0.831s] [ 19%] [32mBuilding CXX object CMakeFiles/qi.dir/src/registration.cpp.o[0m
+[0.837s] [ 19%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/url.cpp.o[0m
+[4.279s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:986: CMakeFiles/qi.dir/src/messaging/remoteobject.cpp.o] Interrupt
+[4.281s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1000: CMakeFiles/qi.dir/src/messaging/servicedirectory.cpp.o] Interrupt
+[4.282s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1014: CMakeFiles/qi.dir/src/messaging/servicedirectoryclient.cpp.o] Interrupt
+[4.283s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1028: CMakeFiles/qi.dir/src/messaging/servicedirectoryproxy.cpp.o] Interrupt
+[4.283s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1056: CMakeFiles/qi.dir/src/messaging/session.cpp.o] Interrupt
+[4.283s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1070: CMakeFiles/qi.dir/src/messaging/sessionservice.cpp.o] Interrupt
+[4.284s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1112: CMakeFiles/qi.dir/src/messaging/streamcontext.cpp.o] Interrupt
+[4.284s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1126: CMakeFiles/qi.dir/src/messaging/transportserver.cpp.o] Interrupt
+[4.284s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1140: CMakeFiles/qi.dir/src/messaging/transportserverasio_p.cpp.o] Interrupt
+[4.284s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1154: CMakeFiles/qi.dir/src/messaging/messagesocket.cpp.o] Interrupt
+[4.284s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1196: CMakeFiles/qi.dir/src/messaging/uri.cpp.o] Interrupt
+[4.284s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1224: CMakeFiles/qi.dir/src/registration.cpp.o] Interrupt
+[4.285s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1084: CMakeFiles/qi.dir/src/messaging/sessionservices.cpp.o] Interrupt
+[4.285s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1098: CMakeFiles/qi.dir/src/messaging/server.cpp.o] Interrupt
+[4.299s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1042: CMakeFiles/qi.dir/src/messaging/serviceinfo.cpp.o] Interrupt
+[4.301s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1168: CMakeFiles/qi.dir/src/messaging/transportsocketcache.cpp.o] Interrupt
+[4.302s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1210: CMakeFiles/qi.dir/src/messaging/url.cpp.o] Interrupt
+[4.319s] gmake[2]: *** [tests/ka/CMakeFiles/test_ka.dir/build.make:482: tests/ka/CMakeFiles/test_ka.dir/test_uri_parsing.cpp.o] Interrupt
+[4.319s] gmake[2]: *** [CMakeFiles/qi.dir/build.make:1182: CMakeFiles/qi.dir/src/messaging/tcpmessagesocket.cpp.o] Interrupt
+[4.319s] gmake[2]: *** wait: No child processes.  Stop.
+[4.320s] gmake[2]: *** Waiting for unfinished jobs....
+[4.320s] gmake[2]: *** wait: No child processes.  Stop.
+[4.335s] gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/qi.dir/all] Error 2
+[4.336s] gmake[1]: *** [CMakeFiles/Makefile2:242: tests/ka/CMakeFiles/test_ka.dir/all] Interrupt
+[4.338s] gmake: *** [Makefile:146: all] Interrupt
+[4.371s] Invoked command in '/home/chris/ros_ws/build/naoqi_libqi' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqi -- -j20 -l20

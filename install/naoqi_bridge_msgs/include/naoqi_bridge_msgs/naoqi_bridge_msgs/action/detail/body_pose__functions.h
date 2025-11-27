@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_c/naoqi_bridge_msgs/action/detail/body_pose__functions.h

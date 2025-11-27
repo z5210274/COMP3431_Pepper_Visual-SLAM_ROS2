@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_c/naoqi_bridge_msgs/msg/detail/memory_pair_int__type_support.h

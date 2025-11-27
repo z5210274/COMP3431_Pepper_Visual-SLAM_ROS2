@@ -1,0 +1,959 @@
+[0.007s] Invoking command in '/home/chris/ros_ws/build/naoqi_libqi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/naoqi_libqi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/naoqi_libqi
+[0.019s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.123s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.169s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono filesystem program_options regex system thread random 
+[0.172s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.185s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread date_time 
+[0.186s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.254s] -- Configuring done
+[0.255s] [33mCMake Warning (dev) at CMakeLists.txt:418 (add_library):
+[0.255s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[0.255s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[0.255s]   command to set the policy and suppress this warning.
+[0.255s] 
+[0.255s]   File:
+[0.255s] 
+[0.255s]     /home/chris/ros_ws/src/naoqi_libqi/qi/config.hpp.in
+[0.255s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.255s] [0m
+[0.295s] -- Generating done
+[0.299s] -- Build files have been written to: /home/chris/ros_ws/build/naoqi_libqi
+[0.304s] Invoked command in '/home/chris/ros_ws/build/naoqi_libqi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/naoqi_libqi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/naoqi_libqi
+[0.305s] Invoking command in '/home/chris/ros_ws/build/naoqi_libqi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqi -- -j20 -l20
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.354s] [  2%] Built target gtest_main
+[0.354s] [  3%] Built target gtest
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target test_ka[0m
+[0.464s] [  4%] [32mBuilding CXX object tests/ka/CMakeFiles/test_ka.dir/test_uri_parsing.cpp.o[0m
+[0.498s] [35m[1mConsolidate compiler generated dependencies of target qi[0m
+[0.790s] [  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/boundobject.cpp.o[0m
+[0.792s] [  5%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/remoteobject.cpp.o[0m
+[0.794s] [  6%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectory.cpp.o[0m
+[0.795s] [  7%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectoryclient.cpp.o[0m
+[0.800s] [  8%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/servicedirectoryproxy.cpp.o[0m
+[0.802s] [  9%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/serviceinfo.cpp.o[0m
+[0.806s] [  9%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/session.cpp.o[0m
+[0.807s] [ 10%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/sessionservice.cpp.o[0m
+[0.813s] [ 11%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/sessionservices.cpp.o[0m
+[0.818s] [ 12%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/server.cpp.o[0m
+[0.822s] [ 13%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/streamcontext.cpp.o[0m
+[0.824s] [ 14%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/transportserver.cpp.o[0m
+[0.827s] [ 14%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/transportserverasio_p.cpp.o[0m
+[0.837s] [ 15%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/messagesocket.cpp.o[0m
+[0.838s] [ 16%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/transportsocketcache.cpp.o[0m
+[0.849s] [ 17%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/tcpmessagesocket.cpp.o[0m
+[0.851s] [ 18%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/uri.cpp.o[0m
+[0.852s] [ 18%] [32mBuilding CXX object CMakeFiles/qi.dir/src/messaging/url.cpp.o[0m
+[0.870s] [ 19%] [32mBuilding CXX object CMakeFiles/qi.dir/src/registration.cpp.o[0m
+[3.179s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/ka/uri/parsing.hpp:16[m[K,
+[3.179s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/ka/uri/uri.hpp:6[m[K,
+[3.179s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/uri.cpp:5[m[K:
+[3.179s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/ka/uri/../parse.hpp:[m[K In function ‘[01m[Kconstexpr ka::product_t<> ka::parse::detail::unwrap_product(ka::parse::product_t<>)[m[K’:
+[3.179s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/ka/uri/../parse.hpp:369:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.179s]   369 |   auto unwrap_product([01;35m[Kproduct_t<> prod[m[K) noexcept -> ka::product_t<> {
+[3.180s]       |                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.273s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/ka/uri/parsing.hpp:16[m[K,
+[3.274s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/tests/ka/test_uri_parsing.cpp:2[m[K:
+[3.274s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/ka/uri/../parse.hpp:[m[K In function ‘[01m[Kconstexpr ka::product_t<> ka::parse::detail::unwrap_product(ka::parse::product_t<>)[m[K’:
+[3.274s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/ka/uri/../parse.hpp:369:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.274s]   369 |   auto unwrap_product([01;35m[Kproduct_t<> prod[m[K) noexcept -> ka::product_t<> {
+[3.274s]       |                       [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[5.943s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[5.958s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.hpp:11[m[K,
+[5.958s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.cpp:8[m[K:
+[5.962s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:[m[K In constructor ‘[01m[Kqi::AnyReference::AnyReference(const qi::AnyValue&)[m[K’:
+[5.962s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:401:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kval[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.962s]   401 |   AnyReference([01;35m[Kconst AnyValue& val[m[K)
+[5.962s]       |                [01;35m[K~~~~~~~~~~~~~~~~^~~[m[K
+[6.321s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[6.321s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[6.322s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[6.322s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/serviceinfo.cpp:8[m[K:
+[6.322s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[6.325s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.333s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[6.333s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[6.334s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[6.334s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[6.334s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[6.334s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/url.cpp:7[m[K:
+[6.334s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[6.334s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.334s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[6.334s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[6.435s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[6.435s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[6.435s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[6.435s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/registration.cpp:6[m[K:
+[6.435s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[6.441s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.441s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[6.442s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[6.756s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/url.cpp:7[m[K:
+[6.757s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[6.757s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:289:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.757s]   289 |     virtual bool convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[6.757s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.759s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:290:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.759s]   290 |                              [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[6.759s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.759s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:291:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.759s]   291 |                              [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[6.761s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.761s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[6.761s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:296:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.761s]   296 |     virtual bool convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[6.761s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.768s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:297:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.768s]   297 |                            [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[6.768s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.768s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:298:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.768s]   298 |                            [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[6.769s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.770s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/serviceinfo.cpp:8[m[K:
+[6.772s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[6.772s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:289:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.772s]   289 |     virtual bool convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[6.772s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.773s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:290:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.773s]   290 |                              [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[6.773s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.773s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:291:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.773s]   291 |                              [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[6.773s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.773s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[6.773s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:296:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.773s]   296 |     virtual bool convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[6.774s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.774s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:297:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.774s]   297 |                            [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[6.774s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.774s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:298:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.774s]   298 |                            [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[6.774s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.791s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:431[m[K,
+[6.798s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/serviceinfo.cpp:8[m[K:
+[6.798s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<void>::destroy(void*)[m[K’:
+[6.798s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:318:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.798s]   318 |     void destroy([01;35m[Kvoid* ptr[m[K) override {}
+[6.798s]       |                  [01;35m[K~~~~~~^~~[m[K
+[6.798s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<void>::less(void*, void*)[m[K’:
+[6.799s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.799s]   320 |     bool less([01;35m[Kvoid* a[m[K, void* b) override { return false; }
+[6.799s]       |               [01;35m[K~~~~~~^[m[K
+[6.799s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.799s]   320 |     bool less(void* a, [01;35m[Kvoid* b[m[K) override { return false; }
+[6.799s]       |                        [01;35m[K~~~~~~^[m[K
+[6.805s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:431[m[K,
+[6.805s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/url.cpp:7[m[K:
+[6.805s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<void>::destroy(void*)[m[K’:
+[6.805s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:318:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.805s]   318 |     void destroy([01;35m[Kvoid* ptr[m[K) override {}
+[6.805s]       |                  [01;35m[K~~~~~~^~~[m[K
+[6.805s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<void>::less(void*, void*)[m[K’:
+[6.806s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.806s]   320 |     bool less([01;35m[Kvoid* a[m[K, void* b) override { return false; }
+[6.806s]       |               [01;35m[K~~~~~~^[m[K
+[6.806s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.806s]   320 |     bool less(void* a, [01;35m[Kvoid* b[m[K) override { return false; }
+[6.806s]       |                        [01;35m[K~~~~~~^[m[K
+[6.806s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/registration.cpp:6[m[K:
+[6.806s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[6.806s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:289:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.807s]   289 |     virtual bool convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[6.807s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.807s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:290:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.807s]   290 |                              [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[6.807s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.807s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:291:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.807s]   291 |                              [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[6.807s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.807s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[6.808s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:296:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.808s]   296 |     virtual bool convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[6.808s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.808s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:297:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.808s]   297 |                            [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[6.808s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.808s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:298:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.808s]   298 |                            [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[6.808s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.818s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:431[m[K,
+[6.818s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/registration.cpp:6[m[K:
+[6.818s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<void>::destroy(void*)[m[K’:
+[6.818s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:318:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.818s]   318 |     void destroy([01;35m[Kvoid* ptr[m[K) override {}
+[6.818s]       |                  [01;35m[K~~~~~~^~~[m[K
+[6.819s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<void>::less(void*, void*)[m[K’:
+[6.819s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.819s]   320 |     bool less([01;35m[Kvoid* a[m[K, void* b) override { return false; }
+[6.819s]       |               [01;35m[K~~~~~~^[m[K
+[6.819s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.819s]   320 |     bool less(void* a, [01;35m[Kvoid* b[m[K) override { return false; }
+[6.819s]       |                        [01;35m[K~~~~~~^[m[K
+[7.001s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.001s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.001s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[7.002s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:560[m[K,
+[7.002s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[7.002s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.hpp:11[m[K,
+[7.002s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.cpp:8[m[K:
+[7.002s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.002s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.002s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.002s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.245s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:560[m[K,
+[7.245s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[7.245s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.hpp:11[m[K,
+[7.246s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.cpp:8[m[K:
+[7.247s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.247s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:289:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.247s]   289 |     virtual bool convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[7.247s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.249s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:290:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.249s]   290 |                              [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[7.249s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.255s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:291:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.255s]   291 |                              [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[7.256s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.256s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.256s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:296:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.256s]   296 |     virtual bool convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[7.256s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.256s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:297:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.256s]   297 |                            [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[7.256s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.256s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:298:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.257s]   298 |                            [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[7.257s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.266s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:431[m[K,
+[7.267s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:560[m[K,
+[7.267s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[7.267s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.hpp:11[m[K,
+[7.267s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.cpp:8[m[K:
+[7.267s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<void>::destroy(void*)[m[K’:
+[7.267s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:318:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.267s]   318 |     void destroy([01;35m[Kvoid* ptr[m[K) override {}
+[7.267s]       |                  [01;35m[K~~~~~~^~~[m[K
+[7.270s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<void>::less(void*, void*)[m[K’:
+[7.270s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.270s]   320 |     bool less([01;35m[Kvoid* a[m[K, void* b) override { return false; }
+[7.271s]       |               [01;35m[K~~~~~~^[m[K
+[7.271s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.271s]   320 |     bool less(void* a, [01;35m[Kvoid* b[m[K) override { return false; }
+[7.271s]       |                        [01;35m[K~~~~~~^[m[K
+[7.402s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/listtypeinterface.hxx:12[m[K,
+[7.402s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:434[m[K,
+[7.402s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/url.cpp:7[m[K:
+[7.410s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:[m[K In constructor ‘[01m[Kqi::AnyReference::AnyReference(const qi::AnyValue&)[m[K’:
+[7.410s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:401:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kval[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.410s]   401 |   AnyReference([01;35m[Kconst AnyValue& val[m[K)
+[7.410s]       |                [01;35m[K~~~~~~~~~~~~~~~~^~~[m[K
+[7.414s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/listtypeinterface.hxx:12[m[K,
+[7.415s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:434[m[K,
+[7.415s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/registration.cpp:6[m[K:
+[7.415s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:[m[K In constructor ‘[01m[Kqi::AnyReference::AnyReference(const qi::AnyValue&)[m[K’:
+[7.415s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:401:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kval[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.415s]   401 |   AnyReference([01;35m[Kconst AnyValue& val[m[K)
+[7.415s]       |                [01;35m[K~~~~~~~~~~~~~~~~^~~[m[K
+[7.415s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[7.415s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/clientauthenticator_p.hpp:10[m[K,
+[7.416s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/servicedirectoryproxy.cpp:6[m[K:
+[7.416s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:[m[K In constructor ‘[01m[Kqi::AnyReference::AnyReference(const qi::AnyValue&)[m[K’:
+[7.416s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:401:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kval[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.416s]   401 |   AnyReference([01;35m[Kconst AnyValue& val[m[K)
+[7.416s]       |                [01;35m[K~~~~~~~~~~~~~~~~^~~[m[K
+[7.438s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.438s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.438s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[7.438s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[7.438s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[7.438s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyobject.hpp:15[m[K,
+[7.439s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/server.cpp:5[m[K:
+[7.439s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.439s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.439s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.439s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.443s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/listtypeinterface.hxx:12[m[K,
+[7.444s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:434[m[K,
+[7.444s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/serviceinfo.cpp:8[m[K:
+[7.444s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:[m[K In constructor ‘[01m[Kqi::AnyReference::AnyReference(const qi::AnyValue&)[m[K’:
+[7.444s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:401:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kval[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.444s]   401 |   AnyReference([01;35m[Kconst AnyValue& val[m[K)
+[7.444s]       |                [01;35m[K~~~~~~~~~~~~~~~~^~~[m[K
+[7.472s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hpp:131[m[K,
+[7.472s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyiterator.hpp:10[m[K,
+[7.472s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/listtypeinterface.hxx:13[m[K,
+[7.472s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:434[m[K,
+[7.472s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/registration.cpp:6[m[K:
+[7.472s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hxx:[m[K In member function ‘[01m[Kvoid qi::FutureValueConverter<void, qi::AnyValue>::operator()(void*, qi::AnyValue&)[m[K’:
+[7.473s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hxx:240:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.473s]   240 |   void operator()([01;35m[Kvoid *in[m[K, qi::AnyValue &out)
+[7.473s]       |                   [01;35m[K~~~~~~^~[m[K
+[7.480s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hpp:131[m[K,
+[7.481s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyiterator.hpp:10[m[K,
+[7.481s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/listtypeinterface.hxx:13[m[K,
+[7.482s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:434[m[K,
+[7.482s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/url.cpp:7[m[K:
+[7.482s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hxx:[m[K In member function ‘[01m[Kvoid qi::FutureValueConverter<void, qi::AnyValue>::operator()(void*, qi::AnyValue&)[m[K’:
+[7.482s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hxx:240:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.482s]   240 |   void operator()([01;35m[Kvoid *in[m[K, qi::AnyValue &out)
+[7.482s]       |                   [01;35m[K~~~~~~^~[m[K
+[7.495s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hpp:131[m[K,
+[7.495s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyiterator.hpp:10[m[K,
+[7.495s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/listtypeinterface.hxx:13[m[K,
+[7.495s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:434[m[K,
+[7.495s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/serviceinfo.cpp:8[m[K:
+[7.496s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hxx:[m[K In member function ‘[01m[Kvoid qi::FutureValueConverter<void, qi::AnyValue>::operator()(void*, qi::AnyValue&)[m[K’:
+[7.496s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hxx:240:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.496s]   240 |   void operator()([01;35m[Kvoid *in[m[K, qi::AnyValue &out)
+[7.496s]       |                   [01;35m[K~~~~~~^~[m[K
+[7.571s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.571s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.571s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/detail/future_fwd.hpp:24[m[K,
+[7.571s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/future.hpp:7[m[K,
+[7.571s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/messagesocket.hpp:9[m[K,
+[7.571s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/remoteobject_p.hpp:10[m[K,
+[7.571s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/remoteobject.cpp:11[m[K:
+[7.572s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.572s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.572s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.572s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.572s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.572s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.572s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/detail/future_fwd.hpp:24[m[K,
+[7.572s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/future.hpp:7[m[K,
+[7.572s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/sessionservice.hpp:10[m[K,
+[7.572s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/sessionservice.cpp:12[m[K:
+[7.572s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.572s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.573s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.573s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.636s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.636s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.636s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[7.636s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[7.636s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[7.636s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyobject.hpp:15[m[K,
+[7.637s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/boundobject.cpp:8[m[K:
+[7.637s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.637s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.637s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.637s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.656s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hpp:131[m[K,
+[7.657s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyiterator.hpp:10[m[K,
+[7.657s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/listtypeinterface.hxx:13[m[K,
+[7.657s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:434[m[K,
+[7.657s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:560[m[K,
+[7.657s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[7.658s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.hpp:11[m[K,
+[7.658s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.cpp:8[m[K:
+[7.658s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hxx:[m[K In member function ‘[01m[Kvoid qi::FutureValueConverter<void, qi::AnyValue>::operator()(void*, qi::AnyValue&)[m[K’:
+[7.658s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyvalue.hxx:240:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.658s]   240 |   void operator()([01;35m[Kvoid *in[m[K, qi::AnyValue &out)
+[7.658s]       |                   [01;35m[K~~~~~~^~[m[K
+[7.681s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.682s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.682s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/transportsocketcache.cpp:11[m[K:
+[7.682s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.683s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.683s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.683s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.696s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:436[m[K,
+[7.696s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/url.cpp:7[m[K:
+[7.696s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeCStringImpl::set(void**, const char*, size_t)[m[K’:
+[7.698s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:61:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.698s]    61 |     void set(void** storage, const char* ptr, [01;35m[Ksize_t sz[m[K) override
+[7.698s]       |                                               [01;35m[K~~~~~~~^~[m[K
+[7.707s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:436[m[K,
+[7.707s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/registration.cpp:6[m[K:
+[7.707s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeCStringImpl::set(void**, const char*, size_t)[m[K’:
+[7.708s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:61:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.708s]    61 |     void set(void** storage, const char* ptr, [01;35m[Ksize_t sz[m[K) override
+[7.708s]       |                                               [01;35m[K~~~~~~~^~[m[K
+[7.715s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.715s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.715s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[7.716s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[7.716s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[7.716s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/servicedirectoryclient.hpp:12[m[K,
+[7.716s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/servicedirectoryclient.cpp:5[m[K:
+[7.716s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.716s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.716s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.716s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.729s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:440[m[K,
+[7.729s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/url.cpp:7[m[K:
+[7.730s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual qi::AnyReference qi::TypeImpl<boost::any>::get(void*)[m[K’:
+[7.730s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:18:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.730s]    18 |     AnyReference get([01;35m[Kvoid* storage[m[K) override
+[7.730s]       |                      [01;35m[K~~~~~~^~~~~~~[m[K
+[7.730s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<boost::any>::set(void**, qi::AnyReference)[m[K’:
+[7.730s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:24:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.730s]    24 |     void set([01;35m[Kvoid** storage[m[K, AnyReference source) override
+[7.731s]       |              [01;35m[K~~~~~~~^~~~~~~[m[K
+[7.731s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:24:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.731s]    24 |     void set(void** storage, [01;35m[KAnyReference source[m[K) override
+[7.731s]       |                              [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[7.740s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:440[m[K,
+[7.740s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/registration.cpp:6[m[K:
+[7.741s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual qi::AnyReference qi::TypeImpl<boost::any>::get(void*)[m[K’:
+[7.741s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:18:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.741s]    18 |     AnyReference get([01;35m[Kvoid* storage[m[K) override
+[7.741s]       |                      [01;35m[K~~~~~~^~~~~~~[m[K
+[7.745s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<boost::any>::set(void**, qi::AnyReference)[m[K’:
+[7.745s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:24:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.746s]    24 |     void set([01;35m[Kvoid** storage[m[K, AnyReference source) override
+[7.746s]       |              [01;35m[K~~~~~~~^~~~~~~[m[K
+[7.746s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:24:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.746s]    24 |     void set(void** storage, [01;35m[KAnyReference source[m[K) override
+[7.746s]       |                              [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[7.750s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:436[m[K,
+[7.750s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/serviceinfo.cpp:8[m[K:
+[7.750s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeCStringImpl::set(void**, const char*, size_t)[m[K’:
+[7.750s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:61:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.751s]    61 |     void set(void** storage, const char* ptr, [01;35m[Ksize_t sz[m[K) override
+[7.751s]       |                                               [01;35m[K~~~~~~~^~[m[K
+[7.770s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:12[m[K,
+[7.770s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:436[m[K,
+[7.770s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/registration.cpp:6[m[K:
+[7.770s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<qi::MetaSignal>::set(void**, unsigned int, void*)[m[K’:
+[7.770s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.770s]   347 |     inl void TypeImpl<name>::set([01;35m[Kvoid** storage[m[K, unsigned int index, void* valueStorage)                      \
+[7.770s]       |                                  [01;35m[K~~~~~~~^~~~~~~[m[K
+[7.771s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.771s]   347 |     inl void TypeImpl<name>::set(void** [01;36m[Kstorage[m[K, unsigned int index, void* valueStorage)                      \
+[7.771s]       |                                         [01;36m[K^~~~~~~[m[K
+[7.771s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.771s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.771s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.771s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.772s]   347 |     inl void TypeImpl<name>::set(void** storage, [01;35m[Kunsigned int index[m[K, void* valueStorage)                      \
+[7.772s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[7.772s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:63:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.772s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int [01;36m[Kindex[m[K, void* valueStorage)                      \
+[7.773s]       |                                                               [01;36m[K^~~~~[m[K
+[7.773s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.773s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.773s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.774s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KvalueStorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.774s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int index, [01;35m[Kvoid* valueStorage[m[K)                      \
+[7.774s]       |                                                                      [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[7.774s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:76:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.774s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int index, void* [01;36m[KvalueStorage[m[K)                      \
+[7.774s]       |                                                                            [01;36m[K^~~~~~~~~~~~[m[K
+[7.774s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.774s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.774s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.775s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<qi::MetaSignal>::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.775s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:369:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.775s]   369 |     inl bool TypeImpl<name>::convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,                       \
+[7.775s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.775s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:369:81:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.775s]   369 |     inl bool TypeImpl<name>::convertFrom(std::map<std::string, ::qi::AnyValue>& [01;36m[Kfields[m[K,                       \
+[7.775s]       |                                                                                 [01;36m[K^~~~~~[m[K
+[7.776s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.776s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.776s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.776s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:370:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.776s]   370 |                                          [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K, \
+[7.776s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.776s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:370:102:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.776s]   370 |                                          const std::vector<std::tuple<std::string, TypeInterface*>>& [01;36m[Kmissing[m[K, \
+[7.776s]       |                                                                                                      [01;36m[K^~~~~~~[m[K
+[7.776s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.777s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.777s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.777s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:371:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.777s]   371 |                                          [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)         \
+[7.777s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.777s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:371:91:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.777s]   371 |                                          const std::map<std::string, ::qi::AnyReference>& [01;36m[Kdropfields[m[K)         \
+[7.778s]       |                                                                                           [01;36m[K^~~~~~~~~~[m[K
+[7.779s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.779s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.779s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.779s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<qi::MetaSignal>::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.779s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:375:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.779s]   375 |     inl bool TypeImpl<name>::convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,                         \
+[7.779s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.780s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:375:79:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.780s]   375 |     inl bool TypeImpl<name>::convertTo(std::map<std::string, ::qi::AnyValue>& [01;36m[Kfields[m[K,                         \
+[7.780s]       |                                                                               [01;36m[K^~~~~~[m[K
+[7.780s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.780s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.780s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.780s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:376:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.780s]   376 |                                        [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,   \
+[7.780s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.781s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:376:100:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.781s]   376 |                                        const std::vector<std::tuple<std::string, TypeInterface*>>& [01;36m[Kmissing[m[K,   \
+[7.781s]       |                                                                                                    [01;36m[K^~~~~~~[m[K
+[7.781s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.781s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.781s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.781s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:377:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.782s]   377 |                                        [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)           \
+[7.782s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.782s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:377:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.782s]   377 |                                        const std::map<std::string, ::qi::AnyReference>& [01;36m[Kdropfields[m[K)           \
+[7.782s]       |                                                                                         [01;36m[K^~~~~~~~~~[m[K
+[7.782s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.783s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.783s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.783s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<qi::MetaProperty>::set(void**, unsigned int, void*)[m[K’:
+[7.783s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.783s]   347 |     inl void TypeImpl<name>::set([01;35m[Kvoid** storage[m[K, unsigned int index, void* valueStorage)                      \
+[7.783s]       |                                  [01;35m[K~~~~~~~^~~~~~~[m[K
+[7.783s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.783s]   347 |     inl void TypeImpl<name>::set(void** [01;36m[Kstorage[m[K, unsigned int index, void* valueStorage)                      \
+[7.783s]       |                                         [01;36m[K^~~~~~~[m[K
+[7.783s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.784s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.784s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.784s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.784s]   347 |     inl void TypeImpl<name>::set(void** storage, [01;35m[Kunsigned int index[m[K, void* valueStorage)                      \
+[7.784s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[7.784s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:63:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.784s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int [01;36m[Kindex[m[K, void* valueStorage)                      \
+[7.784s]       |                                                               [01;36m[K^~~~~[m[K
+[7.784s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.784s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.784s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.785s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KvalueStorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.785s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int index, [01;35m[Kvoid* valueStorage[m[K)                      \
+[7.785s]       |                                                                      [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[7.785s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:76:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.785s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int index, void* [01;36m[KvalueStorage[m[K)                      \
+[7.786s]       |                                                                            [01;36m[K^~~~~~~~~~~~[m[K
+[7.786s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.786s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.786s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.786s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<qi::MetaProperty>::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.787s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:369:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.787s]   369 |     inl bool TypeImpl<name>::convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,                       \
+[7.787s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.787s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:369:81:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.787s]   369 |     inl bool TypeImpl<name>::convertFrom(std::map<std::string, ::qi::AnyValue>& [01;36m[Kfields[m[K,                       \
+[7.788s]       |                                                                                 [01;36m[K^~~~~~[m[K
+[7.788s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.788s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.788s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.788s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:370:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.788s]   370 |                                          [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K, \
+[7.788s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.788s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:370:102:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.789s]   370 |                                          const std::vector<std::tuple<std::string, TypeInterface*>>& [01;36m[Kmissing[m[K, \
+[7.789s]       |                                                                                                      [01;36m[K^~~~~~~[m[K
+[7.789s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.789s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.789s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.789s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:371:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.789s]   371 |                                          [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)         \
+[7.789s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.790s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:371:91:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.790s]   371 |                                          const std::map<std::string, ::qi::AnyReference>& [01;36m[Kdropfields[m[K)         \
+[7.790s]       |                                                                                           [01;36m[K^~~~~~~~~~[m[K
+[7.790s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.790s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.790s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.790s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<qi::MetaProperty>::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.790s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:375:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.791s]   375 |     inl bool TypeImpl<name>::convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,                         \
+[7.791s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.791s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:375:79:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.793s]   375 |     inl bool TypeImpl<name>::convertTo(std::map<std::string, ::qi::AnyValue>& [01;36m[Kfields[m[K,                         \
+[7.793s]       |                                                                               [01;36m[K^~~~~~[m[K
+[7.793s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.793s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.793s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.793s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:376:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.793s]   376 |                                        [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,   \
+[7.793s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.794s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:376:100:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.794s]   376 |                                        const std::vector<std::tuple<std::string, TypeInterface*>>& [01;36m[Kmissing[m[K,   \
+[7.794s]       |                                                                                                    [01;36m[K^~~~~~~[m[K
+[7.794s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.794s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.794s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.794s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:377:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.794s]   377 |                                        [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)           \
+[7.794s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.794s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:377:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.795s]   377 |                                        const std::map<std::string, ::qi::AnyReference>& [01;36m[Kdropfields[m[K)           \
+[7.795s]       |                                                                                         [01;36m[K^~~~~~~~~~[m[K
+[7.795s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.795s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.795s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.795s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:440[m[K,
+[7.795s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/serviceinfo.cpp:8[m[K:
+[7.795s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual qi::AnyReference qi::TypeImpl<boost::any>::get(void*)[m[K’:
+[7.795s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:18:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.796s]    18 |     AnyReference get([01;35m[Kvoid* storage[m[K) override
+[7.797s]       |                      [01;35m[K~~~~~~^~~~~~~[m[K
+[7.797s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<boost::any>::set(void**, qi::AnyReference)[m[K’:
+[7.797s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:24:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.797s]    24 |     void set([01;35m[Kvoid** storage[m[K, AnyReference source) override
+[7.797s]       |              [01;35m[K~~~~~~~^~~~~~~[m[K
+[7.797s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:24:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.797s]    24 |     void set(void** storage, [01;35m[KAnyReference source[m[K) override
+[7.798s]       |                              [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[7.798s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.798s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.798s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/detail/future_fwd.hpp:24[m[K,
+[7.799s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/future.hpp:7[m[K,
+[7.799s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/sessionservices.hpp:10[m[K,
+[7.800s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/sessionservices.cpp:5[m[K:
+[7.800s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.800s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.801s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.801s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.825s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:436[m[K,
+[7.825s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:560[m[K,
+[7.826s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[7.826s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.hpp:11[m[K,
+[7.826s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.cpp:8[m[K:
+[7.826s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeCStringImpl::set(void**, const char*, size_t)[m[K’:
+[7.827s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:61:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.827s]    61 |     void set(void** storage, const char* ptr, [01;35m[Ksize_t sz[m[K) override
+[7.827s]       |                                               [01;35m[K~~~~~~~^~[m[K
+[7.866s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:440[m[K,
+[7.866s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:560[m[K,
+[7.866s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[7.866s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.hpp:11[m[K,
+[7.866s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.cpp:8[m[K:
+[7.867s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual qi::AnyReference qi::TypeImpl<boost::any>::get(void*)[m[K’:
+[7.867s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:18:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.867s]    18 |     AnyReference get([01;35m[Kvoid* storage[m[K) override
+[7.867s]       |                      [01;35m[K~~~~~~^~~~~~~[m[K
+[7.867s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<boost::any>::set(void**, qi::AnyReference)[m[K’:
+[7.867s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:24:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.867s]    24 |     void set([01;35m[Kvoid** storage[m[K, AnyReference source) override
+[7.868s]       |              [01;35m[K~~~~~~~^~~~~~~[m[K
+[7.868s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[7.868s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[7.868s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyobject.hpp:15[m[K,
+[7.868s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/server.cpp:5[m[K:
+[7.868s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.868s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:289:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.869s]   289 |     virtual bool convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[7.869s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.869s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:290:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.869s]   290 |                              [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[7.873s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.873s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:291:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.874s]   291 |                              [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[7.874s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.874s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/dynamictypeinterface.hxx:24:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksource[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.874s]    24 |     void set(void** storage, [01;35m[KAnyReference source[m[K) override
+[7.874s]       |                              [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[7.874s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.875s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:296:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.875s]   296 |     virtual bool convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[7.875s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.875s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:297:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.875s]   297 |                            [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[7.875s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.875s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:298:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.876s]   298 |                            [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[7.876s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.885s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:431[m[K,
+[7.886s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[7.886s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[7.886s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyobject.hpp:15[m[K,
+[7.886s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/server.cpp:5[m[K:
+[7.887s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<void>::destroy(void*)[m[K’:
+[7.887s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:318:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.888s]   318 |     void destroy([01;35m[Kvoid* ptr[m[K) override {}
+[7.888s]       |                  [01;35m[K~~~~~~^~~[m[K
+[7.888s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<void>::less(void*, void*)[m[K’:
+[7.888s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.888s]   320 |     bool less([01;35m[Kvoid* a[m[K, void* b) override { return false; }
+[7.888s]       |               [01;35m[K~~~~~~^[m[K
+[7.888s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.889s]   320 |     bool less(void* a, [01;35m[Kvoid* b[m[K) override { return false; }
+[7.889s]       |                        [01;35m[K~~~~~~^[m[K
+[7.889s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:12[m[K,
+[7.890s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:436[m[K,
+[7.890s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/anyreference.hpp:560[m[K,
+[7.890s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyvalue.hpp:10[m[K,
+[7.890s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.hpp:11[m[K,
+[7.890s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/streamcontext.cpp:8[m[K:
+[7.890s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<qi::MetaSignal>::set(void**, unsigned int, void*)[m[K’:
+[7.890s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.890s]   347 |     inl void TypeImpl<name>::set([01;35m[Kvoid** storage[m[K, unsigned int index, void* valueStorage)                      \
+[7.891s]       |                                  [01;35m[K~~~~~~~^~~~~~~[m[K
+[7.891s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.891s]   347 |     inl void TypeImpl<name>::set(void** [01;36m[Kstorage[m[K, unsigned int index, void* valueStorage)                      \
+[7.891s]       |                                         [01;36m[K^~~~~~~[m[K
+[7.891s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.891s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.891s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.891s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.891s]   347 |     inl void TypeImpl<name>::set(void** storage, [01;35m[Kunsigned int index[m[K, void* valueStorage)                      \
+[7.891s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[7.892s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:63:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.892s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int [01;36m[Kindex[m[K, void* valueStorage)                      \
+[7.893s]       |                                                               [01;36m[K^~~~~[m[K
+[7.893s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.893s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.893s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.893s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KvalueStorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.893s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int index, [01;35m[Kvoid* valueStorage[m[K)                      \
+[7.893s]       |                                                                      [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[7.893s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:76:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.893s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int index, void* [01;36m[KvalueStorage[m[K)                      \
+[7.894s]       |                                                                            [01;36m[K^~~~~~~~~~~~[m[K
+[7.894s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.894s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.894s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.894s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<qi::MetaSignal>::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.894s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:369:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.894s]   369 |     inl bool TypeImpl<name>::convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,                       \
+[7.894s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.894s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:369:81:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.894s]   369 |     inl bool TypeImpl<name>::convertFrom(std::map<std::string, ::qi::AnyValue>& [01;36m[Kfields[m[K,                       \
+[7.894s]       |                                                                                 [01;36m[K^~~~~~[m[K
+[7.895s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.895s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.895s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.895s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:370:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.896s]   370 |                                          [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K, \
+[7.896s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.900s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:370:102:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.900s]   370 |                                          const std::vector<std::tuple<std::string, TypeInterface*>>& [01;36m[Kmissing[m[K, \
+[7.900s]       |                                                                                                      [01;36m[K^~~~~~~[m[K
+[7.900s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.900s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.900s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.901s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:371:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.901s]   371 |                                          [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)         \
+[7.901s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.902s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:371:91:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.903s]   371 |                                          const std::map<std::string, ::qi::AnyReference>& [01;36m[Kdropfields[m[K)         \
+[7.903s]       |                                                                                           [01;36m[K^~~~~~~~~~[m[K
+[7.911s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.912s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.912s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.912s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<qi::MetaSignal>::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.912s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:375:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.913s]   375 |     inl bool TypeImpl<name>::convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,                         \
+[7.913s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.913s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:375:79:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.913s]   375 |     inl bool TypeImpl<name>::convertTo(std::map<std::string, ::qi::AnyValue>& [01;36m[Kfields[m[K,                         \
+[7.913s]       |                                                                               [01;36m[K^~~~~~[m[K
+[7.914s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.914s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.914s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.914s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:376:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.914s]   376 |                                        [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,   \
+[7.914s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.914s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:376:100:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.914s]   376 |                                        const std::vector<std::tuple<std::string, TypeInterface*>>& [01;36m[Kmissing[m[K,   \
+[7.914s]       |                                                                                                    [01;36m[K^~~~~~~[m[K
+[7.915s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.915s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.915s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.915s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:377:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.915s]   377 |                                        [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)           \
+[7.915s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.915s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:377:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.915s]   377 |                                        const std::map<std::string, ::qi::AnyReference>& [01;36m[Kdropfields[m[K)           \
+[7.916s]       |                                                                                         [01;36m[K^~~~~~~~~~[m[K
+[7.916s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metasignal.hpp:44:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.916s]    44 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaSignal,
+[7.916s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.917s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<qi::MetaProperty>::set(void**, unsigned int, void*)[m[K’:
+[7.917s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.917s]   347 |     inl void TypeImpl<name>::set([01;35m[Kvoid** storage[m[K, unsigned int index, void* valueStorage)                      \
+[7.918s]       |                                  [01;35m[K~~~~~~~^~~~~~~[m[K
+[7.918s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:41:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.918s]   347 |     inl void TypeImpl<name>::set(void** [01;36m[Kstorage[m[K, unsigned int index, void* valueStorage)                      \
+[7.919s]       |                                         [01;36m[K^~~~~~~[m[K
+[7.919s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.919s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.919s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.919s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.919s]   347 |     inl void TypeImpl<name>::set(void** storage, [01;35m[Kunsigned int index[m[K, void* valueStorage)                      \
+[7.919s]       |                                                  [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[7.919s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:63:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.920s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int [01;36m[Kindex[m[K, void* valueStorage)                      \
+[7.920s]       |                                                               [01;36m[K^~~~~[m[K
+[7.920s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.920s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.920s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.920s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KvalueStorage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.920s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int index, [01;35m[Kvoid* valueStorage[m[K)                      \
+[7.921s]       |                                                                      [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[7.921s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:347:76:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.921s]   347 |     inl void TypeImpl<name>::set(void** storage, unsigned int index, void* [01;36m[KvalueStorage[m[K)                      \
+[7.921s]       |                                                                            [01;36m[K^~~~~~~~~~~~[m[K
+[7.921s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.921s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.922s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.922s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[7.922s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[7.922s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[7.922s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[7.922s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[7.924s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyobject.hpp:15[m[K,
+[7.924s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/servicedirectory.cpp:16[m[K:
+[7.924s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[7.924s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.924s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[7.924s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[7.926s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<qi::MetaProperty>::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.926s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:369:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.926s]   369 |     inl bool TypeImpl<name>::convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,                       \
+[7.927s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.927s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:369:81:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.927s]   369 |     inl bool TypeImpl<name>::convertFrom(std::map<std::string, ::qi::AnyValue>& [01;36m[Kfields[m[K,                       \
+[7.927s]       |                                                                                 [01;36m[K^~~~~~[m[K
+[7.927s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.927s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.927s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.927s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:370:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.927s]   370 |                                          [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K, \
+[7.927s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.928s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:370:102:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.928s]   370 |                                          const std::vector<std::tuple<std::string, TypeInterface*>>& [01;36m[Kmissing[m[K, \
+[7.928s]       |                                                                                                      [01;36m[K^~~~~~~[m[K
+[7.928s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.928s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.928s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.928s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:371:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.928s]   371 |                                          [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)         \
+[7.928s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.929s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:371:91:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.929s]   371 |                                          const std::map<std::string, ::qi::AnyReference>& [01;36m[Kdropfields[m[K)         \
+[7.929s]       |                                                                                           [01;36m[K^~~~~~~~~~[m[K
+[7.929s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.929s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.929s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.929s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<qi::MetaProperty>::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[7.929s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:375:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.929s]   375 |     inl bool TypeImpl<name>::convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,                         \
+[7.929s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.930s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:375:79:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.930s]   375 |     inl bool TypeImpl<name>::convertTo(std::map<std::string, ::qi::AnyValue>& [01;36m[Kfields[m[K,                         \
+[7.930s]       |                                                                               [01;36m[K^~~~~~[m[K
+[7.930s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.930s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.930s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.930s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:376:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.930s]   376 |                                        [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,   \
+[7.930s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[7.931s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:376:100:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.931s]   376 |                                        const std::vector<std::tuple<std::string, TypeInterface*>>& [01;36m[Kmissing[m[K,   \
+[7.931s]       |                                                                                                    [01;36m[K^~~~~~~[m[K
+[7.931s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.931s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.931s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.931s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:377:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.931s]   377 |                                        [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)           \
+[7.931s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[7.931s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/structtypeinterface.hxx:377:89:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[K__QI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR_IMPLEMENT[m[K’
+[7.931s]   377 |                                        const std::map<std::string, ::qi::AnyReference>& [01;36m[Kdropfields[m[K)           \
+[7.932s]       |                                                                                         [01;36m[K^~~~~~~~~~[m[K
+[7.933s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/metaproperty.hpp:41:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K’
+[7.933s]    41 | [01;36m[KQI_TYPE_STRUCT_AGREGATE_CONSTRUCTOR[m[K(qi::MetaProperty,
+[7.933s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.066s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[8.066s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[8.066s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:18[m[K,
+[8.066s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/messaging/serviceinfo.hpp:18[m[K,
+[8.066s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/session.hpp:12[m[K,
+[8.067s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/session.cpp:12[m[K:
+[8.067s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[8.067s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.067s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[8.067s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[8.102s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[8.102s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[8.102s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/servicedirectoryclient.hpp:12[m[K,
+[8.103s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/servicedirectoryclient.cpp:5[m[K:
+[8.103s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[8.103s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:289:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.103s]   289 |     virtual bool convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[8.103s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.103s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:290:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.103s]   290 |                              [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[8.103s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[8.103s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:291:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.103s]   291 |                              [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[8.103s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[8.103s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[8.104s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:296:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.104s]   296 |     virtual bool convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[8.104s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.104s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:297:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.104s]   297 |                            [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[8.104s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[8.104s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:298:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.104s]   298 |                            [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[8.104s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[8.113s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:431[m[K,
+[8.113s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[8.114s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[8.114s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/servicedirectoryclient.hpp:12[m[K,
+[8.114s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/servicedirectoryclient.cpp:5[m[K:
+[8.114s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<void>::destroy(void*)[m[K’:
+[8.114s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:318:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.114s]   318 |     void destroy([01;35m[Kvoid* ptr[m[K) override {}
+[8.114s]       |                  [01;35m[K~~~~~~^~~[m[K
+[8.114s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<void>::less(void*, void*)[m[K’:
+[8.114s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.114s]   320 |     bool less([01;35m[Kvoid* a[m[K, void* b) override { return false; }
+[8.114s]       |               [01;35m[K~~~~~~^[m[K
+[8.114s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.115s]   320 |     bool less(void* a, [01;35m[Kvoid* b[m[K) override { return false; }
+[8.115s]       |                        [01;35m[K~~~~~~^[m[K
+[8.140s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[8.140s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[8.141s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyobject.hpp:15[m[K,
+[8.141s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/boundobject.cpp:8[m[K:
+[8.141s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertFrom(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[8.141s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:289:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.141s]   289 |     virtual bool convertFrom([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[8.152s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.153s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:290:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.154s]   290 |                              [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[8.154s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[8.155s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:291:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.155s]   291 |                              [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[8.155s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[8.155s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:[m[K In member function ‘[01m[Kvirtual bool qi::StructTypeInterface::convertTo(std::map<std::__cxx11::basic_string<char>, qi::AnyValue>&, const std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, qi::TypeInterface*> >&, const std::map<std::__cxx11::basic_string<char>, qi::AnyReference>&)[m[K’:
+[8.155s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:296:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.155s]   296 |     virtual bool convertTo([01;35m[Kstd::map<std::string, ::qi::AnyValue>& fields[m[K,
+[8.155s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.157s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:297:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmissing[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.157s]   297 |                            [01;35m[Kconst std::vector<std::tuple<std::string, TypeInterface*>>& missing[m[K,
+[8.157s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[8.158s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:298:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdropfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.158s]   298 |                            [01;35m[Kconst std::map<std::string, ::qi::AnyReference>& dropfields[m[K)
+[8.158s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[8.158s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/typeinterface.hpp:431[m[K,
+[8.158s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyfunction.hpp:54[m[K,
+[8.158s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/signal.hpp:15[m[K,
+[8.158s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/anyobject.hpp:15[m[K,
+[8.158s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/boundobject.cpp:8[m[K:
+[8.158s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual void qi::TypeImpl<void>::destroy(void*)[m[K’:
+[8.159s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:318:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.159s]   318 |     void destroy([01;35m[Kvoid* ptr[m[K) override {}
+[8.159s]       |                  [01;35m[K~~~~~~^~~[m[K
+[8.159s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:[m[K In member function ‘[01m[Kvirtual bool qi::TypeImpl<void>::less(void*, void*)[m[K’:
+[8.159s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.159s]   320 |     bool less([01;35m[Kvoid* a[m[K, void* b) override { return false; }
+[8.159s]       |               [01;35m[K~~~~~~^[m[K
+[8.159s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/typeimpl.hxx:320:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.160s]   320 |     bool less(void* a, [01;35m[Kvoid* b[m[K) override { return false; }
+[8.160s]       |                        [01;35m[K~~~~~~^[m[K
+[8.210s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/os.hpp:22[m[K,
+[8.212s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/log.hpp:26[m[K,
+[8.212s]                  from [01m[K/home/chris/ros_ws/src/naoqi_libqi/src/messaging/transportserver.cpp:15[m[K:
+[8.213s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:[m[K In function ‘[01m[Kconstexpr bool qi::empty(const qi::PtrUid&)[m[K’:
+[8.214s] [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/ptruid.hpp:92:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.214s]    92 |     friend BOOST_CONSTEXPR bool empty([01;35m[Kconst PtrUid& a[m[K) BOOST_NOEXCEPT
+[8.215s]       |                                       [01;35m[K~~~~~~~~~~~~~~^[m[K
+[28.298s] In file included from [01m[K/home/chris/ros_ws/src/naoqi_libqi/qi/type/detail/stringtypeinterface.hxx:12[m[K,

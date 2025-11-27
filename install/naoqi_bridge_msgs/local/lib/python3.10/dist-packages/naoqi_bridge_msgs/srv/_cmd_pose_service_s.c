@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_py/naoqi_bridge_msgs/srv/_cmd_pose_service_s.c

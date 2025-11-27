@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_cpp/naoqi_bridge_msgs/srv/detail/cmd_pose_service__struct.hpp

@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_cpp/naoqi_bridge_msgs/action/detail/body_pose_with_speed__type_support.hpp

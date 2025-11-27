@@ -1,0 +1,4 @@
+[0.023s] Invoking command in '/home/chris/ros_ws/build/transform': /usr/bin/cmake /home/chris/ros_ws/src/transform -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/transform
+[0.032s] [0mCMake Error: The source directory "/home/chris/ros_ws/src/transform" does not appear to contain CMakeLists.txt.
+[0.032s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.036s] Invoked command in '/home/chris/ros_ws/build/transform' returned '1': /usr/bin/cmake /home/chris/ros_ws/src/transform -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/transform

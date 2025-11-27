@@ -1,0 +1,1 @@
+Invoking command in '/home/chris/ros_ws/build/rtabmap_costmap_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/rtabmap_ros/rtabmap_costmap_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/rtabmap_costmap_plugins

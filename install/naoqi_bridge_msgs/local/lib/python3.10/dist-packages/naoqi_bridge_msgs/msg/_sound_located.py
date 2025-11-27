@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_py/naoqi_bridge_msgs/msg/_sound_located.py

@@ -1,0 +1,25 @@
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K In member function ‘[01m[Kvoid PepperWallFollower::update_callback()[m[K’:
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:132:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPrintScanData[m[K’ was not declared in this scope
+  132 |         [01;31m[KPrintScanData[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:138:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPrintScanData[m[K’ was not declared in this scope
+  138 |         [01;31m[KPrintScanData[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:144:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPrintScanData[m[K’ was not declared in this scope
+  144 |         [01;31m[KPrintScanData[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:150:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPrintScanData[m[K’ was not declared in this scope
+  150 |         [01;31m[KPrintScanData[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K At global scope:
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:156:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PepperWallFollower::PrintScanData()[m[K’
+  156 | void [01;31m[KPepperWallFollower[m[K::PrintScanData()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:156:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PepperWallFollower::PrintScanData()[m[K’
+In file included from [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:1[m[K:
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/include/pepper_wall_follower/pepper_wall_follower.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PepperWallFollower[m[K’ defined here
+   11 | class [01;36m[KPepperWallFollower[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pepper_wall_follower.dir/build.make:76: CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pepper_wall_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_py/naoqi_bridge_msgs/action/_set_speech_vocabulary_s.c

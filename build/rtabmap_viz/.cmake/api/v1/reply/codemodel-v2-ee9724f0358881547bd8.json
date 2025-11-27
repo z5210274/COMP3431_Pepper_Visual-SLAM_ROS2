@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fa1f9f9f5cb110fe61d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtabmap_viz",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_image_viewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_image_viewer-Release-1a4bcdeb09529fef87ae.json",
+					"name" : "rgbd_image_viewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_image_viewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_image_viewer_autogen-Release-c23eae41f2d44d4c576d.json",
+					"name" : "rgbd_image_viewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_viz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_viz-Release-1c0e0c2dc74475296fc7.json",
+					"name" : "rtabmap_viz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_viz_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_viz_autogen-Release-fc87727c4f7e9dce6540.json",
+					"name" : "rtabmap_viz_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtabmap_viz_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtabmap_viz_uninstall-Release-08dd8a3529f8b8c76dea.json",
+					"name" : "rtabmap_viz_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1956cc97938d971d0552.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chris/ros_ws/build/rtabmap_viz",
+		"source" : "/home/chris/ros_ws/src/rtabmap_ros/rtabmap_viz"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,93 @@
+[0.009s] Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/wall_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/wall_follower
+[0.232s] -- The C compiler identification is GNU 11.4.0
+[0.857s] -- The CXX compiler identification is GNU 11.4.0
+[1.322s] -- Detecting C compiler ABI info
+[1.515s] -- Detecting C compiler ABI info - done
+[1.521s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.523s] -- Detecting C compile features
+[1.524s] -- Detecting C compile features - done
+[1.529s] -- Detecting CXX compiler ABI info
+[1.906s] -- Detecting CXX compiler ABI info - done
+[1.913s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.913s] -- Detecting CXX compile features
+[1.913s] -- Detecting CXX compile features - done
+[1.947s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.138s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.268s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.521s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.528s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.541s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.685s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.692s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.110s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.828s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.942s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.971s] -- Looking for pthread.h
+[11.148s] -- Looking for pthread.h - found
+[11.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.310s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.311s] -- Found Threads: TRUE  
+[11.396s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[11.400s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[11.423s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[11.447s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.474s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[11.638s] -- Configuring done
+[11.653s] -- Generating done
+[11.657s] -- Build files have been written to: /home/chris/ros_ws/build/wall_follower
+[11.667s] Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/wall_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/wall_follower
+[11.668s] Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/wall_follower -- -j20 -l20
+[11.714s] [ 50%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[11.721s] [ 50%] Built target ament_cmake_python_symlink_wall_follower
+[11.927s] running egg_info
+[11.928s] creating wall_follower.egg-info
+[11.928s] writing wall_follower.egg-info/PKG-INFO
+[11.929s] writing dependency_links to wall_follower.egg-info/dependency_links.txt
+[11.929s] writing top-level names to wall_follower.egg-info/top_level.txt
+[11.929s] writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+[11.932s] reading manifest file 'wall_follower.egg-info/SOURCES.txt'
+[11.932s] writing manifest file 'wall_follower.egg-info/SOURCES.txt'
+[11.955s] [ 50%] Built target ament_cmake_python_build_wall_follower_egg
+[23.230s] [100%] [32m[1mLinking CXX executable wall_follower[0m
+[23.985s] [100%] Built target wall_follower
+[24.000s] Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/wall_follower -- -j20 -l20
+[24.003s] Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/wall_follower
+[24.010s] -- Install configuration: ""
+[24.010s] -- Execute custom install script
+[24.012s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/lib/wall_follower/wall_follower
+[24.022s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower//launch/wall_follower.launch.py
+[24.031s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/include//wall_follower/wall_follower.hpp
+[24.039s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/pythonpath.sh
+[24.049s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/pythonpath.dsv
+[24.059s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower-0.0.0-py3.10.egg-info/PKG-INFO
+[24.067s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.076s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.085s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower-0.0.0-py3.10.egg-info/top_level.txt
+[24.095s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower/__init__.py
+[24.104s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower/landmark.py
+[24.113s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/lib/wall_follower/see_marker.py
+[24.122s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/lib/wall_follower/point_transformer.py
+[24.131s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/ament_index/resource_index/package_run_dependencies/wall_follower
+[24.140s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/ament_index/resource_index/parent_prefix_path/wall_follower
+[24.149s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/ament_prefix_path.sh
+[24.157s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/ament_prefix_path.dsv
+[24.165s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/path.sh
+[24.173s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/path.dsv
+[24.182s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/local_setup.bash
+[24.191s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/local_setup.sh
+[24.200s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/local_setup.zsh
+[24.208s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/local_setup.dsv
+[24.217s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/package.dsv
+[24.227s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/ament_index/resource_index/packages/wall_follower
+[24.236s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.245s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.253s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/cmake/wall_followerConfig.cmake
+[24.262s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/cmake/wall_followerConfig-version.cmake
+[24.270s] -- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/package.xml
+[24.314s] Listing '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower'...
+[24.314s] Compiling '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower/__init__.py'...
+[24.315s] Compiling '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower/landmark.py'...
+[24.322s] Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/wall_follower

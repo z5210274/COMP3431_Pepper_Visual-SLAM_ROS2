@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_libqi/ament_cmake_core/naoqi_libqiConfig-version.cmake

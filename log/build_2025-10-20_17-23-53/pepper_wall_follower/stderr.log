@@ -1,0 +1,19 @@
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K In member function ‘[01m[Kvoid PepperWallFollower::update_callback()[m[K’:
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:258:10:[m[K [01;35m[Kwarning: [m[Ktaking the address of a label is non-standard [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  258 |          [01;35m[Kscan_data_[m[K[RIGHT_BACK]  >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.9) {
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:258:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K[[m[K’ token
+  258 |          scan_data_[01;31m[K[[m[KRIGHT_BACK]  >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.9) {
+      |                    [01;31m[K^[m[K
+      |                    [32m[K;[m[K
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:257:85:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  257 | else if (scan_data_[RIGHT_FRONT] >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.8) [01;35m[K&&[m[K
+      |                                                                                     [01;35m[K^~[m[K
+  258 | [01;35m[K         scan_data_[m[K[RIGHT_BACK]  >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.9) {
+      |          [01;35m[K~~~~~~~~~~[m[K                                                                  
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:258:10:[m[K [01;31m[Kerror: [m[Klabel ‘[01m[Kscan_data_[m[K’ used but not defined
+  258 |          [01;31m[Kscan_data_[m[K[RIGHT_BACK]  >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.9) {
+      |          [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pepper_wall_follower.dir/build.make:76: CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pepper_wall_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

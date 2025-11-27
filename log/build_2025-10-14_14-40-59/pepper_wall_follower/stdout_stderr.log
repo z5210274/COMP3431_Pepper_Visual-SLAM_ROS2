@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target pepper_wall_follower[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o[0m
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K In member function ‘[01m[Kvoid PepperWallFollower::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:59:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_idx[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_x[m[K’?
+   59 |         size_t end_idx = [01;31m[Kstart_idx[m[K + readings_per_sector;
+      |                          [01;31m[K^~~~~~~~~[m[K
+      |                          [32m[Kstart_x[m[K
+gmake[2]: *** [CMakeFiles/pepper_wall_follower.dir/build.make:76: CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pepper_wall_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

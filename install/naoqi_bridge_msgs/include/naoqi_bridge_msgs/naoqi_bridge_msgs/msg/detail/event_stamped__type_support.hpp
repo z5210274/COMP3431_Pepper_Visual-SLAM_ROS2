@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_cpp/naoqi_bridge_msgs/msg/detail/event_stamped__type_support.hpp

@@ -1,0 +1,29 @@
+[0.213s] Invoking command in '/home/chris/ros_ws/build/pepper_wall_follower': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target pepper_wall_follower[0m
+[0.282s] [ 50%] [32mBuilding CXX object CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o[0m
+[3.180s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K In member function ‘[01m[Kvoid PepperWallFollower::update_callback()[m[K’:
+[3.181s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:132:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPrintScanData[m[K’ was not declared in this scope
+[3.181s]   132 |         [01;31m[KPrintScanData[m[K();
+[3.181s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.188s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:138:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPrintScanData[m[K’ was not declared in this scope
+[3.188s]   138 |         [01;31m[KPrintScanData[m[K();
+[3.188s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.196s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:144:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPrintScanData[m[K’ was not declared in this scope
+[3.196s]   144 |         [01;31m[KPrintScanData[m[K();
+[3.196s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.204s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:150:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPrintScanData[m[K’ was not declared in this scope
+[3.204s]   150 |         [01;31m[KPrintScanData[m[K();
+[3.204s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.204s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K At global scope:
+[3.204s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:156:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PepperWallFollower::PrintScanData()[m[K’
+[3.204s]   156 | void [01;31m[KPepperWallFollower[m[K::PrintScanData()
+[3.204s]       |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.204s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:156:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PepperWallFollower::PrintScanData()[m[K’
+[3.204s] In file included from [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:1[m[K:
+[3.204s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/include/pepper_wall_follower/pepper_wall_follower.hpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PepperWallFollower[m[K’ defined here
+[3.204s]    11 | class [01;36m[KPepperWallFollower[m[K : public rclcpp::Node
+[3.204s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[6.524s] gmake[2]: *** [CMakeFiles/pepper_wall_follower.dir/build.make:76: CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o] Error 1
+[6.524s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pepper_wall_follower.dir/all] Error 2
+[6.524s] gmake: *** [Makefile:146: all] Error 2
+[6.527s] Invoked command in '/home/chris/ros_ws/build/pepper_wall_follower' returned '2': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20

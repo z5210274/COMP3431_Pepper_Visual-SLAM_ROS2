@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000798] (-) JobUnselected: {'identifier': 'nao_meshes'}
+[0.000862] (-) JobUnselected: {'identifier': 'naoqi_bridge_msgs'}
+[0.000875] (-) JobUnselected: {'identifier': 'naoqi_libqi'}
+[0.000885] (-) JobUnselected: {'identifier': 'naoqi_libqicore'}
+[0.000912] (-) JobUnselected: {'identifier': 'pepper_meshes'}
+[0.000926] (-) JobUnselected: {'identifier': 'pepper_wall_follower'}
+[0.000935] (-) JobUnselected: {'identifier': 'wall_follower'}
+[0.000946] (naoqi_driver) JobQueued: {'identifier': 'naoqi_driver', 'dependencies': OrderedDict([('naoqi_bridge_msgs', '/home/chris/ros_ws/install/naoqi_bridge_msgs'), ('naoqi_libqi', '/home/chris/ros_ws/install/naoqi_libqi'), ('naoqi_libqicore', '/home/chris/ros_ws/install/naoqi_libqicore')])}
+[0.000969] (naoqi_driver) JobStarted: {'identifier': 'naoqi_driver'}
+[0.099830] (-) TimerEvent: {}
+[0.200450] (-) TimerEvent: {}
+[0.301005] (-) TimerEvent: {}
+[0.401506] (-) TimerEvent: {}
+[0.502167] (-) TimerEvent: {}
+[0.602704] (-) TimerEvent: {}
+[0.703265] (-) TimerEvent: {}
+[0.803829] (-) TimerEvent: {}
+[0.904410] (-) TimerEvent: {}
+[0.930345] (naoqi_driver) JobProgress: {'identifier': 'naoqi_driver', 'progress': 'cmake'}
+[0.933154] (naoqi_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/chris/ros_ws/src/naoqi_driver2', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/naoqi_driver'], 'cwd': '/home/chris/ros_ws/build/naoqi_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chris'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('NAME', 'ChrisLaptop'), ('WSL_INTEROP', '/run/WSL/1530_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/Chris/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Chris/AppData/Local/ffmpegio/ffmpeg-downloader/ffmpeg/bin:/mnt/c/Users/Chris/AppData/Local/Programs/Ollama:/snap/bin'), ('WT_SESSION', 'c54328d6-6333-47c2-88e4-a459fe7e8794'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chris/ros_ws/build/naoqi_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages:/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.995316] (naoqi_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.004468] (-) TimerEvent: {}
+[1.104755] (-) TimerEvent: {}
+[1.121785] (naoqi_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.154880] (naoqi_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.204860] (-) TimerEvent: {}
+[1.305222] (-) TimerEvent: {}
+[1.405656] (-) TimerEvent: {}
+[1.506143] (-) TimerEvent: {}
+[1.606731] (-) TimerEvent: {}
+[1.707250] (-) TimerEvent: {}
+[1.762143] (naoqi_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.768344] (naoqi_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.783209] (naoqi_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.801443] (naoqi_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.807327] (-) TimerEvent: {}
+[1.819387] (naoqi_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.881015] (naoqi_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.885049] (naoqi_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.907473] (-) TimerEvent: {}
+[2.007921] (-) TimerEvent: {}
+[2.108594] (-) TimerEvent: {}
+[2.209239] (-) TimerEvent: {}
+[2.309753] (-) TimerEvent: {}
+[2.410271] (-) TimerEvent: {}
+[2.510800] (-) TimerEvent: {}
+[2.611215] (-) TimerEvent: {}
+[2.711675] (-) TimerEvent: {}
+[2.812092] (-) TimerEvent: {}
+[2.912654] (-) TimerEvent: {}
+[3.013063] (-) TimerEvent: {}
+[3.113538] (-) TimerEvent: {}
+[3.213915] (-) TimerEvent: {}
+[3.314410] (-) TimerEvent: {}
+[3.414851] (-) TimerEvent: {}
+[3.515496] (-) TimerEvent: {}
+[3.615978] (-) TimerEvent: {}
+[3.716528] (-) TimerEvent: {}
+[3.817063] (-) TimerEvent: {}
+[3.917592] (-) TimerEvent: {}
+[4.018211] (-) TimerEvent: {}
+[4.118694] (-) TimerEvent: {}
+[4.219149] (-) TimerEvent: {}
+[4.319670] (-) TimerEvent: {}
+[4.420181] (-) TimerEvent: {}
+[4.520628] (-) TimerEvent: {}
+[4.621103] (-) TimerEvent: {}
+[4.721667] (-) TimerEvent: {}
+[4.822303] (-) TimerEvent: {}
+[4.923036] (-) TimerEvent: {}
+[5.023595] (-) TimerEvent: {}
+[5.124204] (-) TimerEvent: {}
+[5.224901] (-) TimerEvent: {}
+[5.325459] (-) TimerEvent: {}
+[5.425897] (-) TimerEvent: {}
+[5.526204] (-) TimerEvent: {}
+[5.626633] (-) TimerEvent: {}
+[5.727213] (-) TimerEvent: {}
+[5.827664] (-) TimerEvent: {}
+[5.928108] (-) TimerEvent: {}
+[6.028475] (-) TimerEvent: {}
+[6.128816] (-) TimerEvent: {}
+[6.230314] (-) TimerEvent: {}
+[6.330722] (-) TimerEvent: {}
+[6.431126] (-) TimerEvent: {}
+[6.531466] (-) TimerEvent: {}
+[6.631912] (-) TimerEvent: {}
+[6.732425] (-) TimerEvent: {}
+[6.832927] (-) TimerEvent: {}
+[6.933429] (-) TimerEvent: {}
+[7.033793] (-) TimerEvent: {}
+[7.134288] (-) TimerEvent: {}
+[7.234641] (-) TimerEvent: {}
+[7.335097] (-) TimerEvent: {}
+[7.435470] (-) TimerEvent: {}
+[7.535846] (-) TimerEvent: {}
+[7.636168] (-) TimerEvent: {}
+[7.736516] (-) TimerEvent: {}
+[7.837028] (-) TimerEvent: {}
+[7.937456] (-) TimerEvent: {}
+[8.037942] (-) TimerEvent: {}
+[8.138333] (-) TimerEvent: {}
+[8.238724] (-) TimerEvent: {}
+[8.339098] (-) TimerEvent: {}
+[8.439431] (-) TimerEvent: {}
+[8.539778] (-) TimerEvent: {}
+[8.640106] (-) TimerEvent: {}
+[8.740446] (-) TimerEvent: {}
+[8.840878] (-) TimerEvent: {}
+[8.941281] (-) TimerEvent: {}
+[9.041757] (-) TimerEvent: {}
+[9.142311] (-) TimerEvent: {}
+[9.242789] (-) TimerEvent: {}
+[9.343272] (-) TimerEvent: {}
+[9.443813] (-) TimerEvent: {}
+[9.544378] (-) TimerEvent: {}
+[9.644838] (-) TimerEvent: {}
+[9.745250] (-) TimerEvent: {}
+[9.845771] (-) TimerEvent: {}
+[9.946331] (-) TimerEvent: {}
+[10.046942] (-) TimerEvent: {}
+[10.147435] (-) TimerEvent: {}
+[10.247914] (-) TimerEvent: {}
+[10.348257] (-) TimerEvent: {}
+[10.448608] (-) TimerEvent: {}
+[10.548925] (-) TimerEvent: {}
+[10.649411] (-) TimerEvent: {}
+[10.749912] (-) TimerEvent: {}
+[10.850422] (-) TimerEvent: {}
+[10.950963] (-) TimerEvent: {}
+[11.051476] (-) TimerEvent: {}
+[11.152001] (-) TimerEvent: {}
+[11.252628] (-) TimerEvent: {}
+[11.353189] (-) TimerEvent: {}
+[11.453666] (-) TimerEvent: {}
+[11.554154] (-) TimerEvent: {}
+[11.654579] (-) TimerEvent: {}
+[11.754994] (-) TimerEvent: {}
+[11.855365] (-) TimerEvent: {}
+[11.955865] (-) TimerEvent: {}
+[12.056344] (-) TimerEvent: {}
+[12.156910] (-) TimerEvent: {}
+[12.257616] (-) TimerEvent: {}
+[12.358158] (-) TimerEvent: {}
+[12.458570] (-) TimerEvent: {}
+[12.558937] (-) TimerEvent: {}
+[12.659253] (-) TimerEvent: {}
+[12.759590] (-) TimerEvent: {}
+[12.860030] (-) TimerEvent: {}
+[12.960364] (-) TimerEvent: {}
+[13.060748] (-) TimerEvent: {}
+[13.161060] (-) TimerEvent: {}
+[13.261333] (-) TimerEvent: {}
+[13.361716] (-) TimerEvent: {}
+[13.462247] (-) TimerEvent: {}
+[13.562787] (-) TimerEvent: {}
+[13.663211] (-) TimerEvent: {}
+[13.763723] (-) TimerEvent: {}
+[13.864187] (-) TimerEvent: {}
+[13.964625] (-) TimerEvent: {}
+[14.065064] (-) TimerEvent: {}
+[14.165338] (-) TimerEvent: {}
+[14.265642] (-) TimerEvent: {}
+[14.366112] (-) TimerEvent: {}
+[14.466744] (-) TimerEvent: {}
+[14.567186] (-) TimerEvent: {}
+[14.667685] (-) TimerEvent: {}
+[14.768214] (-) TimerEvent: {}
+[14.868766] (-) TimerEvent: {}
+[14.969225] (-) TimerEvent: {}
+[15.069757] (-) TimerEvent: {}
+[15.170169] (-) TimerEvent: {}
+[15.270600] (-) TimerEvent: {}
+[15.371072] (-) TimerEvent: {}
+[15.471483] (-) TimerEvent: {}
+[15.571890] (-) TimerEvent: {}
+[15.672362] (-) TimerEvent: {}
+[15.772698] (-) TimerEvent: {}
+[15.873017] (-) TimerEvent: {}
+[15.973487] (-) TimerEvent: {}
+[16.073895] (-) TimerEvent: {}
+[16.174355] (-) TimerEvent: {}
+[16.274786] (-) TimerEvent: {}
+[16.375315] (-) TimerEvent: {}
+[16.475715] (-) TimerEvent: {}
+[16.576069] (-) TimerEvent: {}
+[16.676623] (-) TimerEvent: {}
+[16.777095] (-) TimerEvent: {}
+[16.877514] (-) TimerEvent: {}
+[16.977990] (-) TimerEvent: {}
+[17.078465] (-) TimerEvent: {}
+[17.178794] (-) TimerEvent: {}
+[17.279165] (-) TimerEvent: {}
+[17.316892] (naoqi_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.379272] (-) TimerEvent: {}
+[17.402056] (naoqi_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[17.413190] (naoqi_driver) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[17.472167] (naoqi_driver) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[17.479387] (-) TimerEvent: {}
+[17.492626] (naoqi_driver) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[17.500761] (naoqi_driver) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[17.579496] (-) TimerEvent: {}
+[17.679813] (-) TimerEvent: {}
+[17.780171] (-) TimerEvent: {}
+[17.880754] (-) TimerEvent: {}
+[17.981118] (-) TimerEvent: {}
+[18.081532] (-) TimerEvent: {}
+[18.181898] (-) TimerEvent: {}
+[18.282396] (-) TimerEvent: {}
+[18.382770] (-) TimerEvent: {}
+[18.483175] (-) TimerEvent: {}
+[18.583683] (-) TimerEvent: {}
+[18.684124] (-) TimerEvent: {}
+[18.784446] (-) TimerEvent: {}
+[18.884860] (-) TimerEvent: {}
+[18.985198] (-) TimerEvent: {}
+[19.085584] (-) TimerEvent: {}
+[19.185957] (-) TimerEvent: {}
+[19.286300] (-) TimerEvent: {}
+[19.386640] (-) TimerEvent: {}
+[19.487025] (-) TimerEvent: {}
+[19.587435] (-) TimerEvent: {}
+[19.687806] (-) TimerEvent: {}
+[19.788203] (-) TimerEvent: {}
+[19.803823] (naoqi_driver) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[19.813636] (naoqi_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[19.816667] (naoqi_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[19.821968] (naoqi_driver) StdoutLine: {'line': b'-- Found naoqi_bridge_msgs: 2.1.0 (/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/cmake)\n'}
+[19.888314] (-) TimerEvent: {}
+[19.945124] (naoqi_driver) StdoutLine: {'line': b'-- Found naoqi_libqi: 3.0.3 (/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/cmake)\n'}
+[19.949263] (naoqi_driver) StdoutLine: {'line': b'-- Found naoqi_libqicore: 3.0.0 (/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/cmake)\n'}
+[19.960863] (naoqi_driver) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[19.988423] (-) TimerEvent: {}
+[20.076476] (naoqi_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[20.088682] (-) TimerEvent: {}
+[20.189085] (-) TimerEvent: {}
+[20.203220] (naoqi_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.289201] (-) TimerEvent: {}
+[20.321013] (naoqi_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[20.332138] (naoqi_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/chris/ros_ws/build/naoqi_driver\n'}
+[20.341427] (naoqi_driver) CommandEnded: {'returncode': 0}
+[20.343364] (naoqi_driver) JobProgress: {'identifier': 'naoqi_driver', 'progress': 'build'}
+[20.343476] (naoqi_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chris/ros_ws/build/naoqi_driver', '--', '-j20', '-l20'], 'cwd': '/home/chris/ros_ws/build/naoqi_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chris'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('NAME', 'ChrisLaptop'), ('WSL_INTEROP', '/run/WSL/1530_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/Chris/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Chris/AppData/Local/ffmpegio/ffmpeg-downloader/ffmpeg/bin:/mnt/c/Users/Chris/AppData/Local/Programs/Ollama:/snap/bin'), ('WT_SESSION', 'c54328d6-6333-47c2-88e4-a459fe7e8794'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chris/ros_ws/build/naoqi_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages:/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[20.389365] (-) TimerEvent: {}
+[20.468609] (naoqi_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target naoqi_driver\x1b[0m\n'}
+[20.489512] (-) TimerEvent: {}
+[20.589893] (-) TimerEvent: {}
+[20.690474] (-) TimerEvent: {}
+[20.715225] (naoqi_driver) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o\x1b[0m\n'}
+[20.716781] (naoqi_driver) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/helpers/driver_helpers.cpp.o\x1b[0m\n'}
+[20.718034] (naoqi_driver) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/helpers/ros_helpers.cpp.o\x1b[0m\n'}
+[20.721015] (naoqi_driver) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/recorder/globalrecorder.cpp.o\x1b[0m\n'}
+[20.725658] (naoqi_driver) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/event/audio.cpp.o\x1b[0m\n'}
+[20.731128] (naoqi_driver) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/event/touch.cpp.o\x1b[0m\n'}
+[20.740402] (naoqi_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/touch.cpp.o\x1b[0m\n'}
+[20.742215] (naoqi_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/audio.cpp.o\x1b[0m\n'}
+[20.742535] (naoqi_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/camera.cpp.o\x1b[0m\n'}
+[20.752528] (naoqi_driver) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/diagnostics.cpp.o\x1b[0m\n'}
+[20.757785] (naoqi_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/imu.cpp.o\x1b[0m\n'}
+[20.765234] (naoqi_driver) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/info.cpp.o\x1b[0m\n'}
+[20.768391] (naoqi_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/joint_state.cpp.o\x1b[0m\n'}
+[20.774390] (naoqi_driver) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/laser.cpp.o\x1b[0m\n'}
+[20.782428] (naoqi_driver) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory_list.cpp.o\x1b[0m\n'}
+[20.783561] (naoqi_driver) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory/bool.cpp.o\x1b[0m\n'}
+[20.788372] (naoqi_driver) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory/int.cpp.o\x1b[0m\n'}
+[20.791105] (-) TimerEvent: {}
+[20.793429] (naoqi_driver) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory/float.cpp.o\x1b[0m\n'}
+[20.799676] (naoqi_driver) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/memory/string.cpp.o\x1b[0m\n'}
+[20.806582] (naoqi_driver) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/converters/sonar.cpp.o\x1b[0m\n'}
+[20.892287] (-) TimerEvent: {}
+[20.995038] (-) TimerEvent: {}
+[21.097868] (-) TimerEvent: {}
+[21.199510] (-) TimerEvent: {}
+[21.301321] (-) TimerEvent: {}
+[21.402083] (-) TimerEvent: {}
+[21.502716] (-) TimerEvent: {}
+[21.603444] (-) TimerEvent: {}
+[21.704333] (-) TimerEvent: {}
+[21.806433] (-) TimerEvent: {}
+[21.907921] (-) TimerEvent: {}
+[22.012426] (-) TimerEvent: {}
+[22.115082] (-) TimerEvent: {}
+[22.216944] (-) TimerEvent: {}
+[22.320043] (-) TimerEvent: {}
+[22.422067] (-) TimerEvent: {}
+[22.524467] (-) TimerEvent: {}
+[22.627045] (-) TimerEvent: {}
+[22.728722] (-) TimerEvent: {}
+[22.835034] (-) TimerEvent: {}
+[22.937384] (-) TimerEvent: {}
+[23.039070] (-) TimerEvent: {}
+[23.143593] (-) TimerEvent: {}
+[23.245096] (-) TimerEvent: {}
+[23.347561] (-) TimerEvent: {}
+[23.451965] (-) TimerEvent: {}
+[23.552572] (-) TimerEvent: {}
+[23.663045] (-) TimerEvent: {}
+[23.763668] (-) TimerEvent: {}
+[23.864205] (-) TimerEvent: {}
+[23.965013] (-) TimerEvent: {}
+[24.071733] (-) TimerEvent: {}
+[24.179031] (-) TimerEvent: {}
+[24.279660] (-) TimerEvent: {}
+[24.380406] (-) TimerEvent: {}
+[24.483032] (-) TimerEvent: {}
+[24.587151] (-) TimerEvent: {}
+[24.687703] (-) TimerEvent: {}
+[24.789918] (-) TimerEvent: {}
+[24.891618] (-) TimerEvent: {}
+[24.999059] (-) TimerEvent: {}
+[25.099674] (-) TimerEvent: {}
+[25.200378] (-) TimerEvent: {}
+[25.301305] (-) TimerEvent: {}
+[25.403594] (-) TimerEvent: {}
+[25.509292] (-) TimerEvent: {}
+[25.610154] (-) TimerEvent: {}
+[25.715325] (-) TimerEvent: {}
+[25.823487] (-) TimerEvent: {}
+[25.927118] (-) TimerEvent: {}
+[26.029575] (-) TimerEvent: {}
+[26.130335] (-) TimerEvent: {}
+[26.232476] (-) TimerEvent: {}
+[26.335019] (-) TimerEvent: {}
+[26.435519] (-) TimerEvent: {}
+[26.536064] (-) TimerEvent: {}
+[26.636833] (-) TimerEvent: {}
+[26.743531] (-) TimerEvent: {}
+[26.845905] (-) TimerEvent: {}
+[26.946550] (-) TimerEvent: {}
+[27.047325] (-) TimerEvent: {}
+[27.148976] (-) TimerEvent: {}
+[27.251012] (-) TimerEvent: {}
+[27.351640] (-) TimerEvent: {}
+[27.455207] (-) TimerEvent: {}
+[27.555660] (-) TimerEvent: {}
+[27.656138] (-) TimerEvent: {}
+[27.759015] (-) TimerEvent: {}
+[27.859562] (-) TimerEvent: {}
+[27.963153] (-) TimerEvent: {}
+[28.063635] (-) TimerEvent: {}
+[28.164198] (-) TimerEvent: {}
+[28.267030] (-) TimerEvent: {}
+[28.367639] (-) TimerEvent: {}
+[28.468374] (-) TimerEvent: {}
+[28.571010] (-) TimerEvent: {}
+[28.672631] (-) TimerEvent: {}
+[28.779867] (-) TimerEvent: {}
+[28.882989] (-) TimerEvent: {}
+[28.986990] (-) TimerEvent: {}
+[29.091029] (-) TimerEvent: {}
+[29.191480] (-) TimerEvent: {}
+[29.299163] (-) TimerEvent: {}
+[29.402570] (-) TimerEvent: {}
+[29.503195] (-) TimerEvent: {}
+[29.603771] (-) TimerEvent: {}
+[29.711100] (-) TimerEvent: {}
+[29.811522] (-) TimerEvent: {}
+[29.911971] (-) TimerEvent: {}
+[30.012449] (-) TimerEvent: {}
+[30.231868] (-) TimerEvent: {}
+[30.464010] (-) TimerEvent: {}
+[30.639056] (-) TimerEvent: {}
+[30.739649] (-) TimerEvent: {}
+[30.840838] (-) TimerEvent: {}
+[30.942664] (-) TimerEvent: {}
+[31.049334] (-) TimerEvent: {}
+[31.155768] (-) TimerEvent: {}
+[31.258023] (-) TimerEvent: {}
+[31.359882] (-) TimerEvent: {}
+[31.460497] (-) TimerEvent: {}
+[31.561588] (-) TimerEvent: {}
+[31.667014] (-) TimerEvent: {}
+[31.767843] (-) TimerEvent: {}
+[31.868251] (-) TimerEvent: {}
+[31.968801] (-) TimerEvent: {}
+[32.071339] (-) TimerEvent: {}
+[32.171801] (-) TimerEvent: {}
+[32.273483] (-) TimerEvent: {}
+[32.382765] (-) TimerEvent: {}
+[34.450801] (-) TimerEvent: {}
+[37.712527] (-) TimerEvent: {}
+[40.674544] (-) TimerEvent: {}
+[42.989880] (-) TimerEvent: {}
+[45.185104] (-) TimerEvent: {}
+[48.368557] (-) TimerEvent: {}
+[52.355192] (-) TimerEvent: {}
+[56.863970] (-) TimerEvent: {}
+[80.839198] (-) TimerEvent: {}
+[83.157454] (-) TimerEvent: {}
+[83.209451] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:76: CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o] Interrupt\n'}
+[83.386157] (-) TimerEvent: {}
+[83.394816] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:90: CMakeFiles/naoqi_driver.dir/src/helpers/driver_helpers.cpp.o] Interrupt\n'}
+[83.409818] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:104: CMakeFiles/naoqi_driver.dir/src/helpers/ros_helpers.cpp.o] Interrupt\n'}
+[83.429537] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:118: CMakeFiles/naoqi_driver.dir/src/recorder/globalrecorder.cpp.o] Interrupt\n'}
+[83.429826] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:132: CMakeFiles/naoqi_driver.dir/src/event/audio.cpp.o] Interrupt\n'}
+[83.432678] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:146: CMakeFiles/naoqi_driver.dir/src/event/touch.cpp.o] Interrupt\n'}
+[83.432895] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:174: CMakeFiles/naoqi_driver.dir/src/converters/touch.cpp.o] Interrupt\n'}
+[83.432967] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:160: CMakeFiles/naoqi_driver.dir/src/converters/audio.cpp.o] Interrupt\n'}
+[83.433038] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:188: CMakeFiles/naoqi_driver.dir/src/converters/camera.cpp.o] Interrupt\n'}
+[83.433096] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:202: CMakeFiles/naoqi_driver.dir/src/converters/diagnostics.cpp.o] Interrupt\n'}
+[83.433154] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:216: CMakeFiles/naoqi_driver.dir/src/converters/imu.cpp.o] Interrupt\n'}
+[83.433213] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:230: CMakeFiles/naoqi_driver.dir/src/converters/info.cpp.o] Interrupt\n'}
+[83.433270] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:244: CMakeFiles/naoqi_driver.dir/src/converters/joint_state.cpp.o] Interrupt\n'}
+[83.433326] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:258: CMakeFiles/naoqi_driver.dir/src/converters/laser.cpp.o] Interrupt\n'}
+[83.433377] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:272: CMakeFiles/naoqi_driver.dir/src/converters/memory_list.cpp.o] Interrupt\n'}
+[83.433430] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:286: CMakeFiles/naoqi_driver.dir/src/converters/memory/bool.cpp.o] Interrupt\n'}
+[83.433482] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:300: CMakeFiles/naoqi_driver.dir/src/converters/memory/int.cpp.o] Interrupt\n'}
+[83.433533] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:314: CMakeFiles/naoqi_driver.dir/src/converters/memory/float.cpp.o] Interrupt\n'}
+[83.433688] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:328: CMakeFiles/naoqi_driver.dir/src/converters/memory/string.cpp.o] Interrupt\n'}
+[83.433868] (naoqi_driver) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:342: CMakeFiles/naoqi_driver.dir/src/converters/sonar.cpp.o] Interrupt\n'}
+[83.433946] (naoqi_driver) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/naoqi_driver.dir/all] Interrupt\n'}
+[83.434014] (naoqi_driver) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[83.434815] (-) EventReactorShutdown: {}

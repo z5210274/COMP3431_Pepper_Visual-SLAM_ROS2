@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_driver/ament_cmake_environment_hooks/local_setup.bash

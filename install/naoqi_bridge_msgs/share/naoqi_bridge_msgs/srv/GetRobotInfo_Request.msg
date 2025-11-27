@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_cmake/srv/GetRobotInfo_Request.msg

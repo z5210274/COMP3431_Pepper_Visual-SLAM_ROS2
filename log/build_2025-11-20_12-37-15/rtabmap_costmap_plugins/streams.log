@@ -1,0 +1,41 @@
+[0.447s] Invoking command in '/home/chris/ros_ws/build/rtabmap_costmap_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/rtabmap_ros/rtabmap_costmap_plugins -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/rtabmap_costmap_plugins
+[1.113s] -- The C compiler identification is GNU 11.4.0
+[1.417s] -- The CXX compiler identification is GNU 11.4.0
+[2.133s] -- Detecting C compiler ABI info
+[2.457s] -- Detecting C compiler ABI info - done
+[2.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.472s] -- Detecting C compile features
+[2.474s] -- Detecting C compile features - done
+[2.478s] -- Detecting CXX compiler ABI info
+[2.883s] -- Detecting CXX compiler ABI info - done
+[2.899s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.900s] -- Detecting CXX compile features
+[2.902s] -- Detecting CXX compile features - done
+[2.906s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.233s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.381s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.460s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[8.067s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[8.144s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.155s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.175s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.335s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.338s] [31mCMake Error at /opt/ros/humble/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake:60 (message):
+[8.338s]   Could not find ROS middleware implementation 'rmw_cyclonedds_cpp'.  Choose
+[8.339s]   one of the following: rmw_fastrtps_cpp
+[8.339s] Call Stack (most recent call first):
+[8.340s]   /opt/ros/humble/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:19 (get_default_rmw_implementation)
+[8.340s]   /opt/ros/humble/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)
+[8.340s]   /opt/ros/humble/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[8.340s]   /opt/ros/humble/share/rcl/cmake/rclConfig.cmake:41 (include)
+[8.340s]   /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[8.340s]   /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[8.340s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[8.341s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[8.341s]   CMakeLists.txt:10 (find_package)
+[8.341s] 
+[8.341s] [0m
+[8.341s] -- Configuring incomplete, errors occurred!
+[8.341s] See also "/home/chris/ros_ws/build/rtabmap_costmap_plugins/CMakeFiles/CMakeOutput.log".

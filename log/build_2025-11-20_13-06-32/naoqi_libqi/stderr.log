@@ -1,0 +1,25 @@
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:986: CMakeFiles/qi.dir/src/messaging/remoteobject.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1000: CMakeFiles/qi.dir/src/messaging/servicedirectory.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1014: CMakeFiles/qi.dir/src/messaging/servicedirectoryclient.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1028: CMakeFiles/qi.dir/src/messaging/servicedirectoryproxy.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1056: CMakeFiles/qi.dir/src/messaging/session.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1070: CMakeFiles/qi.dir/src/messaging/sessionservice.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1112: CMakeFiles/qi.dir/src/messaging/streamcontext.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1126: CMakeFiles/qi.dir/src/messaging/transportserver.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1140: CMakeFiles/qi.dir/src/messaging/transportserverasio_p.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1154: CMakeFiles/qi.dir/src/messaging/messagesocket.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1196: CMakeFiles/qi.dir/src/messaging/uri.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1224: CMakeFiles/qi.dir/src/registration.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1084: CMakeFiles/qi.dir/src/messaging/sessionservices.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1098: CMakeFiles/qi.dir/src/messaging/server.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1042: CMakeFiles/qi.dir/src/messaging/serviceinfo.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1168: CMakeFiles/qi.dir/src/messaging/transportsocketcache.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1210: CMakeFiles/qi.dir/src/messaging/url.cpp.o] Interrupt
+gmake[2]: *** [tests/ka/CMakeFiles/test_ka.dir/build.make:482: tests/ka/CMakeFiles/test_ka.dir/test_uri_parsing.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/qi.dir/build.make:1182: CMakeFiles/qi.dir/src/messaging/tcpmessagesocket.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:189: CMakeFiles/qi.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:242: tests/ka/CMakeFiles/test_ka.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/msg/detail/key_point__struct.h

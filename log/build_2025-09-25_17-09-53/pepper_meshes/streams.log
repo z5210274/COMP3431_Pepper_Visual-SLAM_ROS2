@@ -1,0 +1,234 @@
+[0.021s] Invoking command in '/home/chris/ros_ws/build/pepper_meshes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/pepper_meshes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/pepper_meshes
+[0.217s] -- The C compiler identification is GNU 11.4.0
+[0.924s] -- The CXX compiler identification is GNU 11.4.0
+[1.334s] -- Detecting C compiler ABI info
+[1.459s] -- Detecting C compiler ABI info - done
+[1.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.467s] -- Detecting C compile features
+[1.467s] -- Detecting C compile features - done
+[1.471s] -- Detecting CXX compiler ABI info
+[1.589s] -- Detecting CXX compiler ABI info - done
+[1.595s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.596s] -- Detecting CXX compile features
+[1.596s] -- Detecting CXX compile features - done
+[1.598s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.721s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.775s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.791s] -- Downloading 64 bit installer
+[3.322s] -- [download 0% complete]
+[3.507s] -- [download 1% complete]
+[3.795s] -- [download 2% complete]
+[4.054s] -- [download 3% complete]
+[4.493s] -- [download 4% complete]
+[5.452s] -- [download 5% complete]
+[5.701s] -- [download 6% complete]
+[6.598s] -- [download 7% complete]
+[7.822s] -- [download 8% complete]
+[8.892s] -- [download 9% complete]
+[9.718s] -- [download 10% complete]
+[10.806s] -- [download 11% complete]
+[11.581s] -- [download 12% complete]
+[12.291s] -- [download 13% complete]
+[13.005s] -- [download 14% complete]
+[13.402s] -- [download 15% complete]
+[14.286s] -- [download 16% complete]
+[15.655s] -- [download 17% complete]
+[16.150s] -- [download 18% complete]
+[17.106s] -- [download 19% complete]
+[17.299s] -- [download 20% complete]
+[17.508s] -- [download 21% complete]
+[17.870s] -- [download 22% complete]
+[18.229s] -- [download 23% complete]
+[19.136s] -- [download 24% complete]
+[20.983s] -- [download 25% complete]
+[23.399s] -- [download 26% complete]
+[23.526s] -- [download 27% complete]
+[25.183s] -- [download 28% complete]
+[26.390s] -- [download 29% complete]
+[27.570s] -- [download 30% complete]
+[28.039s] -- [download 31% complete]
+[28.140s] -- [download 32% complete]
+[28.321s] -- [download 33% complete]
+[28.554s] -- [download 34% complete]
+[28.678s] -- [download 35% complete]
+[28.784s] -- [download 36% complete]
+[28.919s] -- [download 37% complete]
+[29.095s] -- [download 38% complete]
+[29.185s] -- [download 39% complete]
+[29.317s] -- [download 40% complete]
+[29.472s] -- [download 41% complete]
+[29.564s] -- [download 42% complete]
+[29.798s] -- [download 43% complete]
+[29.940s] -- [download 44% complete]
+[30.111s] -- [download 45% complete]
+[30.315s] -- [download 46% complete]
+[30.874s] -- [download 47% complete]
+[31.300s] -- [download 48% complete]
+[31.543s] -- [download 49% complete]
+[31.775s] -- [download 50% complete]
+[32.087s] -- [download 51% complete]
+[32.398s] -- [download 52% complete]
+[32.563s] -- [download 53% complete]
+[33.194s] -- [download 54% complete]
+[34.583s] -- [download 55% complete]
+[36.435s] -- [download 56% complete]
+[37.793s] -- [download 57% complete]
+[39.720s] -- [download 58% complete]
+[40.970s] -- [download 59% complete]
+[42.618s] -- [download 60% complete]
+[43.600s] -- [download 61% complete]
+[44.259s] -- [download 62% complete]
+[47.906s] -- [download 65% complete]
+[49.588s] -- [download 66% complete]
+[50.502s] -- [download 67% complete]
+[51.612s] -- [download 68% complete]
+[52.199s] -- [download 69% complete]
+[53.214s] -- [download 70% complete]
+[54.596s] -- [download 71% complete]
+[56.252s] -- [download 72% complete]
+[56.685s] -- [download 73% complete]
+[57.440s] -- [download 74% complete]
+[58.471s] -- [download 75% complete]
+[58.691s] -- [download 76% complete]
+[58.938s] -- [download 77% complete]
+[59.780s] -- [download 78% complete]
+[60.034s] -- [download 79% complete]
+[60.411s] -- [download 80% complete]
+[61.346s] -- [download 81% complete]
+[62.682s] -- [download 82% complete]
+[63.463s] -- [download 83% complete]
+[63.843s] -- [download 84% complete]
+[64.202s] -- [download 85% complete]
+[64.426s] -- [download 86% complete]
+[64.853s] -- [download 87% complete]
+[65.510s] -- [download 88% complete]
+[66.102s] -- [download 89% complete]
+[67.420s] -- [download 90% complete]
+[69.513s] -- [download 91% complete]
+[94.124s] -- [download 100% complete]
+[94.204s] -- Will unpack meshes from the installer: 
+[94.204s] /home/chris/ros_ws/build/pepper_meshes/installer.run --prefix /home/chris/ros_ws/build/pepper_meshes 
+[94.630s] -- Configuring done
+[94.747s] -- Generating done
+[94.770s] -- Build files have been written to: /home/chris/ros_ws/build/pepper_meshes
+[95.394s] Invoked command in '/home/chris/ros_ws/build/pepper_meshes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/pepper_meshes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/pepper_meshes
+[95.537s] Invoking command in '/home/chris/ros_ws/build/pepper_meshes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_meshes -- -j20 -l20
+[202.244s] Built target install_meshes
+[202.393s] Invoked command in '/home/chris/ros_ws/build/pepper_meshes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_meshes -- -j20 -l20
+[202.501s] Invoking command in '/home/chris/ros_ws/build/pepper_meshes': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/pepper_meshes
+[202.525s] -- Install configuration: ""
+[202.525s] -- Execute custom install script
+[202.525s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HeadPitch.dae
+[202.532s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HeadPitch_0.10.stl
+[202.541s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HeadYaw.dae
+[202.549s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HeadYaw_0.10.stl
+[202.559s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HipPitch.dae
+[202.571s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HipPitch_0.10.stl
+[202.580s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HipRoll.dae
+[202.591s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HipRoll_0.10.stl
+[202.604s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/KneePitch.dae
+[202.613s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/KneePitch_0.10.stl
+[202.622s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LElbowRoll.dae
+[202.632s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LElbowRoll_0.10.stl
+[202.644s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LElbowYaw.dae
+[202.656s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LElbowYaw_0.10.stl
+[202.666s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger11.dae
+[202.677s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger11_0.10.stl
+[202.687s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger12.dae
+[202.698s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger12_0.10.stl
+[202.709s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger13.dae
+[202.719s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger13_0.10.stl
+[202.730s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger21.dae
+[202.744s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger21_0.10.stl
+[202.760s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger22.dae
+[202.771s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger22_0.10.stl
+[202.782s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger23.dae
+[202.792s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger23_0.10.stl
+[202.804s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger31.dae
+[202.814s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger31_0.10.stl
+[202.824s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger32.dae
+[202.838s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger32_0.10.stl
+[202.853s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger33.dae
+[202.863s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger33_0.10.stl
+[202.872s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger41.dae
+[202.881s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger41_0.10.stl
+[202.891s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger42.dae
+[202.901s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger42_0.10.stl
+[202.911s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger43.dae
+[202.920s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger43_0.10.stl
+[202.932s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LShoulderPitch.dae
+[202.940s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LShoulderPitch_0.10.stl
+[202.952s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LShoulderRoll.dae
+[202.961s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LShoulderRoll_0.10.stl
+[202.971s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LThumb1.dae
+[202.983s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LThumb1_0.10.stl
+[202.993s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LThumb2.dae
+[203.002s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LThumb2_0.10.stl
+[203.012s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LWristYaw.dae
+[203.022s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LWristYaw_0.10.stl
+[203.035s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RElbowRoll.dae
+[203.044s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RElbowRoll_0.10.stl
+[203.054s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RElbowYaw.dae
+[203.063s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RElbowYaw_0.10.stl
+[203.072s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger11.dae
+[203.081s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger11_0.10.stl
+[203.090s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger12.dae
+[203.099s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger12_0.10.stl
+[203.108s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger13.dae
+[203.117s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger13_0.10.stl
+[203.126s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger21.dae
+[203.134s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger21_0.10.stl
+[203.144s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger22.dae
+[203.152s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger22_0.10.stl
+[203.161s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger23.dae
+[203.170s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger23_0.10.stl
+[203.178s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger31.dae
+[203.186s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger31_0.10.stl
+[203.195s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger32.dae
+[203.204s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger32_0.10.stl
+[203.213s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger33.dae
+[203.222s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger33_0.10.stl
+[203.230s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger41.dae
+[203.238s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger41_0.10.stl
+[203.247s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger42.dae
+[203.256s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger42_0.10.stl
+[203.266s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger43.dae
+[203.275s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger43_0.10.stl
+[203.284s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RShoulderPitch.dae
+[203.293s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RShoulderPitch_0.10.stl
+[203.305s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RShoulderRoll.dae
+[203.314s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RShoulderRoll_0.10.stl
+[203.322s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RThumb1.dae
+[203.331s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RThumb1_0.10.stl
+[203.341s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RThumb2.dae
+[203.350s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RThumb2_0.10.stl
+[203.360s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RWristYaw.dae
+[203.374s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RWristYaw_0.10.stl
+[203.383s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/Torso.dae
+[203.393s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/Torso_0.10.stl
+[203.405s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelB.dae
+[203.415s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelB_0.10.stl
+[203.424s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelFL.dae
+[203.434s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelFL_0.10.stl
+[203.445s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelFR.dae
+[203.455s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelFR_0.10.stl
+[203.464s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/juliette_ear.png
+[203.474s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/juliette_eyes.png
+[203.485s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/juliette_face.png
+[203.494s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/pepper.material
+[203.510s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/ament_index/resource_index/package_run_dependencies/pepper_meshes
+[203.523s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/ament_index/resource_index/parent_prefix_path/pepper_meshes
+[203.533s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/environment/ament_prefix_path.sh
+[203.542s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/environment/ament_prefix_path.dsv
+[203.551s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/environment/path.sh
+[203.560s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/environment/path.dsv
+[203.568s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/local_setup.bash
+[203.577s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/local_setup.sh
+[203.587s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/local_setup.zsh
+[203.596s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/local_setup.dsv
+[203.605s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/package.dsv
+[203.615s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/ament_index/resource_index/packages/pepper_meshes
+[203.625s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/cmake/pepper_meshesConfig.cmake
+[203.636s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/cmake/pepper_meshesConfig-version.cmake
+[203.646s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/package.xml
+[203.664s] Invoked command in '/home/chris/ros_ws/build/pepper_meshes' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/pepper_meshes

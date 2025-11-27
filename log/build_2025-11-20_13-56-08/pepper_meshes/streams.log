@@ -1,0 +1,130 @@
+[0.342s] Invoking command in '/home/chris/ros_ws/build/pepper_meshes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/pepper_meshes -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/pepper_meshes
+[0.355s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.531s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.538s] -- Downloading 64 bit installer
+[0.562s] -- Will unpack meshes from the installer: 
+[0.563s] /home/chris/ros_ws/build/pepper_meshes/installer.run --prefix /home/chris/ros_ws/build/pepper_meshes 
+[0.658s] -- Configuring done
+[0.670s] -- Generating done
+[0.670s] -- Build files have been written to: /home/chris/ros_ws/build/pepper_meshes
+[0.672s] Invoked command in '/home/chris/ros_ws/build/pepper_meshes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/src/pepper_meshes -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/pepper_meshes
+[0.675s] Invoking command in '/home/chris/ros_ws/build/pepper_meshes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_meshes
+[12.705s] Built target install_meshes
+[12.737s] Invoked command in '/home/chris/ros_ws/build/pepper_meshes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_meshes
+[12.744s] Invoking command in '/home/chris/ros_ws/build/pepper_meshes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/pepper_meshes
+[12.759s] -- Install configuration: "Release"
+[12.760s] -- Execute custom install script
+[12.764s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HeadPitch.dae
+[12.764s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HeadPitch_0.10.stl
+[12.765s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HeadYaw.dae
+[12.765s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HeadYaw_0.10.stl
+[12.765s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HipPitch.dae
+[12.766s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HipPitch_0.10.stl
+[12.766s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HipRoll.dae
+[12.767s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/HipRoll_0.10.stl
+[12.767s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/KneePitch.dae
+[12.767s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/KneePitch_0.10.stl
+[12.768s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LElbowRoll.dae
+[12.768s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LElbowRoll_0.10.stl
+[12.769s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LElbowYaw.dae
+[12.770s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LElbowYaw_0.10.stl
+[12.770s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger11.dae
+[12.770s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger11_0.10.stl
+[12.770s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger12.dae
+[12.771s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger12_0.10.stl
+[12.771s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger13.dae
+[12.771s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger13_0.10.stl
+[12.772s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger21.dae
+[12.773s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger21_0.10.stl
+[12.773s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger22.dae
+[12.774s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger22_0.10.stl
+[12.774s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger23.dae
+[12.775s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger23_0.10.stl
+[12.775s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger31.dae
+[12.775s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger31_0.10.stl
+[12.775s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger32.dae
+[12.775s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger32_0.10.stl
+[12.775s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger33.dae
+[12.776s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger33_0.10.stl
+[12.776s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger41.dae
+[12.777s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger41_0.10.stl
+[12.777s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger42.dae
+[12.777s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger42_0.10.stl
+[12.778s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger43.dae
+[12.778s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LFinger43_0.10.stl
+[12.779s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LShoulderPitch.dae
+[12.779s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LShoulderPitch_0.10.stl
+[12.780s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LShoulderRoll.dae
+[12.780s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LShoulderRoll_0.10.stl
+[12.781s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LThumb1.dae
+[12.781s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LThumb1_0.10.stl
+[12.782s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LThumb2.dae
+[12.782s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LThumb2_0.10.stl
+[12.782s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LWristYaw.dae
+[12.782s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/LWristYaw_0.10.stl
+[12.783s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RElbowRoll.dae
+[12.783s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RElbowRoll_0.10.stl
+[12.783s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RElbowYaw.dae
+[12.783s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RElbowYaw_0.10.stl
+[12.783s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger11.dae
+[12.784s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger11_0.10.stl
+[12.784s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger12.dae
+[12.784s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger12_0.10.stl
+[12.784s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger13.dae
+[12.785s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger13_0.10.stl
+[12.786s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger21.dae
+[12.786s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger21_0.10.stl
+[12.786s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger22.dae
+[12.786s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger22_0.10.stl
+[12.787s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger23.dae
+[12.787s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger23_0.10.stl
+[12.788s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger31.dae
+[12.789s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger31_0.10.stl
+[12.789s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger32.dae
+[12.789s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger32_0.10.stl
+[12.790s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger33.dae
+[12.790s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger33_0.10.stl
+[12.791s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger41.dae
+[12.791s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger41_0.10.stl
+[12.791s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger42.dae
+[12.792s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger42_0.10.stl
+[12.792s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger43.dae
+[12.793s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RFinger43_0.10.stl
+[12.793s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RShoulderPitch.dae
+[12.793s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RShoulderPitch_0.10.stl
+[12.794s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RShoulderRoll.dae
+[12.794s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RShoulderRoll_0.10.stl
+[12.794s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RThumb1.dae
+[12.794s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RThumb1_0.10.stl
+[12.795s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RThumb2.dae
+[12.795s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RThumb2_0.10.stl
+[12.795s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RWristYaw.dae
+[12.795s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/RWristYaw_0.10.stl
+[12.795s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/Torso.dae
+[12.796s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/Torso_0.10.stl
+[12.796s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelB.dae
+[12.796s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelB_0.10.stl
+[12.796s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelFL.dae
+[12.797s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelFL_0.10.stl
+[12.797s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelFR.dae
+[12.797s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/WheelFR_0.10.stl
+[12.798s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/juliette_ear.png
+[12.798s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/juliette_eyes.png
+[12.799s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/juliette_face.png
+[12.799s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/meshes/1.0/pepper.material
+[12.799s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/ament_index/resource_index/package_run_dependencies/pepper_meshes
+[12.800s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/ament_index/resource_index/parent_prefix_path/pepper_meshes
+[12.800s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/environment/ament_prefix_path.sh
+[12.800s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/environment/ament_prefix_path.dsv
+[12.800s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/environment/path.sh
+[12.800s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/environment/path.dsv
+[12.800s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/local_setup.bash
+[12.801s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/local_setup.sh
+[12.801s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/local_setup.zsh
+[12.801s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/local_setup.dsv
+[12.801s] -- Symlinking: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/package.dsv
+[12.820s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/ament_index/resource_index/packages/pepper_meshes
+[12.820s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/cmake/pepper_meshesConfig.cmake
+[12.821s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/cmake/pepper_meshesConfig-version.cmake
+[12.821s] -- Up-to-date symlink: /home/chris/ros_ws/install/pepper_meshes/share/pepper_meshes/package.xml
+[12.826s] Invoked command in '/home/chris/ros_ws/build/pepper_meshes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/pepper_meshes

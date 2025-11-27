@@ -1,0 +1,3 @@
+[console_scripts]
+pepper_tf = transform.transform:main
+

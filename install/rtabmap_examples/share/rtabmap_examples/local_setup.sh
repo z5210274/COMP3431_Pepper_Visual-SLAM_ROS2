@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/rtabmap_examples/ament_cmake_environment_hooks/local_setup.sh

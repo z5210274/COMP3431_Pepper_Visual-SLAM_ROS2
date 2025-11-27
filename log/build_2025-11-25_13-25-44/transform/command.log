@@ -1,0 +1,2 @@
+Invoking command in '/home/chris/ros_ws/build/transform': /usr/bin/cmake /home/chris/ros_ws/src/transform -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/transform
+Invoked command in '/home/chris/ros_ws/build/transform' returned '1': /usr/bin/cmake /home/chris/ros_ws/src/transform -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/transform

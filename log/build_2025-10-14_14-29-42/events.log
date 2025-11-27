@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000614] (-) JobUnselected: {'identifier': 'nao_meshes'}
+[0.000877] (-) JobUnselected: {'identifier': 'naoqi_bridge_msgs'}
+[0.000922] (-) JobUnselected: {'identifier': 'naoqi_driver'}
+[0.000936] (-) JobUnselected: {'identifier': 'naoqi_libqi'}
+[0.000947] (-) JobUnselected: {'identifier': 'naoqi_libqicore'}
+[0.000957] (-) JobUnselected: {'identifier': 'pepper_meshes'}
+[0.000966] (-) JobUnselected: {'identifier': 'pepper_wall_follower'}
+[0.001431] (wall_follower) JobQueued: {'identifier': 'wall_follower', 'dependencies': OrderedDict()}
+[0.001484] (wall_follower) JobStarted: {'identifier': 'wall_follower'}
+[0.019522] (wall_follower) JobProgress: {'identifier': 'wall_follower', 'progress': 'cmake'}
+[0.021223] (wall_follower) Command: {'cmd': ['/usr/bin/cmake', '/home/chris/ros_ws/src/wall_follower', '-DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/wall_follower'], 'cwd': '/home/chris/ros_ws/build/wall_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chris'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('NAME', 'ChrisLaptop'), ('WSL_INTEROP', '/run/WSL/68218_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Chris/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Chris/AppData/Local/ffmpegio/ffmpeg-downloader/ffmpeg/bin:/snap/bin'), ('WT_SESSION', '8f182fbe-b08b-4c91-9777-12ad5bb8fafb'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chris/ros_ws/build/wall_follower'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages:/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.079957] (wall_follower) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100098] (-) TimerEvent: {}
+[0.200569] (-) TimerEvent: {}
+[0.225502] (wall_follower) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.253920] (wall_follower) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300708] (-) TimerEvent: {}
+[0.401261] (-) TimerEvent: {}
+[0.501748] (-) TimerEvent: {}
+[0.602359] (-) TimerEvent: {}
+[0.703053] (-) TimerEvent: {}
+[0.796011] (wall_follower) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.800364] (wall_follower) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.803199] (-) TimerEvent: {}
+[0.815788] (wall_follower) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.834493] (wall_follower) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.858738] (wall_follower) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.903336] (-) TimerEvent: {}
+[0.932005] (wall_follower) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.935586] (wall_follower) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.003614] (-) TimerEvent: {}
+[1.104032] (-) TimerEvent: {}
+[1.204542] (-) TimerEvent: {}
+[1.305023] (-) TimerEvent: {}
+[1.405497] (-) TimerEvent: {}
+[1.505938] (-) TimerEvent: {}
+[1.606365] (-) TimerEvent: {}
+[1.707041] (-) TimerEvent: {}
+[1.807531] (-) TimerEvent: {}
+[1.908176] (-) TimerEvent: {}
+[2.008814] (-) TimerEvent: {}
+[2.109546] (-) TimerEvent: {}
+[2.210150] (-) TimerEvent: {}
+[2.310727] (-) TimerEvent: {}
+[2.411202] (-) TimerEvent: {}
+[2.511788] (-) TimerEvent: {}
+[2.612185] (-) TimerEvent: {}
+[2.713307] (-) TimerEvent: {}
+[2.813879] (-) TimerEvent: {}
+[2.914570] (-) TimerEvent: {}
+[3.015091] (-) TimerEvent: {}
+[3.116041] (-) TimerEvent: {}
+[3.216424] (-) TimerEvent: {}
+[3.316801] (-) TimerEvent: {}
+[3.417179] (-) TimerEvent: {}
+[3.517604] (-) TimerEvent: {}
+[3.618041] (-) TimerEvent: {}
+[3.718426] (-) TimerEvent: {}
+[3.818817] (-) TimerEvent: {}
+[3.919330] (-) TimerEvent: {}
+[4.019698] (-) TimerEvent: {}
+[4.120171] (-) TimerEvent: {}
+[4.220559] (-) TimerEvent: {}
+[4.320988] (-) TimerEvent: {}
+[4.421625] (-) TimerEvent: {}
+[4.522066] (-) TimerEvent: {}
+[4.622534] (-) TimerEvent: {}
+[4.722982] (-) TimerEvent: {}
+[4.823382] (-) TimerEvent: {}
+[4.924013] (-) TimerEvent: {}
+[5.024591] (-) TimerEvent: {}
+[5.125097] (-) TimerEvent: {}
+[5.225510] (-) TimerEvent: {}
+[5.325913] (-) TimerEvent: {}
+[5.426352] (-) TimerEvent: {}
+[5.526752] (-) TimerEvent: {}
+[5.627145] (-) TimerEvent: {}
+[5.727699] (-) TimerEvent: {}
+[5.828116] (-) TimerEvent: {}
+[5.928597] (-) TimerEvent: {}
+[6.028968] (-) TimerEvent: {}
+[6.129354] (-) TimerEvent: {}
+[6.229831] (-) TimerEvent: {}
+[6.330229] (-) TimerEvent: {}
+[6.430592] (-) TimerEvent: {}
+[6.530988] (-) TimerEvent: {}
+[6.631376] (-) TimerEvent: {}
+[6.731738] (-) TimerEvent: {}
+[6.832139] (-) TimerEvent: {}
+[6.932491] (-) TimerEvent: {}
+[7.032854] (-) TimerEvent: {}
+[7.133345] (-) TimerEvent: {}
+[7.233755] (-) TimerEvent: {}
+[7.334125] (-) TimerEvent: {}
+[7.434504] (-) TimerEvent: {}
+[7.534906] (-) TimerEvent: {}
+[7.635278] (-) TimerEvent: {}
+[7.735650] (-) TimerEvent: {}
+[7.836120] (-) TimerEvent: {}
+[7.936525] (-) TimerEvent: {}
+[8.036991] (-) TimerEvent: {}
+[8.137367] (-) TimerEvent: {}
+[8.237823] (-) TimerEvent: {}
+[8.338301] (-) TimerEvent: {}
+[8.438804] (-) TimerEvent: {}
+[8.539357] (-) TimerEvent: {}
+[8.640059] (-) TimerEvent: {}
+[8.740521] (-) TimerEvent: {}
+[8.840892] (-) TimerEvent: {}
+[8.941314] (-) TimerEvent: {}
+[9.041707] (-) TimerEvent: {}
+[9.142130] (-) TimerEvent: {}
+[9.242601] (-) TimerEvent: {}
+[9.343102] (-) TimerEvent: {}
+[9.443550] (-) TimerEvent: {}
+[9.544061] (-) TimerEvent: {}
+[9.644501] (-) TimerEvent: {}
+[9.744865] (-) TimerEvent: {}
+[9.845255] (-) TimerEvent: {}
+[9.945641] (-) TimerEvent: {}
+[10.045992] (-) TimerEvent: {}
+[10.146339] (-) TimerEvent: {}
+[10.246712] (-) TimerEvent: {}
+[10.347074] (-) TimerEvent: {}
+[10.447431] (-) TimerEvent: {}
+[10.547845] (-) TimerEvent: {}
+[10.648248] (-) TimerEvent: {}
+[10.748850] (-) TimerEvent: {}
+[10.849671] (-) TimerEvent: {}
+[10.950261] (-) TimerEvent: {}
+[11.050768] (-) TimerEvent: {}
+[11.151304] (-) TimerEvent: {}
+[11.251782] (-) TimerEvent: {}
+[11.352362] (-) TimerEvent: {}
+[11.452810] (-) TimerEvent: {}
+[11.553274] (-) TimerEvent: {}
+[11.653908] (-) TimerEvent: {}
+[11.754792] (-) TimerEvent: {}
+[11.855330] (-) TimerEvent: {}
+[11.955742] (-) TimerEvent: {}
+[11.983477] (wall_follower) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.048716] (wall_follower) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[12.049359] (wall_follower) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[12.055827] (-) TimerEvent: {}
+[12.065708] (wall_follower) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[12.083966] (wall_follower) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.102750] (wall_follower) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[12.156077] (-) TimerEvent: {}
+[12.237562] (wall_follower) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.255002] (wall_follower) StdoutLine: {'line': b'-- Generating done\n'}
+[12.256194] (-) TimerEvent: {}
+[12.259353] (wall_follower) StdoutLine: {'line': b'-- Build files have been written to: /home/chris/ros_ws/build/wall_follower\n'}
+[12.269650] (wall_follower) CommandEnded: {'returncode': 0}
+[12.270164] (wall_follower) JobProgress: {'identifier': 'wall_follower', 'progress': 'build'}
+[12.271582] (wall_follower) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chris/ros_ws/build/wall_follower', '--', '-j20', '-l20'], 'cwd': '/home/chris/ros_ws/build/wall_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chris'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('NAME', 'ChrisLaptop'), ('WSL_INTEROP', '/run/WSL/68218_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Chris/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Chris/AppData/Local/ffmpegio/ffmpeg-downloader/ffmpeg/bin:/snap/bin'), ('WT_SESSION', '8f182fbe-b08b-4c91-9777-12ad5bb8fafb'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chris/ros_ws/build/wall_follower'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages:/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.308991] (wall_follower) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wall_follower\x1b[0m\n'}
+[12.321895] (wall_follower) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_wall_follower\n'}
+[12.323113] (wall_follower) StdoutLine: {'line': b'[100%] Built target wall_follower\n'}
+[12.356651] (-) TimerEvent: {}
+[12.457026] (-) TimerEvent: {}
+[12.508874] (wall_follower) StdoutLine: {'line': b'running egg_info\n'}
+[12.509709] (wall_follower) StdoutLine: {'line': b'writing wall_follower.egg-info/PKG-INFO\n'}
+[12.509979] (wall_follower) StdoutLine: {'line': b'writing dependency_links to wall_follower.egg-info/dependency_links.txt\n'}
+[12.510149] (wall_follower) StdoutLine: {'line': b'writing top-level names to wall_follower.egg-info/top_level.txt\n'}
+[12.512987] (wall_follower) StdoutLine: {'line': b"reading manifest file 'wall_follower.egg-info/SOURCES.txt'\n"}
+[12.514236] (wall_follower) StdoutLine: {'line': b"writing manifest file 'wall_follower.egg-info/SOURCES.txt'\n"}
+[12.542473] (wall_follower) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_wall_follower_egg\n'}
+[12.554435] (wall_follower) CommandEnded: {'returncode': 0}
+[12.556194] (wall_follower) JobProgress: {'identifier': 'wall_follower', 'progress': 'install'}
+[12.557197] (-) TimerEvent: {}
+[12.565106] (wall_follower) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chris/ros_ws/build/wall_follower'], 'cwd': '/home/chris/ros_ws/build/wall_follower', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chris'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/chris'), ('OLDPWD', '/home/chris'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chris/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chris'), ('NAME', 'ChrisLaptop'), ('WSL_INTEROP', '/run/WSL/68218_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/dotnet/:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Chris/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Chris/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Chris/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Chris/AppData/Local/ffmpegio/ffmpeg-downloader/ffmpeg/bin:/snap/bin'), ('WT_SESSION', '8f182fbe-b08b-4c91-9777-12ad5bb8fafb'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chris/ros_ws/build/wall_follower'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages:/home/chris/ros_ws/install/naoqi_bridge_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[12.572138] (wall_follower) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.572638] (wall_follower) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.572914] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/lib/wall_follower/wall_follower\n'}
+[12.573917] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower//launch/wall_follower.launch.py\n'}
+[12.575252] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/include//wall_follower/wall_follower.hpp\n'}
+[12.575722] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/pythonpath.sh\n'}
+[12.576397] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/pythonpath.dsv\n'}
+[12.576737] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.577139] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.577724] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.578079] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.578650] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower/__init__.py\n'}
+[12.579303] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower/landmark.py\n'}
+[12.579388] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/lib/wall_follower/see_marker.py\n'}
+[12.579654] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/lib/wall_follower/point_transformer.py\n'}
+[12.579840] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/ament_index/resource_index/package_run_dependencies/wall_follower\n'}
+[12.580273] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/ament_index/resource_index/parent_prefix_path/wall_follower\n'}
+[12.581015] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/ament_prefix_path.sh\n'}
+[12.581437] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/ament_prefix_path.dsv\n'}
+[12.581957] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/path.sh\n'}
+[12.582348] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/environment/path.dsv\n'}
+[12.583040] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/local_setup.bash\n'}
+[12.583546] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/local_setup.sh\n'}
+[12.583957] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/local_setup.zsh\n'}
+[12.584355] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/local_setup.dsv\n'}
+[12.584479] (wall_follower) StdoutLine: {'line': b'-- Symlinking: /home/chris/ros_ws/install/wall_follower/share/wall_follower/package.dsv\n'}
+[12.596126] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/ament_index/resource_index/packages/wall_follower\n'}
+[12.596606] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.597070] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.597640] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/cmake/wall_followerConfig.cmake\n'}
+[12.598168] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/cmake/wall_followerConfig-version.cmake\n'}
+[12.598502] (wall_follower) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chris/ros_ws/install/wall_follower/share/wall_follower/package.xml\n'}
+[12.631693] (wall_follower) StdoutLine: {'line': b"Listing '/home/chris/ros_ws/install/wall_follower/local/lib/python3.10/dist-packages/wall_follower'...\n"}
+[12.638004] (wall_follower) CommandEnded: {'returncode': 0}
+[12.657876] (-) TimerEvent: {}
+[12.679775] (wall_follower) JobEnded: {'identifier': 'wall_follower', 'rc': 0}
+[12.682024] (-) EventReactorShutdown: {}

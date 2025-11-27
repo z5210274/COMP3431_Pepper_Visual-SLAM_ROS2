@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/chris/ros_ws/build/naoqi_bridge_msgs/naoqi_bridge_msgs__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "naoqi_bridge_msgs::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "naoqi_bridge_msgs__py::@85134e2f6114b260e5ae",
+	"name" : "naoqi_bridge_msgs__py",
+	"paths" : 
+	{
+		"build" : "naoqi_bridge_msgs__py",
+		"source" : "/home/chris/ros_ws/build/naoqi_bridge_msgs/naoqi_bridge_msgs__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/chris/ros_ws/build/naoqi_bridge_msgs/naoqi_bridge_msgs__py/CMakeFiles/naoqi_bridge_msgs__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/chris/ros_ws/build/naoqi_bridge_msgs/naoqi_bridge_msgs__py/CMakeFiles/naoqi_bridge_msgs__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_generator_py/naoqi_bridge_msgs/_naoqi_bridge_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_typesupport_fastrtps_c/naoqi_bridge_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h

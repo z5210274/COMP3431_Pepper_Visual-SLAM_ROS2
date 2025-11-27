@@ -1,0 +1,1 @@
+/home/chris/ros_ws/src/naoqi_libqicore/libqicore/qicore/detail/fileoperation.hxx

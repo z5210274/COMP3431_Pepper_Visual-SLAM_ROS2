@@ -1,0 +1,29 @@
+In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser/detail/parser.hpp:7[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser/detail/read.hpp:13[m[K,
+                 from [01m[K/usr/include/boost/property_tree/json_parser.hpp:16[m[K,
+                 from [01m[K/home/chris/ros_ws/src/naoqi_driver2/src/naoqi_driver.cpp:21[m[K:
+[01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:76: CMakeFiles/naoqi_driver.dir/src/naoqi_driver.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:118: CMakeFiles/naoqi_driver.dir/src/recorder/globalrecorder.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:132: CMakeFiles/naoqi_driver.dir/src/event/audio.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:146: CMakeFiles/naoqi_driver.dir/src/event/touch.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:188: CMakeFiles/naoqi_driver.dir/src/converters/camera.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:202: CMakeFiles/naoqi_driver.dir/src/converters/diagnostics.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:230: CMakeFiles/naoqi_driver.dir/src/converters/info.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:244: CMakeFiles/naoqi_driver.dir/src/converters/joint_state.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:258: CMakeFiles/naoqi_driver.dir/src/converters/laser.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:272: CMakeFiles/naoqi_driver.dir/src/converters/memory_list.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:286: CMakeFiles/naoqi_driver.dir/src/converters/memory/bool.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:300: CMakeFiles/naoqi_driver.dir/src/converters/memory/int.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:314: CMakeFiles/naoqi_driver.dir/src/converters/memory/float.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:328: CMakeFiles/naoqi_driver.dir/src/converters/memory/string.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:216: CMakeFiles/naoqi_driver.dir/src/converters/imu.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:342: CMakeFiles/naoqi_driver.dir/src/converters/sonar.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:356: CMakeFiles/naoqi_driver.dir/src/converters/log.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:370: CMakeFiles/naoqi_driver.dir/src/converters/odom.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/naoqi_driver.dir/build.make:412: CMakeFiles/naoqi_driver.dir/src/publishers/log.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/naoqi_driver.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

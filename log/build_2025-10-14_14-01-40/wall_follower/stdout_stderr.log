@@ -1,0 +1,6 @@
+CMake Error: failed to create symbolic link '/home/chris/ros_ws/build/wall_follower/ament_cmake_python/wall_follower/wall_follower': File exists
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_wall_follower.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_wall_follower] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/ament_cmake_python_symlink_wall_follower.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[100%] Built target wall_follower
+gmake: *** [Makefile:146: all] Error 2

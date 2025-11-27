@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_typesupport_introspection_cpp/naoqi_bridge_msgs/srv/detail/set_arms_enabled__rosidl_typesupport_introspection_cpp.hpp

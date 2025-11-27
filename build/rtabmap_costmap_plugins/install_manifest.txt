@@ -1,0 +1,4 @@
+/home/chris/ros_ws/install/rtabmap_costmap_plugins/lib/librtabmap_costmap_plugins.so
+/home/chris/ros_ws/install/rtabmap_costmap_plugins/include/rtabmap_costmap_plugins/visibility.h
+/home/chris/ros_ws/install/rtabmap_costmap_plugins/share/rtabmap_costmap_plugins/cmake/rtabmap_costmap_pluginsExport.cmake
+/home/chris/ros_ws/install/rtabmap_costmap_plugins/share/rtabmap_costmap_plugins/cmake/rtabmap_costmap_pluginsExport-release.cmake

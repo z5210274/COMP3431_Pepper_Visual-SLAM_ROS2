@@ -1,0 +1,179 @@
+[0.882s] Invoking command in '/home/chris/ros_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chris/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chris/ros_ws/src/rtabmap_ros/rtabmap_sync -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/rtabmap_sync
+[1.053s] -- The C compiler identification is GNU 11.4.0
+[1.899s] -- The CXX compiler identification is GNU 11.4.0
+[2.589s] -- Detecting C compiler ABI info
+[2.770s] -- Detecting C compiler ABI info - done
+[2.776s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.776s] -- Detecting C compile features
+[2.777s] -- Detecting C compile features - done
+[2.779s] -- Detecting CXX compiler ABI info
+[3.024s] -- Detecting CXX compiler ABI info - done
+[3.031s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.031s] -- Detecting CXX compile features
+[3.031s] -- Detecting CXX compile features - done
+[3.033s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.167s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.224s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.825s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.830s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.838s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.921s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[3.965s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.968s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.621s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.623s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.468s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.477s] -- Looking for pthread.h
+[10.664s] -- Looking for pthread.h - found
+[10.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.837s] -- Found Threads: TRUE  
+[13.037s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[13.062s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[13.075s] -- Found rtabmap_conversions: 0.22.1 (/home/chris/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[13.125s] -- Checking for module 'eigen3'
+[13.136s] --   Found eigen3, version 3.4.0
+[13.163s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[13.163s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[18.497s] -- Checking for module 'flann'
+[18.510s] --   Found flann, version 1.9.1
+[19.528s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[19.528s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[30.363s] -- Checking for module 'libusb-1.0'
+[30.374s] --   Found libusb-1.0, version 1.0.25
+[30.481s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[30.482s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[30.664s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[32.863s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[32.868s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[32.874s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[34.971s] -- Found Qhull version 8.0.2
+[36.794s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[38.750s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[38.751s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[38.752s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[38.752s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[38.753s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[38.753s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[38.754s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[38.754s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[38.754s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[38.755s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[38.756s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[38.756s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[38.757s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[38.758s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[38.758s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[38.759s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[38.761s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[38.761s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[38.762s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[38.763s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[38.764s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[38.765s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[38.765s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[38.766s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[38.767s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[38.887s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[38.887s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[38.891s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package):
+[38.891s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[38.892s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[38.892s]   command to set the policy and suppress this warning.
+[38.892s] 
+[38.892s]   CMake variable PCL_ROOT is set to:
+[38.892s] 
+[38.892s]     /usr
+[38.892s] 
+[38.892s]   For compatibility, CMake is ignoring the variable.
+[38.892s] Call Stack (most recent call first):
+[38.892s]   /home/chris/ros_ws/install/rtabmap/lib/rtabmap-0.23/RTABMapConfig.cmake:7 (find_dependency)
+[38.892s]   /home/chris/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[38.892s]   /home/chris/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake:41 (include)
+[38.892s]   CMakeLists.txt:24 (find_package)
+[38.892s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[38.892s] [0m
+[38.912s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[38.938s] -- RTABMAP_SYNC_MULTI_RGBD = OFF
+[38.938s] -- RTABMAP_SYNC_USER_DATA  = OFF
+[39.018s] -- Configuring done
+[39.142s] -- Generating done
+[39.176s] -- Build files have been written to: /home/chris/ros_ws/build/rtabmap_sync
+[39.193s] Invoked command in '/home/chris/ros_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chris/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/chris/ros_ws/src/rtabmap_ros/rtabmap_sync -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/rtabmap_sync
+[39.196s] Invoking command in '/home/chris/ros_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chris/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chris/ros_ws/build/rtabmap_sync
+[39.240s] [  4%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[39.240s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[39.240s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgb_sync.cpp.o[0m
+[39.240s] [ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[39.241s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[39.242s] [ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/stereo_sync.cpp.o[0m
+[136.415s] [ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[164.682s] [ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[164.691s] [ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[179.744s] [ 43%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBDX.cpp.o[0m
+[225.022s] [ 47%] [32m[1mLinking CXX shared library librtabmap_sync_plugins.so[0m
+[226.555s] [ 47%] Built target rtabmap_sync_plugins
+[226.573s] [ 52%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[270.225s] [ 56%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_sync.dir/src/RGBDSyncNode.cpp.o[0m
+[278.987s] [ 60%] [32m[1mLinking CXX executable rgbd_sync[0m
+[281.270s] [ 60%] Built target rtabmap_rgbd_sync
+[281.304s] [ 65%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdx_sync.dir/src/RGBDXSyncNode.cpp.o[0m
+[282.724s] [ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_sync.dir/src/StereoSyncNode.cpp.o[0m
+[290.704s] [ 73%] [32m[1mLinking CXX executable stereo_sync[0m
+[290.970s] [ 78%] [32m[1mLinking CXX executable rgbdx_sync[0m
+[292.070s] [ 78%] Built target rtabmap_stereo_sync
+[292.094s] [ 82%] [32mBuilding CXX object CMakeFiles/rtabmap_rgb_sync.dir/src/RGBSyncNode.cpp.o[0m
+[292.240s] [ 82%] Built target rtabmap_rgbdx_sync
+[292.255s] [ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[300.292s] [ 91%] [32m[1mLinking CXX executable rgb_sync[0m
+[302.170s] [ 91%] Built target rtabmap_rgb_sync
+[302.179s] [ 95%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberSensorData.cpp.o[0m
+[427.858s] [100%] [32m[1mLinking CXX shared library librtabmap_sync.so[0m
+[431.074s] [100%] Built target rtabmap_sync
+[431.230s] Invoked command in '/home/chris/ros_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chris/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chris/ros_ws/build/rtabmap_sync
+[431.329s] Invoking command in '/home/chris/ros_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chris/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chris/ros_ws/build/rtabmap_sync
+[431.343s] -- Install configuration: "Release"
+[431.343s] -- Execute custom install script
+[431.343s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh
+[431.346s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv
+[431.354s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync
+[431.361s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync
+[431.367s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync
+[431.375s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync
+[431.385s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync
+[431.394s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync
+[431.402s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh
+[431.410s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv
+[431.423s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh
+[431.435s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv
+[431.445s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash
+[431.455s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh
+[431.465s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh
+[431.475s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv
+[431.487s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv
+[431.498s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync
+[431.506s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync
+[431.518s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake
+[431.530s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake
+[431.540s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake
+[431.550s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake
+[431.560s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake
+[431.572s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake
+[431.581s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+[431.590s] -- Symlinking: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml
+[431.598s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+[431.614s] -- Set runtime path of "/home/chris/ros_ws/install/rtabmap_sync/lib/librtabmap_sync.so" to ""
+[431.614s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+[431.621s] -- Set runtime path of "/home/chris/ros_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so" to ""
+[431.621s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/include
+[431.622s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/include/rtabmap_sync
+[431.622s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+[431.622s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+[431.623s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+[431.623s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+[431.623s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+[431.625s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+[431.625s] -- Installing: /home/chris/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake
+[431.631s] Invoked command in '/home/chris/ros_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/rtabmap_conversions:/home/chris/ros_ws/install/rtabmap_msgs:/home/chris/ros_ws/install/rtabmap:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/rtabmap_conversions/lib:/home/chris/ros_ws/install/rtabmap_msgs/lib:/home/chris/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/chris/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/chris/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/chris/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/chris/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chris/ros_ws/build/rtabmap_sync

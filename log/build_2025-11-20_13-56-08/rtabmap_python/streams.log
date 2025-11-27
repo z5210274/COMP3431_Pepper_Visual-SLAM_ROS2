@@ -1,0 +1,23 @@
+[1.162s] Invoking command in '/home/chris/ros_ws/build/rtabmap_python': PYTHONPATH=/home/chris/ros_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chris/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chris/ros_ws/build/rtabmap_python/build --no-deps symlink_data
+[1.530s] running develop
+[1.747s] running egg_info
+[1.748s] creating rtabmap_python.egg-info
+[1.748s] writing rtabmap_python.egg-info/PKG-INFO
+[1.749s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[1.749s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[1.750s] writing requirements to rtabmap_python.egg-info/requires.txt
+[1.750s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[1.750s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[1.753s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[1.754s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[1.756s] running build_ext
+[1.757s] Creating /home/chris/ros_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[1.758s] 
+[1.759s] Installed /home/chris/ros_ws/build/rtabmap_python
+[1.759s] running symlink_data
+[1.759s] creating /home/chris/ros_ws/install/rtabmap_python/share/ament_index
+[1.759s] creating /home/chris/ros_ws/install/rtabmap_python/share/ament_index/resource_index
+[1.760s] creating /home/chris/ros_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[1.760s] symbolically linking /home/chris/ros_ws/build/rtabmap_python/resource/rtabmap_python -> /home/chris/ros_ws/install/rtabmap_python/share/ament_index/resource_index/packages
+[1.761s] symbolically linking /home/chris/ros_ws/build/rtabmap_python/package.xml -> /home/chris/ros_ws/install/rtabmap_python/share/rtabmap_python
+[1.806s] Invoked command in '/home/chris/ros_ws/build/rtabmap_python' returned '0': PYTHONPATH=/home/chris/ros_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chris/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/chris/ros_ws/build/rtabmap_python/build --no-deps symlink_data

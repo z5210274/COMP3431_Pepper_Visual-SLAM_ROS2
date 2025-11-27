@@ -1,0 +1,4 @@
+[  2%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/subscribers/teleop.cpp.o[0m
+[  4%] [32m[1mLinking CXX shared library libnaoqi_driver.so[0m
+[ 95%] Built target naoqi_driver
+[ 97%] [32m[1mLinking CXX executable naoqi_driver_node[0m

@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/rosidl_typesupport_fastrtps_cpp/naoqi_bridge_msgs/msg/detail/sound_located__rosidl_typesupport_fastrtps_cpp.hpp

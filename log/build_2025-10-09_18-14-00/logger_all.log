@@ -1,0 +1,519 @@
+[0.212s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-skip', 'nao_meshes', 'pepper_meshes', '--parallel-workers', '1']
+[0.212s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=['nao_meshes', 'pepper_meshes'], packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x765f0ac2f6a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x765f0ad6c070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x765f0ad6c070>>)
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.378s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chris/ros_ws'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/nao_meshes) by extension 'ros'
+[0.397s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nao_meshes' with type 'ros.ament_cmake' and name 'nao_meshes'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_bridge_msgs) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'src/naoqi_bridge_msgs' with type 'ros.ament_cmake' and name 'naoqi_bridge_msgs'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_driver2) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'src/naoqi_driver2' with type 'ros.ament_cmake' and name 'naoqi_driver'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqi) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/naoqi_libqi' with type 'ros.ament_cmake' and name 'naoqi_libqi'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/naoqi_libqicore) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/naoqi_libqicore' with type 'ros.ament_cmake' and name 'naoqi_libqicore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_meshes) by extension 'ros'
+[0.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pepper_meshes' with type 'ros.ament_cmake' and name 'pepper_meshes'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/pepper_wall_follower) by extension 'ros'
+[0.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pepper_wall_follower' with type 'ros.ament_cmake' and name 'pepper_wall_follower'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wall_follower' with type 'ros.ament_cmake' and name 'wall_follower'
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.429s] DEBUG:colcon.colcon_core.package_augmentation.check_dependency_constraint:naoqi_driver depends on naoqi_bridge_msgs which has version 2.1.0 which satisfies to be greater than or equal to 2.0.0
+[0.430s] INFO:colcon.colcon_core.package_selection:Skipping package 'nao_meshes' in 'src/nao_meshes'
+[0.430s] INFO:colcon.colcon_core.package_selection:Skipping package 'pepper_meshes' in 'src/pepper_meshes'
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.434s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/chris/ros_ws/install
+[0.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 277 installed packages in /opt/ros/humble
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'naoqi_bridge_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'naoqi_bridge_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/ros_ws/build/naoqi_bridge_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/ros_ws/install/naoqi_bridge_msgs', 'merge_install': False, 'path': '/home/chris/ros_ws/src/naoqi_bridge_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'cmake_target' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'cmake_force_configure' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'ament_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'naoqi_libqi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/ros_ws/build/naoqi_libqi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/ros_ws/install/naoqi_libqi', 'merge_install': False, 'path': '/home/chris/ros_ws/src/naoqi_libqi', 'symlink_install': True, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'wall_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'wall_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/ros_ws/build/wall_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/ros_ws/install/wall_follower', 'merge_install': False, 'path': '/home/chris/ros_ws/src/wall_follower', 'symlink_install': True, 'test_result_base': None}
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'naoqi_libqicore' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'naoqi_libqicore' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/ros_ws/build/naoqi_libqicore', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/ros_ws/install/naoqi_libqicore', 'merge_install': False, 'path': '/home/chris/ros_ws/src/naoqi_libqicore', 'symlink_install': True, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pepper_wall_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'pepper_wall_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/ros_ws/build/pepper_wall_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/ros_ws/install/pepper_wall_follower', 'merge_install': False, 'path': '/home/chris/ros_ws/src/pepper_wall_follower', 'symlink_install': True, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'naoqi_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'naoqi_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chris/ros_ws/build/naoqi_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chris/ros_ws/install/naoqi_driver', 'merge_install': False, 'path': '/home/chris/ros_ws/src/naoqi_driver2', 'symlink_install': True, 'test_result_base': None}
+[0.489s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.491s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.492s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chris/ros_ws/src/naoqi_bridge_msgs' with build type 'ament_cmake'
+[0.492s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chris/ros_ws/src/naoqi_bridge_msgs'
+[0.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/naoqi_bridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_bridge_msgs -- -j20 -l20
+[0.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/naoqi_bridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_bridge_msgs -- -j20 -l20
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/naoqi_bridge_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_bridge_msgs
+[1.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naoqi_bridge_msgs)
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/naoqi_bridge_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_bridge_msgs
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs' for CMake module files
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs' for CMake config files
+[1.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_bridge_msgs', 'cmake_prefix_path')
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/cmake_prefix_path.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/cmake_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/cmake_prefix_path.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/lib'
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_bridge_msgs', 'ld_library_path_lib')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/ld_library_path_lib.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/ld_library_path_lib.dsv'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/ld_library_path_lib.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/bin'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/lib/pkgconfig/naoqi_bridge_msgs.pc'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/lib/python3.10/site-packages'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/bin'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.ps1'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.sh'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.bash'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.zsh'
+[1.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/naoqi_bridge_msgs/share/colcon-core/packages/naoqi_bridge_msgs)
+[1.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naoqi_bridge_msgs)
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs' for CMake module files
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs' for CMake config files
+[1.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_bridge_msgs', 'cmake_prefix_path')
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/cmake_prefix_path.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/cmake_prefix_path.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/cmake_prefix_path.sh'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/lib'
+[1.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_bridge_msgs', 'ld_library_path_lib')
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/ld_library_path_lib.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/ld_library_path_lib.dsv'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/hook/ld_library_path_lib.sh'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/bin'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/lib/pkgconfig/naoqi_bridge_msgs.pc'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/lib/python3.10/site-packages'
+[1.176s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_bridge_msgs/bin'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.ps1'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.sh'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.bash'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_bridge_msgs/share/naoqi_bridge_msgs/package.zsh'
+[1.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/naoqi_bridge_msgs/share/colcon-core/packages/naoqi_bridge_msgs)
+[1.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chris/ros_ws/src/naoqi_libqi' with build type 'ament_cmake'
+[1.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chris/ros_ws/src/naoqi_libqi'
+[1.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/naoqi_libqi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqi -- -j20 -l20
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/naoqi_libqi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqi -- -j20 -l20
+[1.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/naoqi_libqi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_libqi
+[1.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naoqi_libqi)
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi' for CMake module files
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/naoqi_libqi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_libqi
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi' for CMake config files
+[1.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_libqi', 'cmake_prefix_path')
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/cmake_prefix_path.ps1'
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/cmake_prefix_path.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/cmake_prefix_path.sh'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/lib'
+[1.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_libqi', 'ld_library_path_lib')
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/ld_library_path_lib.ps1'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/ld_library_path_lib.dsv'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/ld_library_path_lib.sh'
+[1.528s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/bin'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/lib/pkgconfig/naoqi_libqi.pc'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/lib/python3.10/site-packages'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/bin'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.sh'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.bash'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.zsh'
+[1.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/naoqi_libqi/share/colcon-core/packages/naoqi_libqi)
+[1.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naoqi_libqi)
+[1.533s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi' for CMake module files
+[1.534s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi' for CMake config files
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_libqi', 'cmake_prefix_path')
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/cmake_prefix_path.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/cmake_prefix_path.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/cmake_prefix_path.sh'
+[1.539s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/lib'
+[1.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_libqi', 'ld_library_path_lib')
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/ld_library_path_lib.ps1'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/ld_library_path_lib.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/hook/ld_library_path_lib.sh'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/bin'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/lib/pkgconfig/naoqi_libqi.pc'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/lib/python3.10/site-packages'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqi/bin'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.dsv'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.sh'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.bash'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqi/share/naoqi_libqi/package.zsh'
+[1.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/naoqi_libqi/share/colcon-core/packages/naoqi_libqi)
+[1.546s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chris/ros_ws/src/naoqi_libqicore' with build type 'ament_cmake'
+[1.546s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chris/ros_ws/src/naoqi_libqicore'
+[1.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/naoqi_libqicore': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqicore -- -j20 -l20
+[1.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/naoqi_libqicore' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_libqicore -- -j20 -l20
+[1.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/naoqi_libqicore': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_libqicore
+[1.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naoqi_libqicore)
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore' for CMake module files
+[1.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/naoqi_libqicore' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_libqicore
+[1.869s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore' for CMake config files
+[1.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_libqicore', 'cmake_prefix_path')
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/hook/cmake_prefix_path.ps1'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/hook/cmake_prefix_path.dsv'
+[1.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/hook/cmake_prefix_path.sh'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/lib'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/bin'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/lib/pkgconfig/naoqi_libqicore.pc'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/lib/python3.10/site-packages'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/bin'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.ps1'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.sh'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.bash'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.zsh'
+[1.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/naoqi_libqicore/share/colcon-core/packages/naoqi_libqicore)
+[1.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naoqi_libqicore)
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore' for CMake module files
+[1.876s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore' for CMake config files
+[1.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_libqicore', 'cmake_prefix_path')
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/hook/cmake_prefix_path.ps1'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/hook/cmake_prefix_path.dsv'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/hook/cmake_prefix_path.sh'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/lib'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/bin'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/lib/pkgconfig/naoqi_libqicore.pc'
+[1.878s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/lib/python3.10/site-packages'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_libqicore/bin'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.ps1'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.dsv'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.sh'
+[1.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.bash'
+[1.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_libqicore/share/naoqi_libqicore/package.zsh'
+[1.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/naoqi_libqicore/share/colcon-core/packages/naoqi_libqicore)
+[1.883s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chris/ros_ws/src/wall_follower' with build type 'ament_cmake'
+[1.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chris/ros_ws/src/wall_follower'
+[1.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/wall_follower -- -j20 -l20
+[2.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/chris/ros_ws/build/wall_follower -- -j20 -l20
+[2.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/wall_follower': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/wall_follower
+[2.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_follower)
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower' for CMake module files
+[2.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/wall_follower' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/chris/ros_ws/build/wall_follower
+[2.266s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower' for CMake config files
+[2.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follower', 'cmake_prefix_path')
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/wall_follower/share/wall_follower/hook/cmake_prefix_path.ps1'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/wall_follower/share/wall_follower/hook/cmake_prefix_path.dsv'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/wall_follower/share/wall_follower/hook/cmake_prefix_path.sh'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/lib'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/bin'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/lib/pkgconfig/wall_follower.pc'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/lib/python3.10/site-packages'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/bin'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.ps1'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.dsv'
+[2.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.sh'
+[2.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.bash'
+[2.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.zsh'
+[2.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/wall_follower/share/colcon-core/packages/wall_follower)
+[2.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_follower)
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower' for CMake module files
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower' for CMake config files
+[2.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follower', 'cmake_prefix_path')
+[2.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/wall_follower/share/wall_follower/hook/cmake_prefix_path.ps1'
+[2.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/wall_follower/share/wall_follower/hook/cmake_prefix_path.dsv'
+[2.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/wall_follower/share/wall_follower/hook/cmake_prefix_path.sh'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/lib'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/bin'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/lib/pkgconfig/wall_follower.pc'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/lib/python3.10/site-packages'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/wall_follower/bin'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.ps1'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.dsv'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.sh'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.bash'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/wall_follower/share/wall_follower/package.zsh'
+[2.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/wall_follower/share/colcon-core/packages/wall_follower)
+[2.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chris/ros_ws/src/pepper_wall_follower' with build type 'ament_cmake'
+[2.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chris/ros_ws/src/pepper_wall_follower'
+[2.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/pepper_wall_follower': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
+[14.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/pepper_wall_follower' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
+[14.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/pepper_wall_follower': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/pepper_wall_follower
+[14.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pepper_wall_follower)
+[14.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/pepper_wall_follower' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/pepper_wall_follower
+[14.800s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower' for CMake module files
+[14.801s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower' for CMake config files
+[14.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('pepper_wall_follower', 'cmake_prefix_path')
+[14.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/hook/cmake_prefix_path.ps1'
+[14.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/hook/cmake_prefix_path.dsv'
+[14.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/hook/cmake_prefix_path.sh'
+[14.803s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/lib'
+[14.803s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/bin'
+[14.803s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/lib/pkgconfig/pepper_wall_follower.pc'
+[14.804s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/lib/python3.10/site-packages'
+[14.804s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/bin'
+[14.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.ps1'
+[14.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.dsv'
+[14.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.sh'
+[14.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.bash'
+[14.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.zsh'
+[14.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/pepper_wall_follower/share/colcon-core/packages/pepper_wall_follower)
+[14.807s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pepper_wall_follower)
+[14.807s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower' for CMake module files
+[14.807s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower' for CMake config files
+[14.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('pepper_wall_follower', 'cmake_prefix_path')
+[14.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/hook/cmake_prefix_path.ps1'
+[14.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/hook/cmake_prefix_path.dsv'
+[14.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/hook/cmake_prefix_path.sh'
+[14.809s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/lib'
+[14.809s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/bin'
+[14.809s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/lib/pkgconfig/pepper_wall_follower.pc'
+[14.809s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/lib/python3.10/site-packages'
+[14.809s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/pepper_wall_follower/bin'
+[14.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.ps1'
+[14.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.dsv'
+[14.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.sh'
+[14.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.bash'
+[14.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/pepper_wall_follower/share/pepper_wall_follower/package.zsh'
+[14.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/pepper_wall_follower/share/colcon-core/packages/pepper_wall_follower)
+[14.812s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chris/ros_ws/src/naoqi_driver2' with build type 'ament_cmake'
+[14.812s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chris/ros_ws/src/naoqi_driver2'
+[14.813s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/naoqi_driver': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_driver -- -j20 -l20
+[15.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/naoqi_driver' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/naoqi_driver -- -j20 -l20
+[15.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chris/ros_ws/build/naoqi_driver': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_driver
+[15.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naoqi_driver)
+[15.468s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver' for CMake module files
+[15.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chris/ros_ws/build/naoqi_driver' returned '0': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_libqi/lib:/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/chris/ros_ws/build/naoqi_driver
+[15.469s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver' for CMake config files
+[15.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_driver', 'cmake_prefix_path')
+[15.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/cmake_prefix_path.ps1'
+[15.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/cmake_prefix_path.dsv'
+[15.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/cmake_prefix_path.sh'
+[15.472s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/lib'
+[15.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_driver', 'ld_library_path_lib')
+[15.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/ld_library_path_lib.ps1'
+[15.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/ld_library_path_lib.dsv'
+[15.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/ld_library_path_lib.sh'
+[15.473s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/bin'
+[15.473s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/lib/pkgconfig/naoqi_driver.pc'
+[15.473s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/lib/python3.10/site-packages'
+[15.473s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/bin'
+[15.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.ps1'
+[15.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.dsv'
+[15.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.sh'
+[15.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.bash'
+[15.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.zsh'
+[15.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/naoqi_driver/share/colcon-core/packages/naoqi_driver)
+[15.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(naoqi_driver)
+[15.476s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver' for CMake module files
+[15.477s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver' for CMake config files
+[15.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_driver', 'cmake_prefix_path')
+[15.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/cmake_prefix_path.ps1'
+[15.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/cmake_prefix_path.dsv'
+[15.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/cmake_prefix_path.sh'
+[15.478s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/lib'
+[15.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('naoqi_driver', 'ld_library_path_lib')
+[15.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/ld_library_path_lib.ps1'
+[15.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/ld_library_path_lib.dsv'
+[15.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/hook/ld_library_path_lib.sh'
+[15.479s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/bin'
+[15.479s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/lib/pkgconfig/naoqi_driver.pc'
+[15.480s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/lib/python3.10/site-packages'
+[15.480s] Level 1:colcon.colcon_core.environment:checking '/home/chris/ros_ws/install/naoqi_driver/bin'
+[15.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.ps1'
+[15.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.dsv'
+[15.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.sh'
+[15.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.bash'
+[15.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/chris/ros_ws/install/naoqi_driver/share/naoqi_driver/package.zsh'
+[15.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chris/ros_ws/install/naoqi_driver/share/colcon-core/packages/naoqi_driver)
+[15.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.484s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.558s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.559s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[15.559s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.559s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chris/ros_ws/install/local_setup.ps1'
+[15.560s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chris/ros_ws/install/_local_setup_util_ps1.py'
+[15.561s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chris/ros_ws/install/setup.ps1'
+[15.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chris/ros_ws/install/local_setup.sh'
+[15.563s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chris/ros_ws/install/_local_setup_util_sh.py'
+[15.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chris/ros_ws/install/setup.sh'
+[15.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chris/ros_ws/install/local_setup.bash'
+[15.565s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chris/ros_ws/install/setup.bash'
+[15.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chris/ros_ws/install/local_setup.zsh'
+[15.566s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chris/ros_ws/install/setup.zsh'

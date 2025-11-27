@@ -1,0 +1,10 @@
+[  2%] [32mBuilding CXX object CMakeFiles/naoqi_driver.dir/src/subscribers/teleop.cpp.o[0m
+[  4%] [32m[1mLinking CXX shared library libnaoqi_driver.so[0m
+[ 95%] Built target naoqi_driver
+[ 97%] [32m[1mLinking CXX executable naoqi_driver_node[0m
+/usr/bin/ld: libnaoqi_driver.so: undefined reference to `naoqi::subscriber::TeleopSubscriber::TeleopSubscriber(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, boost::shared_ptr<qi::Session> const&)'
+/usr/bin/ld: libnaoqi_driver.so: undefined reference to `naoqi::subscriber::TeleopSubscriber::reset(rclcpp::Node*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/naoqi_driver_node.dir/build.make:692: naoqi_driver_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/naoqi_driver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,81 @@
+[1.028s] Invoking command in '/home/chris/ros_ws/build/pangolin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/chris/ros_ws/Pangolin -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/chris/ros_ws/install/pangolin
+[1.265s] -- The C compiler identification is GNU 11.4.0
+[2.357s] -- The CXX compiler identification is GNU 11.4.0
+[3.332s] -- Detecting C compiler ABI info
+[3.754s] -- Detecting C compiler ABI info - done
+[3.772s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.773s] -- Detecting C compile features
+[3.773s] -- Detecting C compile features - done
+[3.779s] -- Detecting CXX compiler ABI info
+[4.417s] -- Detecting CXX compiler ABI info - done
+[4.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.437s] -- Detecting CXX compile features
+[4.438s] -- Detecting CXX compile features - done
+[10.246s] -- libpng Found and Enabled
+[10.997s] -- libjpeg Found and Enabled
+[11.484s] -- libtiff Found and Enabled
+[11.721s] -- libopenexr Found and Enabled
+[11.881s] -- liblz4 Found and Enabled
+[12.108s] -- libzstd Found and Enabled
+[14.892s] -- Found Eigen: '/usr/include/eigen3'
+[15.696s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL EGL 
+[15.852s] -- Found epoxy: /usr/lib/x86_64-linux-gnu/libepoxy.so (found version "1.5.10") 
+[16.340s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[16.416s] -- Performing Test HAS_FLTO
+[16.780s] -- Performing Test HAS_FLTO - Success
+[17.718s] -- Selected Python: '/usr/bin/python3.10'. cmake --build . -t pypangolin_pip_install to use pypangolin module.
+[17.856s] -- libdc1394 Found and Enabled
+[17.856s] -- V4L Found and Enabled
+[18.586s] -- Performing Test HAVE_FFMPEG_MAX_ANALYZE_DURATION
+[19.057s] -- Performing Test HAVE_FFMPEG_MAX_ANALYZE_DURATION - Success
+[19.057s] -- Performing Test HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2
+[19.461s] -- Performing Test HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2 - Success
+[19.461s] -- Performing Test HAVE_FFMPEG_AVPIXELFORMAT
+[19.730s] -- Performing Test HAVE_FFMPEG_AVPIXELFORMAT - Success
+[19.731s] -- ffmpeg Found and Enabled: /usr/include/x86_64-linux-gnu;/usr/include/x86_64-linux-gnu;/usr/include/x86_64-linux-gnu;/usr/include/x86_64-linux-gnu;/usr/include/x86_64-linux-gnu
+[19.737s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[19.857s] -- RealSense2 Found and Enabled
+[19.937s] -- OpenNI Found and Enabled
+[20.300s] -- OpenNI2 Found and Enabled
+[30.998s] -- Checking for module 'wayland-egl'
+[31.022s] --   Found wayland-egl, version 18.1.0
+[31.080s] -- Checking for module 'wayland-cursor'
+[31.106s] --   Found wayland-cursor, version 1.20.0
+[31.159s] -- Checking for module 'xkbcommon'
+[31.182s] --   Found xkbcommon, version 1.4.0
+[31.345s] -- Found Threads: TRUE  
+[31.439s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[31.527s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[31.609s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[31.688s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[31.773s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[31.852s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[31.941s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.022s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[32.102s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.150s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[32.202s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.250s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[32.304s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.351s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[32.404s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.453s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[32.509s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.556s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[32.610s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.662s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[32.722s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.771s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[32.861s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[32.940s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[33.024s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[33.096s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[33.175s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[33.250s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[33.332s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[33.405s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[33.492s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL 
+[33.575s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: EGL 
+[33.577s] -- Configuring done
+[33.814s] -- Generating done
+[33.880s] -- Build files have been written to: /home/chris/ros_ws/build/pangolin

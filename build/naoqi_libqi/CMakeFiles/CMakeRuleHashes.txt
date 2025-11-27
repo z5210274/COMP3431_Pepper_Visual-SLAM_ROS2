@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8c51d72354237f319bd9d47f0c5dcd6c CMakeFiles/naoqi_libqi_uninstall

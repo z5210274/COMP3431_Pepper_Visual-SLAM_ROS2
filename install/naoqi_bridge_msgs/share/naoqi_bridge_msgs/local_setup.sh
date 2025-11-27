@@ -1,0 +1,1 @@
+/home/chris/ros_ws/build/naoqi_bridge_msgs/ament_cmake_environment_hooks/local_setup.sh

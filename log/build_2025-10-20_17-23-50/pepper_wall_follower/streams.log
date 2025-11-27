@@ -1,0 +1,22 @@
+[0.333s] Invoking command in '/home/chris/ros_ws/build/pepper_wall_follower': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
+[0.442s] [ 50%] [32mBuilding CXX object CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o[0m
+[4.399s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:[m[K In member function ‘[01m[Kvoid PepperWallFollower::update_callback()[m[K’:
+[4.399s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:258:10:[m[K [01;35m[Kwarning: [m[Ktaking the address of a label is non-standard [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.399s]   258 |          [01;35m[Kscan_data_[m[K[RIGHT_BACK]  >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.9) {
+[4.399s]       |          [01;35m[K^~~~~~~~~~[m[K
+[4.399s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:258:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K[[m[K’ token
+[4.399s]   258 |          scan_data_[01;31m[K[[m[KRIGHT_BACK]  >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.9) {
+[4.399s]       |                    [01;31m[K^[m[K
+[4.399s]       |                    [32m[K;[m[K
+[4.399s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:257:85:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.399s]   257 | else if (scan_data_[RIGHT_FRONT] >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.8) [01;35m[K&&[m[K
+[4.399s]       |                                                                                     [01;35m[K^~[m[K
+[4.399s]   258 | [01;35m[K         scan_data_[m[K[RIGHT_BACK]  >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.9) {
+[4.399s]       |          [01;35m[K~~~~~~~~~~[m[K                                                                  
+[4.400s] [01m[K/home/chris/ros_ws/src/pepper_wall_follower/src/pepper_wall_follower.cpp:258:10:[m[K [01;31m[Kerror: [m[Klabel ‘[01m[Kscan_data_[m[K’ used but not defined
+[4.400s]   258 |          [01;31m[Kscan_data_[m[K[RIGHT_BACK]  >= (DESIRED_WALL_DIST + WALL_FOLLOW_OFFSET) * 0.9) {
+[4.400s]       |          [01;31m[K^~~~~~~~~~[m[K
+[8.575s] gmake[2]: *** [CMakeFiles/pepper_wall_follower.dir/build.make:76: CMakeFiles/pepper_wall_follower.dir/src/pepper_wall_follower.cpp.o] Error 1
+[8.575s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pepper_wall_follower.dir/all] Error 2
+[8.575s] gmake: *** [Makefile:146: all] Error 2
+[8.578s] Invoked command in '/home/chris/ros_ws/build/pepper_wall_follower' returned '2': CMAKE_PREFIX_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs:/home/chris/ros_ws/install/wall_follower:/home/chris/ros_ws/install/pepper_wall_follower:/home/chris/ros_ws/install/pepper_meshes:/home/chris/ros_ws/install/naoqi_driver:/home/chris/ros_ws/install/naoqi_libqicore:/home/chris/ros_ws/install/naoqi_libqi:/home/chris/ros_ws/install/nao_meshes:/opt/ros/humble LD_LIBRARY_PATH=/home/chris/ros_ws/install/naoqi_bridge_msgs/lib:/home/chris/ros_ws/install/naoqi_driver/lib:/home/chris/ros_ws/install/naoqi_libqicore/lib:/home/chris/ros_ws/install/naoqi_libqi/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/chris/ros_ws/build/pepper_wall_follower -- -j20 -l20
