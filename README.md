@@ -21,7 +21,7 @@
 ## Commands to Run Code
 Local terminal to SSH to Pepper robot:
 ```
-ssh nao@<pepper_ip> # (It will prompt to ask for password "pepper">
+ssh nao@<pepper_ip> # <It will prompt to ask for password "pepper">
 qicli call ALAutonomousLife.setState "disabled"
 qicli call ALMotion.wakeUp
 qicli call ALAutonomousMoves.setBackgroundStrategy "none"
