@@ -42,10 +42,10 @@ colcon build --packages-select naoqi_driver --parallel-workers 1
 ```
 Packages to Run
 ```
-# Naoqi_driver
+# Naoqi_driver, IP's can differ when running through WSL Tunnel
 ros2 launch naoqi_driver naoqi_driver.launch.py \
   nao_ip:=<pepper_ip> \
-  qi_listen_url:=tcp://172.19.129.153:54000 \
+  qi_listen_url:=tcp://<robot_host_ip>:<port> \
   enable_audio:=false
 
 # In separate terminals for each static transform (can create own package to compile all together)
