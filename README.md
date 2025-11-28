@@ -6,10 +6,10 @@
 - NAOqi v2.5
 - Python 3.10.12
 
-## Public Repositories Used (Follow linked repository instructions for installation)
-- ROS2 Naoqi_driver: https://github.com/ros-naoqi/naoqi_driver2
+## Public Repositories Used (Follow linked repository instructions for installation and check Noteworthy Packages section for how to configure to this repository environment)
+- ROS2 Naoqi_driver: https://github.com/ros-naoqi/naoqi_driver2 (Installing this would give the currently empty; nao_meshes, naoqi_bridge_msgs, naoqi_driver2, naoqi_lipqi, naoqi_libqicore and pepper_meshes packages.)
 - Teleop Control: https://github.com/ros-teleop/teleop_tools
-- RTAB-MAP: https://github.com/introlab/rtabmap_ros/tree/ros2
+- RTAB-MAP: https://github.com/introlab/rtabmap_ros/tree/ros2 (Installing this would give the currently empty; rtabmap and rtabmap_ros packages.)
 
 ## Noteworthy Packages
 - naoqi_driver2 (Creates ROS2 topics for your packages to publish or subscribe to that connects to the NAOqi modules on Pepper. Mainly modified boot_config.json to create compatible and necessary topics, and naoqi_driver.cpp to change camera fps and resolution.)
